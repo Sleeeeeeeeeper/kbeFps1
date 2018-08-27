@@ -1,0 +1,1644 @@
+  INFO root [2018-08-20 14:27:28,628] - 
+  INFO root [2018-08-20 14:27:28,629] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-20 14:27:28,630] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-20 14:27:28,630] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-20 14:27:28,630] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-20 14:27:28,658] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:57554 )
+  INFO root [2018-08-20 14:27:28,658] - 
+  INFO root [2018-08-20 14:27:28,658] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:57554, SOMAXCONN=5.
+  INFO root [2018-08-20 14:27:28,659] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-20 14:27:28,659] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-20 14:27:28,659] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-20 14:27:28,659] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-20 14:27:28,663] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 3314. PID: 56456 ----
+  INFO root [2018-08-20 14:27:28,665] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-20 14:27:28,665] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-20 14:27:28,666] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-20 14:27:28,687] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:57555 )
+  INFO root [2018-08-20 14:27:28,688] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:57555, SOMAXCONN=5.
+  INFO root [2018-08-20 14:27:28,693] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 3314. PID: 53052 ----
+  INFO root [2018-08-20 14:27:28,693] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-20 14:27:28,693] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-20 14:27:28,694] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-20 14:27:28,812] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 14:27:28,813] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 14:27:28,813] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 14:27:28,817] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 14:27:28,818] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 14:27:28,818] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 14:27:28,819] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 14:27:28,838] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 14:27:28,838] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 14:27:28,839] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 14:27:28,842] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 14:27:28,843] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 14:27:28,843] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 14:27:28,843] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 14:27:28,864] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-20 14:27:28,889] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-20 14:27:28,913] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-20 14:27:28,913] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-20 14:27:28,936] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-20 14:27:28,936] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-20 14:27:29,608] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-20 14:27:29,608] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-20 14:27:29,612] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-20 14:27:29,617] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-20 14:27:29,623] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-20 14:27:29,627] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-20 14:27:29,629] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-20 14:27:29,633] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-20 14:27:29,637] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-20 14:27:29,639] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-20 14:27:29,642] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-20 14:27:29,643] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-20 14:27:29,645] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-20 14:27:29,648] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-20 14:27:29,649] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-20 14:27:29,651] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-20 14:27:29,655] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-20 14:27:29,659] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 14:27:29,659] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 14:27:29,659] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 14:27:29,659] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 14:27:29,660] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 14:27:29,660] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 14:27:29,660] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 14:27:29,660] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-20 14:27:29,672] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-20 14:27:29,672] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-20 14:27:29,715] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-20 14:27:29,716] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-20 14:27:29,719] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-20 14:27:29,724] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-20 14:27:29,729] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-20 14:27:29,734] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-20 14:27:29,736] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-20 14:27:29,738] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-20 14:27:29,742] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-20 14:27:29,746] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-20 14:27:29,750] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-20 14:27:29,755] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-20 14:27:29,757] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-20 14:27:29,761] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-20 14:27:29,764] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-20 14:27:29,767] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-20 14:27:29,770] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-20 14:27:29,772] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-20 14:27:29,775] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-20 14:27:29,779] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-20 14:27:29,782] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-20 14:27:29,784] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-20 14:27:29,785] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-20 14:27:29,789] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-20 14:27:29,792] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-20 14:27:29,795] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-20 14:27:29,798] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 14:27:29,798] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 14:27:29,798] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 14:27:29,799] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 14:27:29,799] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 14:27:29,799] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 14:27:29,799] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 14:27:29,799] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-20 14:27:29,810] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-20 14:27:29,810] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-20 14:27:29,972] - ThreadPool::destroy(): waiting for thread(2)[0x423d70,0x423d08,], try=1
+  WARN root [2018-08-20 14:27:30,110] - ThreadPool::destroy(): waiting for thread(2)[0x594d78,0x594d10,], try=1
+ DEBUG root [2018-08-20 14:27:30,373] - TPThread::~TPThread(): 0x423d70
+ DEBUG root [2018-08-20 14:27:30,373] - TPThread::~TPThread(): 0x423d08
+ DEBUG root [2018-08-20 14:27:30,373] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-20 14:27:30,383] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-20 14:27:30,383] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,384] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-20 14:27:30,384] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-20 14:27:30,510] - TPThread::~TPThread(): 0x594d78
+ DEBUG root [2018-08-20 14:27:30,510] - TPThread::~TPThread(): 0x594d10
+ DEBUG root [2018-08-20 14:27:30,510] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-20 14:27:30,517] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-20 14:27:30,517] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 14:27:30,518] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-20 14:27:30,518] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-20 14:27:31,384] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-20 14:27:31,518] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-20 21:53:04,703] - 
+  INFO root [2018-08-20 21:53:04,720] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-20 21:53:04,721] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-20 21:53:04,721] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-20 21:53:04,721] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-20 21:53:04,722] - 
+  INFO root [2018-08-20 21:53:04,722] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-20 21:53:04,723] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-20 21:53:04,723] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-20 21:53:04,723] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-20 21:53:04,728] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:51652 )
+  INFO root [2018-08-20 21:53:04,729] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:51652, SOMAXCONN=5.
+  INFO root [2018-08-20 21:53:04,730] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:51653 )
+  INFO root [2018-08-20 21:53:04,730] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:51653, SOMAXCONN=5.
+  INFO root [2018-08-20 21:53:04,733] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 25090. PID: 6772 ----
+  INFO root [2018-08-20 21:53:04,734] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-20 21:53:04,734] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-20 21:53:04,734] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-20 21:53:04,735] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 25090. PID: 26576 ----
+  INFO root [2018-08-20 21:53:04,736] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-20 21:53:04,737] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-20 21:53:04,737] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-20 21:53:04,875] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 21:53:04,875] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 21:53:04,876] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 21:53:04,876] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 21:53:04,876] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 21:53:04,876] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 21:53:04,880] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 21:53:04,880] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 21:53:04,880] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 21:53:04,880] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 21:53:04,881] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 21:53:04,881] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 21:53:04,881] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 21:53:04,881] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 21:53:04,920] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-20 21:53:04,920] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-20 21:53:04,960] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-20 21:53:04,960] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-20 21:53:04,960] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-20 21:53:04,961] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-20 21:53:05,422] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-20 21:53:05,423] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-20 21:53:05,424] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-20 21:53:05,429] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-20 21:53:05,432] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-20 21:53:05,433] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-20 21:53:05,435] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-20 21:53:05,437] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-20 21:53:05,439] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-20 21:53:05,440] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-20 21:53:05,442] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-20 21:53:05,443] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-20 21:53:05,445] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-20 21:53:05,447] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-20 21:53:05,448] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-20 21:53:05,449] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-20 21:53:05,450] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-20 21:53:05,451] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 21:53:05,452] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 21:53:05,452] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 21:53:05,453] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-20 21:53:05,453] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-20 21:53:05,454] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-20 21:53:05,459] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-20 21:53:05,461] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-20 21:53:05,463] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+  INFO root [2018-08-20 21:53:05,463] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-20 21:53:05,463] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-20 21:53:05,464] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-20 21:53:05,466] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-20 21:53:05,467] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-20 21:53:05,468] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-20 21:53:05,470] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-20 21:53:05,471] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-20 21:53:05,472] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-20 21:53:05,473] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-20 21:53:05,475] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-20 21:53:05,476] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-20 21:53:05,477] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-20 21:53:05,478] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-20 21:53:05,479] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-20 21:53:05,481] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-20 21:53:05,482] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-20 21:53:05,483] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-20 21:53:05,484] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-20 21:53:05,485] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-20 21:53:05,486] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-20 21:53:05,487] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-20 21:53:05,488] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-20 21:53:05,488] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-20 21:53:05,488] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-20 21:53:05,489] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-20 21:53:05,489] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-20 21:53:05,489] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-20 21:53:05,489] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-20 21:53:05,489] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-20 21:53:05,498] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-20 21:53:05,498] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-20 21:53:05,763] - ThreadPool::destroy(): waiting for thread(2)[0x443d70,0x443d08,], try=1
+  WARN root [2018-08-20 21:53:05,798] - ThreadPool::destroy(): waiting for thread(2)[0x473d70,0x473d08,], try=1
+ DEBUG root [2018-08-20 21:53:06,163] - TPThread::~TPThread(): 0x443d70
+ DEBUG root [2018-08-20 21:53:06,163] - TPThread::~TPThread(): 0x443d08
+ DEBUG root [2018-08-20 21:53:06,163] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-20 21:53:06,170] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-20 21:53:06,171] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,171] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-20 21:53:06,171] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-20 21:53:06,198] - TPThread::~TPThread(): 0x473d70
+ DEBUG root [2018-08-20 21:53:06,198] - TPThread::~TPThread(): 0x473d08
+ DEBUG root [2018-08-20 21:53:06,198] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-20 21:53:06,205] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-20 21:53:06,205] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,205] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,206] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,206] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,206] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,206] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-20 21:53:06,206] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-20 21:53:06,206] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-20 21:53:07,171] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-20 21:53:07,206] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-21 16:33:33,735] - 
+  INFO root [2018-08-21 16:33:33,735] - 
+  INFO root [2018-08-21 16:33:33,736] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-21 16:33:33,736] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-21 16:33:33,736] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-21 16:33:33,736] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-21 16:33:33,736] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-21 16:33:33,736] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-21 16:33:33,736] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-21 16:33:33,737] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-21 16:33:33,748] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:65006 )
+  INFO root [2018-08-21 16:33:33,748] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:65006, SOMAXCONN=5.
+  INFO root [2018-08-21 16:33:33,748] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:65007 )
+  INFO root [2018-08-21 16:33:33,748] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:65007, SOMAXCONN=5.
+  INFO root [2018-08-21 16:33:33,755] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 15255. PID: 133776 ----
+  INFO root [2018-08-21 16:33:33,756] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-21 16:33:33,756] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-21 16:33:33,756] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-21 16:33:33,757] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 15255. PID: 125152 ----
+  INFO root [2018-08-21 16:33:33,757] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-21 16:33:33,757] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-21 16:33:33,758] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-21 16:33:33,906] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 16:33:33,906] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 16:33:33,907] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 16:33:33,907] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 16:33:33,907] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 16:33:33,907] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 16:33:33,911] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 16:33:33,911] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 16:33:33,912] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 16:33:33,912] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 16:33:33,912] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 16:33:33,912] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 16:33:33,913] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 16:33:33,913] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 16:33:33,959] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-21 16:33:33,960] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-21 16:33:34,006] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-21 16:33:34,007] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-21 16:33:34,007] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-21 16:33:34,007] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-21 16:33:34,499] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-21 16:33:34,500] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-21 16:33:34,502] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-21 16:33:34,507] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-21 16:33:34,511] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-21 16:33:34,512] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-21 16:33:34,515] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-21 16:33:34,521] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-21 16:33:34,523] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-21 16:33:34,526] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-21 16:33:34,528] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-21 16:33:34,530] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-21 16:33:34,532] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-21 16:33:34,534] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-21 16:33:34,535] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-21 16:33:34,537] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-21 16:33:34,538] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-21 16:33:34,539] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-21 16:33:34,539] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-21 16:33:34,540] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 16:33:34,541] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 16:33:34,541] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 16:33:34,542] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-21 16:33:34,547] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-21 16:33:34,549] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-21 16:33:34,552] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-21 16:33:34,553] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//EntityDef.cpp
+  INFO root [2018-08-21 16:33:34,556] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-21 16:33:34,557] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-21 16:33:34,557] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-21 16:33:34,559] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-21 16:33:34,561] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-21 16:33:34,563] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-21 16:33:34,565] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-21 16:33:34,568] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-21 16:33:34,570] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-21 16:33:34,572] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-21 16:33:34,574] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-21 16:33:34,576] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-21 16:33:34,577] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-21 16:33:34,579] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-21 16:33:34,581] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-21 16:33:34,583] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-21 16:33:34,585] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-21 16:33:34,586] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-21 16:33:34,588] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-21 16:33:34,590] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-21 16:33:34,592] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-21 16:33:34,594] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 16:33:34,594] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 16:33:34,594] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 16:33:34,594] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 16:33:34,595] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 16:33:34,595] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 16:33:34,595] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 16:33:34,595] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-21 16:33:34,609] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-21 16:33:34,609] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-21 16:33:34,857] - ThreadPool::destroy(): waiting for thread(2)[0x6c3d70,0x6c3d08,], try=1
+  WARN root [2018-08-21 16:33:34,909] - ThreadPool::destroy(): waiting for thread(2)[0x803d70,0x803d08,], try=1
+ DEBUG root [2018-08-21 16:33:35,257] - TPThread::~TPThread(): 0x6c3d70
+ DEBUG root [2018-08-21 16:33:35,257] - TPThread::~TPThread(): 0x6c3d08
+ DEBUG root [2018-08-21 16:33:35,257] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-21 16:33:35,265] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-21 16:33:35,265] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,265] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,265] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,265] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,265] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,265] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,266] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-21 16:33:35,266] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-21 16:33:35,310] - TPThread::~TPThread(): 0x803d70
+ DEBUG root [2018-08-21 16:33:35,310] - TPThread::~TPThread(): 0x803d08
+ DEBUG root [2018-08-21 16:33:35,310] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-21 16:33:35,318] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-21 16:33:35,318] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,318] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,318] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,318] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,318] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,318] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 16:33:35,319] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-21 16:33:35,319] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-21 16:33:36,266] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-21 16:33:36,319] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-21 18:39:02,573] - 
+  INFO root [2018-08-21 18:39:02,573] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-21 18:39:02,574] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-21 18:39:02,574] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-21 18:39:02,574] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-21 18:39:02,585] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:50328 )
+  INFO root [2018-08-21 18:39:02,585] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:50328, SOMAXCONN=5.
+  INFO root [2018-08-21 18:39:02,593] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 7074. PID: 160044 ----
+  INFO root [2018-08-21 18:39:02,593] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-21 18:39:02,594] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-21 18:39:02,594] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-21 18:39:02,594] - 
+  INFO root [2018-08-21 18:39:02,595] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-21 18:39:02,596] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-21 18:39:02,596] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-21 18:39:02,596] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-21 18:39:02,606] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:50329 )
+  INFO root [2018-08-21 18:39:02,606] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:50329, SOMAXCONN=5.
+  INFO root [2018-08-21 18:39:02,613] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 7074. PID: 119048 ----
+  INFO root [2018-08-21 18:39:02,614] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-21 18:39:02,614] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-21 18:39:02,614] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-21 18:39:02,751] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 18:39:02,751] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 18:39:02,752] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 18:39:02,756] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 18:39:02,756] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 18:39:02,756] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 18:39:02,757] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 18:39:02,774] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 18:39:02,775] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 18:39:02,775] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 18:39:02,782] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 18:39:02,783] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 18:39:02,783] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 18:39:02,784] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 18:39:02,815] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-21 18:39:02,838] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-21 18:39:02,871] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-21 18:39:02,871] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-21 18:39:02,892] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-21 18:39:02,892] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-21 18:39:03,388] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-21 18:39:03,389] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-21 18:39:03,390] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-21 18:39:03,396] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-21 18:39:03,399] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-21 18:39:03,400] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-21 18:39:03,402] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-21 18:39:03,404] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-21 18:39:03,405] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-21 18:39:03,406] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-21 18:39:03,408] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-21 18:39:03,409] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-21 18:39:03,410] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-21 18:39:03,411] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-21 18:39:03,412] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-21 18:39:03,414] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-21 18:39:03,415] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-21 18:39:03,416] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 18:39:03,416] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 18:39:03,416] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 18:39:03,416] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 18:39:03,416] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 18:39:03,417] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 18:39:03,417] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 18:39:03,417] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-21 18:39:03,428] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-21 18:39:03,429] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-21 18:39:03,436] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-21 18:39:03,437] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-21 18:39:03,438] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-21 18:39:03,444] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-21 18:39:03,445] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-21 18:39:03,448] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-21 18:39:03,449] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-21 18:39:03,451] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-21 18:39:03,452] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-21 18:39:03,454] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-21 18:39:03,455] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-21 18:39:03,456] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-21 18:39:03,458] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-21 18:39:03,459] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-21 18:39:03,461] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-21 18:39:03,462] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-21 18:39:03,463] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-21 18:39:03,464] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-21 18:39:03,466] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-21 18:39:03,467] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-21 18:39:03,469] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-21 18:39:03,469] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-21 18:39:03,470] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-21 18:39:03,472] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-21 18:39:03,473] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-21 18:39:03,474] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-21 18:39:03,475] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-21 18:39:03,475] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-21 18:39:03,476] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-21 18:39:03,487] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-21 18:39:03,487] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-21 18:39:03,729] - ThreadPool::destroy(): waiting for thread(2)[0x7e2c60,0x7e2bf8,], try=1
+  WARN root [2018-08-21 18:39:03,787] - ThreadPool::destroy(): waiting for thread(2)[0x685a50,0x6859e8,], try=1
+ DEBUG root [2018-08-21 18:39:04,129] - TPThread::~TPThread(): 0x7e2c60
+ DEBUG root [2018-08-21 18:39:04,129] - TPThread::~TPThread(): 0x7e2bf8
+ DEBUG root [2018-08-21 18:39:04,129] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-21 18:39:04,137] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-21 18:39:04,138] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,138] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-21 18:39:04,138] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-21 18:39:04,187] - TPThread::~TPThread(): 0x685a50
+ DEBUG root [2018-08-21 18:39:04,187] - TPThread::~TPThread(): 0x6859e8
+ DEBUG root [2018-08-21 18:39:04,187] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-21 18:39:04,195] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-21 18:39:04,195] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,195] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,195] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,195] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,196] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,196] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-21 18:39:04,196] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-21 18:39:04,196] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-21 18:39:05,138] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-21 18:39:05,196] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-22 11:42:07,320] - 
+  INFO root [2018-08-22 11:42:07,320] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-22 11:42:07,321] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-22 11:42:07,321] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-22 11:42:07,321] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-22 11:42:07,337] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59312 )
+  INFO root [2018-08-22 11:42:07,337] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59312, SOMAXCONN=5.
+  INFO root [2018-08-22 11:42:07,339] - 
+  INFO root [2018-08-22 11:42:07,340] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-22 11:42:07,341] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [2018-08-22 11:42:07,341] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+  INFO root [2018-08-22 11:42:07,342] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-22 11:42:07,347] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 10917. PID: 303556 ----
+  INFO root [2018-08-22 11:42:07,348] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-22 11:42:07,349] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-22 11:42:07,349] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-22 11:42:07,354] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59313 )
+  INFO root [2018-08-22 11:42:07,355] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59313, SOMAXCONN=5.
+  INFO root [2018-08-22 11:42:07,364] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:33:57 Aug  8 2018. AppID: 0. UID: 10917. PID: 276440 ----
+  INFO root [2018-08-22 11:42:07,365] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-22 11:42:07,365] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-22 11:42:07,366] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-22 11:42:07,524] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-22 11:42:07,525] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-22 11:42:07,526] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-22 11:42:07,532] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-22 11:42:07,533] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-22 11:42:07,533] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-22 11:42:07,534] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-22 11:42:07,540] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-22 11:42:07,541] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-22 11:42:07,542] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-22 11:42:07,548] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-22 11:42:07,549] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-22 11:42:07,549] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-22 11:42:07,551] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-22 11:42:07,608] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-22 11:42:07,622] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-22 11:42:07,685] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-22 11:42:07,685] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-22 11:42:07,706] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:33:54) [MSC v.1913 32 bit (Intel)])!
+  INFO root [2018-08-22 11:42:07,706] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-22 11:42:08,606] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-22 11:42:08,608] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-22 11:42:08,610] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-22 11:42:08,620] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-22 11:42:08,626] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-22 11:42:08,628] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-22 11:42:08,632] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-22 11:42:08,635] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-22 11:42:08,637] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-22 11:42:08,640] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-22 11:42:08,643] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-22 11:42:08,644] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-22 11:42:08,646] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-22 11:42:08,649] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-22 11:42:08,651] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-22 11:42:08,653] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-22 11:42:08,655] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-22 11:42:08,657] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-22 11:42:08,657] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-22 11:42:08,657] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-22 11:42:08,658] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-22 11:42:08,658] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-22 11:42:08,658] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-22 11:42:08,658] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-22 11:42:08,658] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-22 11:42:08,677] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-22 11:42:08,678] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-22 11:42:08,678] - ClientSDK::writeServerErrorDescrsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-22 11:42:08,680] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-22 11:42:08,682] - ClientSDK::writeEngineMessagesModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-22 11:42:08,691] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-22 11:42:08,694] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-22 11:42:08,698] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-22 11:42:08,700] - ClientSDK::writeEntityDefsModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-22 11:42:08,704] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-22 11:42:08,707] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-22 11:42:08,709] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-22 11:42:08,711] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-22 11:42:08,713] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-22 11:42:08,716] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-22 11:42:08,718] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-22 11:42:08,721] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-22 11:42:08,723] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-22 11:42:08,725] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-22 11:42:08,726] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-22 11:42:08,729] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-22 11:42:08,731] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-22 11:42:08,734] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-22 11:42:08,736] - ClientSDK::writeEntityModule(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-22 11:42:08,737] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-22 11:42:08,739] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-22 11:42:08,742] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-22 11:42:08,744] - ClientSDK::saveFile(): D:\KBE\kbengine-2.2.0\ori_assets\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-22 11:42:08,746] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-22 11:42:08,747] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-22 11:42:08,747] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-22 11:42:08,747] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-22 11:42:08,747] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-22 11:42:08,748] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-22 11:42:08,748] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-22 11:42:08,748] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-22 11:42:08,764] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-22 11:42:08,764] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-22 11:42:08,978] - ThreadPool::destroy(): waiting for thread(2)[0x216c88,0x216c20,], try=1
+  WARN root [2018-08-22 11:42:09,064] - ThreadPool::destroy(): waiting for thread(2)[0x236c88,0x236c20,], try=1
+ DEBUG root [2018-08-22 11:42:09,379] - TPThread::~TPThread(): 0x216c88
+ DEBUG root [2018-08-22 11:42:09,379] - TPThread::~TPThread(): 0x216c20
+ DEBUG root [2018-08-22 11:42:09,379] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-22 11:42:09,397] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-22 11:42:09,397] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,397] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,398] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,398] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,398] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,398] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,398] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-22 11:42:09,399] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-22 11:42:09,464] - TPThread::~TPThread(): 0x236c88
+ DEBUG root [2018-08-22 11:42:09,464] - TPThread::~TPThread(): 0x236c20
+ DEBUG root [2018-08-22 11:42:09,464] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-22 11:42:09,481] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-22 11:42:09,481] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-22 11:42:09,482] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-22 11:42:09,482] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-22 11:42:10,400] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-22 11:42:10,483] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-23 14:45:41,436] - 
+  INFO root [2018-08-23 14:45:41,436] - 
+  INFO root [2018-08-23 14:45:41,440] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-23 14:45:41,440] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-23 14:45:41,440] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-23 14:45:41,440] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-23 14:45:41,441] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-23 14:45:41,441] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-23 14:45:41,441] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-23 14:45:41,441] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-23 14:45:41,446] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:63029 )
+  INFO root [2018-08-23 14:45:41,446] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:63030 )
+  INFO root [2018-08-23 14:45:41,446] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:63029, SOMAXCONN=5.
+  INFO root [2018-08-23 14:45:41,447] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:63030, SOMAXCONN=5.
+  INFO root [2018-08-23 14:45:41,453] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 1356. PID: 12596 ----
+  INFO root [2018-08-23 14:45:41,454] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-23 14:45:41,454] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-23 14:45:41,455] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-23 14:45:41,455] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 1356. PID: 18840 ----
+  INFO root [2018-08-23 14:45:41,455] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-23 14:45:41,456] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-23 14:45:41,456] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-23 14:45:41,822] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 14:45:41,822] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 14:45:41,822] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 14:45:41,822] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 14:45:41,822] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 14:45:41,823] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 14:45:41,827] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 14:45:41,827] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 14:45:41,828] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 14:45:41,828] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 14:45:41,828] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 14:45:41,828] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 14:45:41,828] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 14:45:41,829] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 14:45:41,975] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-23 14:45:41,975] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-23 14:45:42,062] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-23 14:45:42,062] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-23 14:45:42,064] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-23 14:45:42,065] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-23 14:45:42,783] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-23 14:45:42,784] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-23 14:45:42,785] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-23 14:45:42,794] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-23 14:45:42,801] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-23 14:45:42,802] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-23 14:45:42,810] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-23 14:45:42,812] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-23 14:45:42,813] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-23 14:45:42,813] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-23 14:45:42,814] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-23 14:45:42,815] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-23 14:45:42,822] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-23 14:45:42,822] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-23 14:45:42,823] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-23 14:45:42,826] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-23 14:45:42,827] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-23 14:45:42,827] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-23 14:45:42,828] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-23 14:45:42,828] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-23 14:45:42,829] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-23 14:45:42,830] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-23 14:45:42,831] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-23 14:45:42,833] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-23 14:45:42,834] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 14:45:42,834] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 14:45:42,834] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 14:45:42,834] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 14:45:42,834] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 14:45:42,835] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 14:45:42,835] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-23 14:45:42,835] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 14:45:42,835] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-23 14:45:42,836] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-23 14:45:42,838] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-23 14:45:42,839] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-23 14:45:42,840] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-23 14:45:42,851] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+  INFO root [2018-08-23 14:45:42,851] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-23 14:45:42,852] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-23 14:45:42,852] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-23 14:45:42,856] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-23 14:45:42,857] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-23 14:45:42,858] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-23 14:45:42,859] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-23 14:45:42,859] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-23 14:45:42,861] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-23 14:45:42,862] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-23 14:45:42,863] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-23 14:45:42,863] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-23 14:45:42,864] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-23 14:45:42,865] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-23 14:45:42,866] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-23 14:45:42,867] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 14:45:42,867] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 14:45:42,867] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 14:45:42,868] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 14:45:42,868] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 14:45:42,868] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 14:45:42,868] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 14:45:42,868] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-23 14:45:42,881] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-23 14:45:42,881] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-23 14:45:43,152] - ThreadPool::destroy(): waiting for thread(2)[0x4d81c8,0x4d8160,], try=1
+  WARN root [2018-08-23 14:45:43,182] - ThreadPool::destroy(): waiting for thread(2)[0x598118,0x5980b0,], try=1
+ DEBUG root [2018-08-23 14:45:43,552] - TPThread::~TPThread(): 0x4d81c8
+ DEBUG root [2018-08-23 14:45:43,552] - TPThread::~TPThread(): 0x4d8160
+ DEBUG root [2018-08-23 14:45:43,552] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-23 14:45:43,567] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-23 14:45:43,568] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,568] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,568] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,568] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,569] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,569] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,569] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-23 14:45:43,569] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-23 14:45:43,582] - TPThread::~TPThread(): 0x598118
+ DEBUG root [2018-08-23 14:45:43,582] - TPThread::~TPThread(): 0x5980b0
+ DEBUG root [2018-08-23 14:45:43,582] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-23 14:45:43,593] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-23 14:45:43,593] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,593] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,594] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,594] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,594] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,594] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-23 14:45:43,594] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-23 14:45:43,594] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-23 14:45:44,569] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-23 14:45:44,595] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 14:06:59,500] - 
+  INFO root [2018-08-24 14:06:59,499] - 
+  INFO root [2018-08-24 14:06:59,535] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 14:06:59,535] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 14:06:59,536] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 14:06:59,542] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:54550 )
+  INFO root [2018-08-24 14:06:59,542] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:54551 )
+  INFO root [2018-08-24 14:06:59,542] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:54550, SOMAXCONN=5.
+  INFO root [2018-08-24 14:06:59,542] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:54551, SOMAXCONN=5.
+  INFO root [2018-08-24 14:06:59,576] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 13773. PI  INFO root [2018-08-24 14:06:59,576] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 13773. PID: 9040 ----
+D: 25716 ----
+  INFO root [2018-08-24 14:06:59,577] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 14:06:59,577] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 14:06:59,577] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 14:06:59,577] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 14:06:59,578] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 14:06:59,577] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 14:07:00,030] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 14:07:00,031] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 14:07:00,031] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 14:07:00,032] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 14:07:00,032] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 14:07:00,033] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 14:07:00,037] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 14:07:00,038] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 14:07:00,038] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 14:07:00,038] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 14:07:00,039] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 14:07:00,039] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 14:07:00,039] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 14:07:00,040] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 14:07:00,335] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 14:07:00,335] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 14:07:00,725] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 14:07:00,725] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 14:07:00,725] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 14:07:00,726] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 14:07:01,825] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 14:07:01,826] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 14:07:01,827] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 14:07:01,832] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 14:07:01,833] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 14:07:01,835] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 14:07:01,836] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-24 14:07:01,843] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 14:07:01,845] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 14:07:01,846] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 14:07:01,847] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 14:07:01,848] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-24 14:07:01,857] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 14:07:01,859] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-24 14:07:01,862] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 14:07:01,863] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 14:07:01,863] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 14:07:01,864] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 14:07:01,864] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 14:07:01,866] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 14:07:01,867] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 14:07:01,868] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 14:07:01,868] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 14:07:01,869] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 14:07:01,870] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 14:07:01,871] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 14:07:01,871] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 14:07:01,872] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 14:07:01,885] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 14:07:01,885] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 14:07:01,904] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 14:07:01,905] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 14:07:01,906] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 14:07:01,910] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 14:07:01,915] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 14:07:01,916] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 14:07:01,921] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 14:07:01,923] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 14:07:01,924] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 14:07:01,935] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 14:07:01,938] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 14:07:01,939] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 14:07:01,940] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 14:07:01,941] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 14:07:01,943] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 14:07:01,944] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 14:07:01,945] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 14:07:01,946] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 14:07:01,946] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 14:07:01,946] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 14:07:01,946] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 14:07:01,946] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 14:07:01,947] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 14:07:01,947] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 14:07:01,947] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 14:07:01,961] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 14:07:01,961] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 14:07:02,186] - ThreadPool::destroy(): waiting for thread(2)[0x4b8118,0x4b80b0,], try=1
+  WARN root [2018-08-24 14:07:02,261] - ThreadPool::destroy(): waiting for thread(2)[0x6e81d0,0x6e8168,], try=1
+ DEBUG root [2018-08-24 14:07:02,586] - TPThread::~TPThread(): 0x4b8118
+ DEBUG root [2018-08-24 14:07:02,586] - TPThread::~TPThread(): 0x4b80b0
+ DEBUG root [2018-08-24 14:07:02,586] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 14:07:02,600] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 14:07:02,600] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,600] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,600] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,601] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,601] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,601] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,601] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 14:07:02,602] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 14:07:02,661] - TPThread::~TPThread(): 0x6e81d0
+ DEBUG root [2018-08-24 14:07:02,661] - TPThread::~TPThread(): 0x6e8168
+ DEBUG root [2018-08-24 14:07:02,661] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 14:07:02,678] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 14:07:02,678] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,679] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,680] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,680] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,680] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,681] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 14:07:02,681] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 14:07:02,681] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 14:07:03,602] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 14:07:03,681] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 16:15:51,031] - 
+  INFO root [2018-08-24 16:15:51,031] - 
+  INFO root [2018-08-24 16:15:51,039] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 16:15:51,040] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 16:15:51,040] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 16:15:51,040] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 16:15:51,041] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 16:15:51,041] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 16:15:51,041] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 16:15:51,041] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 16:15:51,048] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53823 )
+  INFO root [2018-08-24 16:15:51,049] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53822 )
+  INFO root [2018-08-24 16:15:51,049] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53823, SOMAXCONN=5.
+  INFO root [2018-08-24 16:15:51,049] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53822, SOMAXCONN=5.
+  INFO root [2018-08-24 16:15:51,063] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 6254. PID: 20412 ----
+  INFO root [2018-08-24 16:15:51,063] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 6254. PID: 27912 ----
+  INFO root [2018-08-24 16:15:51,064] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 16:15:51,064] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 16:15:51,064] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 16:15:51,064] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 16:15:51,065] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 16:15:51,065] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 16:15:51,368] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:51,368] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:51,369] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:51,369] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:51,369] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:51,369] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:51,375] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:51,374] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:51,376] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:51,376] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:51,376] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:51,376] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:51,377] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:51,377] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:51,538] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 16:15:51,538] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 16:15:51,638] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 16:15:51,638] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 16:15:51,639] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 16:15:51,640] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 16:15:52,578] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 16:15:52,580] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 16:15:52,581] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 16:15:52,588] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 16:15:52,595] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 16:15:52,597] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 16:15:52,606] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 16:15:52,608] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 16:15:52,609] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 16:15:52,622] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 16:15:52,623] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 16:15:52,625] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 16:15:52,629] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 16:15:52,633] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 16:15:52,633] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 16:15:52,634] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 16:15:52,635] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 16:15:52,636] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 16:15:52,637] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 16:15:52,638] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 16:15:52,639] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 16:15:52,640] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 16:15:52,640] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-24 16:15:52,641] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 16:15:52,642] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:52,642] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:52,642] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:52,642] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:52,643] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:52,643] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:52,643] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:52,643] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 16:15:52,650] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 16:15:52,652] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 16:15:52,653] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 16:15:52,654] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 16:15:52,656] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+  INFO root [2018-08-24 16:15:52,662] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 16:15:52,662] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 16:15:52,671] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 16:15:52,673] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-24 16:15:52,678] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 16:15:52,680] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 16:15:52,681] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 16:15:52,681] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 16:15:52,682] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 16:15:52,683] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 16:15:52,683] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 16:15:52,684] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 16:15:52,686] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 16:15:52,687] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 16:15:52,688] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 16:15:52,689] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 16:15:52,690] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:52,691] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:52,691] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:52,691] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:52,691] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:52,691] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:52,692] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:52,692] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 16:15:52,709] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 16:15:52,709] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 16:15:52,962] - ThreadPool::destroy(): waiting for thread(2)[0x5781c8,0x578160,], try=1
+  WARN root [2018-08-24 16:15:53,010] - ThreadPool::destroy(): waiting for thread(2)[0x548118,0x5480b0,], try=1
+ DEBUG root [2018-08-24 16:15:53,362] - TPThread::~TPThread(): 0x5781c8
+ DEBUG root [2018-08-24 16:15:53,362] - TPThread::~TPThread(): 0x578160
+ DEBUG root [2018-08-24 16:15:53,363] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 16:15:53,387] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 16:15:53,388] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,388] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,388] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,389] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,389] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,389] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,390] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 16:15:53,390] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 16:15:53,410] - TPThread::~TPThread(): 0x548118
+ DEBUG root [2018-08-24 16:15:53,410] - TPThread::~TPThread(): 0x5480b0
+ DEBUG root [2018-08-24 16:15:53,411] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 16:15:53,434] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 16:15:53,434] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,435] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,436] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,436] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,437] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,437] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:15:53,437] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 16:15:53,438] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 16:15:54,390] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 16:15:54,439] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 16:15:58,022] - 
+  INFO root [2018-08-24 16:15:58,023] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 16:15:58,024] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 16:15:58,024] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 16:15:58,024] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 16:15:58,028] - 
+  INFO root [2018-08-24 16:15:58,029] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 16:15:58,030] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 16:15:58,030] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 16:15:58,030] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 16:15:58,031] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53848 )
+  INFO root [2018-08-24 16:15:58,032] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53848, SOMAXCONN=5.
+  INFO root [2018-08-24 16:15:58,038] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53849 )
+  INFO root [2018-08-24 16:15:58,038] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53849, SOMAXCONN=5.
+  INFO root [2018-08-24 16:15:58,040] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 6280. PID: 27308 ----
+  INFO root [2018-08-24 16:15:58,041] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 16:15:58,041] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 16:15:58,042] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 16:15:58,047] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 6280. PID: 26724 ----
+  INFO root [2018-08-24 16:15:58,048] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 16:15:58,048] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 16:15:58,049] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 16:15:58,203] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:58,203] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:58,204] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:58,209] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:58,210] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:58,210] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:58,210] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:58,211] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:58,211] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:58,212] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:58,216] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:58,217] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:58,217] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:58,218] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:58,282] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 16:15:58,283] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 16:15:58,344] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 16:15:58,345] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 16:15:58,345] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 16:15:58,345] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 16:15:59,296] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 16:15:59,298] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 16:15:59,299] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 16:15:59,308] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 16:15:59,319] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 16:15:59,321] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 16:15:59,336] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 16:15:59,338] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 16:15:59,340] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 16:15:59,360] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 16:15:59,361] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 16:15:59,362] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 16:15:59,364] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 16:15:59,371] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 16:15:59,371] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 16:15:59,373] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 16:15:59,374] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 16:15:59,375] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 16:15:59,375] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 16:15:59,377] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 16:15:59,379] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 16:15:59,379] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 16:15:59,380] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:59,380] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:59,380] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:59,381] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:59,381] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:59,381] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:59,382] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:59,382] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 16:15:59,383] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 16:15:59,384] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-24 16:15:59,398] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 16:15:59,400] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 16:15:59,401] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 16:15:59,404] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 16:15:59,405] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+  INFO root [2018-08-24 16:15:59,407] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 16:15:59,407] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 16:15:59,426] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 16:15:59,428] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-24 16:15:59,434] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 16:15:59,436] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 16:15:59,437] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 16:15:59,439] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 16:15:59,440] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 16:15:59,442] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 16:15:59,444] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 16:15:59,446] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 16:15:59,447] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 16:15:59,448] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 16:15:59,450] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 16:15:59,453] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 16:15:59,455] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 16:15:59,456] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 16:15:59,456] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 16:15:59,457] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 16:15:59,457] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 16:15:59,457] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 16:15:59,457] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 16:15:59,459] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 16:15:59,481] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 16:15:59,481] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 16:15:59,707] - ThreadPool::destroy(): waiting for thread(2)[0x17f81c8,0x17f8160,], try=1
+  WARN root [2018-08-24 16:15:59,782] - ThreadPool::destroy(): waiting for thread(2)[0x1bf8118,0x1bf80b0,], try=1
+ DEBUG root [2018-08-24 16:16:00,107] - TPThread::~TPThread(): 0x17f81c8
+ DEBUG root [2018-08-24 16:16:00,107] - TPThread::~TPThread(): 0x17f8160
+ DEBUG root [2018-08-24 16:16:00,107] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 16:16:00,123] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 16:16:00,124] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,124] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,124] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,125] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,125] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,125] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,125] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 16:16:00,126] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 16:16:00,182] - TPThread::~TPThread(): 0x1bf8118
+ DEBUG root [2018-08-24 16:16:00,182] - TPThread::~TPThread(): 0x1bf80b0
+ DEBUG root [2018-08-24 16:16:00,182] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 16:16:00,196] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 16:16:00,197] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,197] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,197] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,197] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,198] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,198] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 16:16:00,198] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 16:16:00,198] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 16:16:01,127] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 16:16:01,199] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 17:21:20,226] - 
+  INFO root [2018-08-24 17:21:20,228] - 
+  INFO root [2018-08-24 17:21:20,241] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 17:21:20,241] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 17:21:20,241] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 17:21:20,241] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 17:21:20,242] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 17:21:20,242] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 17:21:20,242] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 17:21:20,242] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 17:21:20,250] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53793 )
+  INFO root [2018-08-24 17:21:20,250] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53793, SOMAXCONN=5.
+  INFO root [2018-08-24 17:21:20,251] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53794 )
+  INFO root [2018-08-24 17:21:20,251] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53794, SOMAXCONN=5.
+  INFO root [2018-08-24 17:21:20,299] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 19084. PID: 25092 ----
+  INFO root [2018-08-24 17:21:20,299] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 19084. PID: 26260 ----
+  INFO root [2018-08-24 17:21:20,299] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 17:21:20,299] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 17:21:20,300] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 17:21:20,300] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 17:21:20,301] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 17:21:20,301] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 17:21:20,695] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 17:21:20,696] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 17:21:20,696] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 17:21:20,697] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 17:21:20,697] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 17:21:20,698] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 17:21:20,705] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 17:21:20,705] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 17:21:20,706] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 17:21:20,706] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 17:21:20,706] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 17:21:20,706] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 17:21:20,707] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 17:21:20,707] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 17:21:20,885] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 17:21:20,886] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 17:21:21,007] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 17:21:21,007] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 17:21:21,007] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 17:21:21,009] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 17:21:22,146] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 17:21:22,148] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 17:21:22,150] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 17:21:22,159] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 17:21:22,170] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 17:21:22,171] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 17:21:22,185] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 17:21:22,188] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 17:21:22,190] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 17:21:22,211] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 17:21:22,217] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 17:21:22,218] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 17:21:22,217] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 17:21:22,219] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 17:21:22,220] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 17:21:22,221] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 17:21:22,221] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 17:21:22,222] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 17:21:22,224] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 17:21:22,225] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 17:21:22,226] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 17:21:22,226] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 17:21:22,227] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 17:21:22,227] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 17:21:22,227] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 17:21:22,228] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 17:21:22,228] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 17:21:22,228] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 17:21:22,232] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 17:21:22,234] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 17:21:22,239] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 17:21:22,240] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+  INFO root [2018-08-24 17:21:22,247] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 17:21:22,248] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 17:21:22,251] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 17:21:22,253] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 17:21:22,254] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 17:21:22,255] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 17:21:22,255] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-24 17:21:22,273] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 17:21:22,275] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-24 17:21:22,282] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 17:21:22,283] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 17:21:22,284] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 17:21:22,286] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 17:21:22,287] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 17:21:22,293] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 17:21:22,294] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 17:21:22,295] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 17:21:22,297] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 17:21:22,298] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 17:21:22,300] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 17:21:22,301] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 17:21:22,302] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 17:21:22,302] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 17:21:22,302] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 17:21:22,303] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 17:21:22,303] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 17:21:22,304] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 17:21:22,304] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 17:21:22,304] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 17:21:22,333] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 17:21:22,333] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 17:21:22,548] - ThreadPool::destroy(): waiting for thread(2)[0x7381d0,0x738168,], try=1
+  WARN root [2018-08-24 17:21:22,633] - ThreadPool::destroy(): waiting for thread(2)[0x6e8118,0x6e80b0,], try=1
+ DEBUG root [2018-08-24 17:21:22,949] - TPThread::~TPThread(): 0x7381d0
+ DEBUG root [2018-08-24 17:21:22,949] - TPThread::~TPThread(): 0x738168
+ DEBUG root [2018-08-24 17:21:22,950] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 17:21:22,971] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 17:21:22,971] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,971] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,971] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,972] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,972] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,972] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:22,972] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 17:21:22,973] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 17:21:23,034] - TPThread::~TPThread(): 0x6e8118
+ DEBUG root [2018-08-24 17:21:23,034] - TPThread::~TPThread(): 0x6e80b0
+ DEBUG root [2018-08-24 17:21:23,034] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 17:21:23,050] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 17:21:23,050] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,051] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,051] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,051] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,051] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,052] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 17:21:23,052] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 17:21:23,052] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 17:21:23,973] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 17:21:24,053] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 18:19:36,988] - 
+  INFO root [2018-08-24 18:19:36,988] - 
+  INFO root [2018-08-24 18:19:37,000] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 18:19:37,000] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 18:19:37,000] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 18:19:37,000] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 18:19:37,000] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 18:19:37,000] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 18:19:37,001] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 18:19:37,001] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 18:19:37,004] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53206 )
+  INFO root [2018-08-24 18:19:37,004] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53205 )
+  INFO root [2018-08-24 18:19:37,004] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53205, SOMAXCONN=5.
+  INFO root [2018-08-24 18:19:37,004] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53206, SOMAXCONN=5.
+  INFO root [2018-08-24 18:19:37,017] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 30504. PI  INFO root [2018-08-24 18:19:37,017] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 30504. PID: 14708 ----
+D: 16404 ----
+  INFO root [2018-08-24 18:19:37,017] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 18:19:37,017] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 18:19:37,018] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 18:19:37,018] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 18:19:37,018] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 18:19:37,018] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 18:19:37,238] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:19:37,238] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:19:37,239] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:19:37,239] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:19:37,239] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:19:37,239] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:19:37,242] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:19:37,242] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:19:37,242] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:19:37,242] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:19:37,242] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:19:37,243] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:19:37,243] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:19:37,243] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:19:37,333] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 18:19:37,333] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 18:19:37,411] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 18:19:37,411] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 18:19:37,411] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 18:19:37,411] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 18:19:37,859] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 18:19:37,859] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 18:19:37,860] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 18:19:37,864] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 18:19:37,868] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 18:19:37,869] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 18:19:37,873] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 18:19:37,874] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 18:19:37,874] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 18:19:37,877] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 18:19:37,877] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 18:19:37,878] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 18:19:37,882] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 18:19:37,882] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 18:19:37,883] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 18:19:37,884] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 18:19:37,885] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 18:19:37,885] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 18:19:37,885] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-24 18:19:37,885] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 18:19:37,886] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 18:19:37,886] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 18:19:37,887] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 18:19:37,887] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:19:37,888] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 18:19:37,890] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 18:19:37,890] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 18:19:37,891] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 18:19:37,892] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 18:19:37,892] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+  INFO root [2018-08-24 18:19:37,897] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 18:19:37,897] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 18:19:37,900] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 18:19:37,901] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+ DEBUG root [2018-08-24 18:19:37,904] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 18:19:37,904] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 18:19:37,904] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 18:19:37,905] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 18:19:37,905] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 18:19:37,906] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 18:19:37,907] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 18:19:37,907] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 18:19:37,908] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 18:19:37,908] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 18:19:37,909] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 18:19:37,909] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 18:19:37,910] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:19:37,910] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:19:37,910] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:19:37,910] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:19:37,910] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:19:37,911] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:19:37,911] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:19:37,911] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 18:19:37,919] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 18:19:37,920] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 18:19:38,197] - ThreadPool::destroy(): waiting for thread(2)[0x1b66cc0,0x1b66c58,], try=1
+  WARN root [2018-08-24 18:19:38,220] - ThreadPool::destroy(): waiting for thread(2)[0x1957e50,0x1957de8,], try=1
+ DEBUG root [2018-08-24 18:19:38,597] - TPThread::~TPThread(): 0x1b66cc0
+ DEBUG root [2018-08-24 18:19:38,597] - TPThread::~TPThread(): 0x1b66c58
+ DEBUG root [2018-08-24 18:19:38,597] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 18:19:38,605] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 18:19:38,605] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,606] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 18:19:38,606] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 18:19:38,620] - TPThread::~TPThread(): 0x1957e50
+ DEBUG root [2018-08-24 18:19:38,620] - TPThread::~TPThread(): 0x1957de8
+ DEBUG root [2018-08-24 18:19:38,620] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 18:19:38,627] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 18:19:38,627] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,627] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,628] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,628] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,628] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,628] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:19:38,628] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 18:19:38,628] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 18:19:39,606] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 18:19:39,628] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 18:58:38,353] - 
+  INFO root [2018-08-24 18:58:38,355] - 
+  INFO root [2018-08-24 18:58:38,366] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 18:58:38,366] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 18:58:38,367] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-24 18:58:38,373] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:60222 )
+  INFO root [2018-08-24 18:58:38,373] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:60223 )
+  INFO root [2018-08-24 18:58:38,373] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:60222, SOMAXCONN=5.
+  INFO root [2018-08-24 18:58:38,373] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:60223, SOMAXCONN=5.
+  INFO root [2018-08-24 18:58:38,380] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 5384. PID: 7704 ----
+  INFO root [2018-08-24 18:58:38,380] - ---- tool Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 9C1FBCD6B66D4AFE644ABEDBFAC9B95A. Config: Debug X86. Built: 18:10:40 Aug 17 2018. AppID: 0. UID: 5384. PID: 9196 ----
+  INFO root [2018-08-24 18:58:38,381] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 18:58:38,381] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 18:58:38,382] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-24 18:58:38,382] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-24 18:58:38,382] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-24 18:58:38,383] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-24 18:58:38,533] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:58:38,534] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:58:38,535] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:58:38,537] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:58:38,538] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:58:38,538] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:58:38,541] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:58:38,542] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:58:38,542] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:58:38,542] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:58:38,543] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:58:38,543] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:58:38,544] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:58:38,544] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:58:38,608] - Script::install_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 18:58:38,610] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 18:58:38,676] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 18:58:38,676] - Script::install(): KBExtra is successfully!
+  INFO root [2018-08-24 18:58:38,680] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-24 18:58:38,681] - Script::install(): KBExtra is successfully!
+ DEBUG root [2018-08-24 18:58:39,565] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 18:58:39,566] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2018-08-24 18:58:39,566] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2018-08-24 18:58:39,573] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2018-08-24 18:58:39,580] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2018-08-24 18:58:39,581] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2018-08-24 18:58:39,591] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2018-08-24 18:58:39,592] - ClientSDK::writeServerErrorDescrsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//
+ DEBUG root [2018-08-24 18:58:39,593] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2018-08-24 18:58:39,593] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/ServerErrorDescrs.h
+ DEBUG root [2018-08-24 18:58:39,593] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Avatar
+ DEBUG root [2018-08-24 18:58:39,594] - ClientSDK::writeEngineMessagesModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//Messages.cpp
+ DEBUG root [2018-08-24 18:58:39,601] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.cpp
+ DEBUG root [2018-08-24 18:58:39,603] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/Messages.h
+ DEBUG root [2018-08-24 18:58:39,606] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/KBETypes.h
+ DEBUG root [2018-08-24 18:58:39,606] - ClientSDK::writeEntityDefsModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins//EntityDef.cpp
+ DEBUG root [2018-08-24 18:58:39,609] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/AvatarBase.cs
+ DEBUG root [2018-08-24 18:58:39,613] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallAvatarBase.cs
+ DEBUG root [2018-08-24 18:58:39,614] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Halls
+ DEBUG root [2018-08-24 18:58:39,615] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.cpp
+ DEBUG root [2018-08-24 18:58:39,615] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/HallsBase.cs
+ DEBUG root [2018-08-24 18:58:39,616] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityDef.h
+ DEBUG root [2018-08-24 18:58:39,616] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallHallsBase.cs
+ DEBUG root [2018-08-24 18:58:39,617] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins//Room
+ DEBUG root [2018-08-24 18:58:39,617] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.cpp
+ DEBUG root [2018-08-24 18:58:39,618] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/CustomDataTypes.h
+ DEBUG root [2018-08-24 18:58:39,618] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/RoomBase.cs
+ DEBUG root [2018-08-24 18:58:39,619] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Avatar
+ DEBUG root [2018-08-24 18:58:39,619] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_unity3d_plugins/EntityCallRoomBase.cs
+ DEBUG root [2018-08-24 18:58:39,620] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:58:39,620] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:58:39,620] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:58:39,621] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:58:39,621] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:58:39,621] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:58:39,621] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:58:39,621] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [2018-08-24 18:58:39,631] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.cpp
+ DEBUG root [2018-08-24 18:58:39,632] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/AvatarBase.h
+  INFO root [2018-08-24 18:58:39,636] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 18:58:39,636] - ThreadPool::destroy(): starting size 2.
+ DEBUG root [2018-08-24 18:58:39,636] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.cpp
+ DEBUG root [2018-08-24 18:58:39,637] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallAvatarBase.h
+ DEBUG root [2018-08-24 18:58:39,638] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Halls
+ DEBUG root [2018-08-24 18:58:39,638] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.cpp
+ DEBUG root [2018-08-24 18:58:39,639] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/HallsBase.h
+ DEBUG root [2018-08-24 18:58:39,641] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.cpp
+ DEBUG root [2018-08-24 18:58:39,642] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallHallsBase.h
+ DEBUG root [2018-08-24 18:58:39,643] - ClientSDK::writeEntityModule(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine//Room
+ DEBUG root [2018-08-24 18:58:39,643] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.cpp
+ DEBUG root [2018-08-24 18:58:39,644] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/RoomBase.h
+ DEBUG root [2018-08-24 18:58:39,645] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.cpp
+ DEBUG root [2018-08-24 18:58:39,645] - ClientSDK::saveFile(): G:\kbengine-2.2.0\Server\/kbengine_ue4_plugins/Source/KBEnginePlugins/Engine/EntityCallRoomBase.h
+ DEBUG root [2018-08-24 18:58:39,646] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-24 18:58:39,646] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-24 18:58:39,646] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-24 18:58:39,647] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-24 18:58:39,647] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-24 18:58:39,647] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-24 18:58:39,647] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-24 18:58:39,647] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-24 18:58:39,661] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-24 18:58:39,662] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-24 18:58:39,936] - ThreadPool::destroy(): waiting for thread(2)[0x326d00,0x326c98,], try=1
+  WARN root [2018-08-24 18:58:39,962] - ThreadPool::destroy(): waiting for thread(2)[0x4a9d98,0x4a9d30,], try=1
+ DEBUG root [2018-08-24 18:58:40,336] - TPThread::~TPThread(): 0x326d00
+ DEBUG root [2018-08-24 18:58:40,336] - TPThread::~TPThread(): 0x326c98
+ DEBUG root [2018-08-24 18:58:40,336] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 18:58:40,347] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2018-08-24 18:58:40,348] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,348] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,348] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,348] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,348] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,349] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,349] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 18:58:40,349] - tool(0) has shut down. ClientSDK=1
+ DEBUG root [2018-08-24 18:58:40,362] - TPThread::~TPThread(): 0x4a9d98
+ DEBUG root [2018-08-24 18:58:40,362] - TPThread::~TPThread(): 0x4a9d30
+ DEBUG root [2018-08-24 18:58:40,362] - ThreadPool::destroy(): successfully!
+ DEBUG root [2018-08-24 18:58:40,373] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2018-08-24 18:58:40,373] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,373] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,373] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,373] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,374] - Address::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,374] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2018-08-24 18:58:40,374] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2018-08-24 18:58:40,374] - tool(0) has shut down. ClientSDK=1
+  INFO root [2018-08-24 18:58:41,349] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2018-08-24 18:58:41,374] - EventDispatcher()::~EventDispatcher: Num timers = 2

@@ -1,0 +1,149 @@
+<root>
+    <Properties>
+
+        <health>
+            <Type> PINT </Type>
+            <Flags> ALL_CLIENTS </Flags>
+        </health>
+        <name>
+            <Type> UNICODE </Type>
+            <Flags> ALL_CLIENTS </Flags>
+            <Persistent> true </Persistent>
+        </name>
+		<roomKey>
+			<Type>		SPACE_KEY			</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</roomKey>
+        <moveVelocity>
+            <Type>      VELOCITY3D          </Type>
+            <Flags>     ALL_CLIENTS       </Flags>
+        </moveVelocity>
+        <bpressedJump>
+            <Type>      BPRESSEDJUMP          </Type>
+            <Flags>     ALL_CLIENTS       </Flags>
+        </bpressedJump>
+        <bwannaCrouch> <Type>BWANNACROUCH</Type> <Flags>ALL_CLIENTS</Flags> </bwannaCrouch>
+        <bforceMaxAccel> <Type>BFORCEMAXACCEL</Type> <Flags>ALL_CLIENTS</Flags> </bforceMaxAccel>
+        <bforceNoCombine> <Type>BFORCENOCOMBINE</Type> <Flags>ALL_CLIENTS</Flags> </bforceNoCombine>
+        <boldTimeStampBeforeReset> <Type>BOLDTIMESTAMPBEFORERESET</Type> <Flags>ALL_CLIENTS</Flags> </boldTimeStampBeforeReset>
+        <timeStamp> <Type>TIMESTAMP</Type> <Flags>ALL_CLIENTS</Flags> </timeStamp>
+        <deltaTime> <Type>DELTATIME</Type> <Flags>ALL_CLIENTS</Flags> </deltaTime>
+        <cusTimeDilation> <Type>CUSTIMEDILATION</Type> <Flags>ALL_CLIENTS</Flags> </cusTimeDilation>
+        <jumpKeyHoldTime> <Type>JUMPKEYHOLDTIME</Type> <Flags>ALL_CLIENTS</Flags> </jumpKeyHoldTime>
+        <jumpMaxCount> <Type>JUMPMAXCOUNT</Type> <Flags>ALL_CLIENTS</Flags> </jumpMaxCount>
+        <jumpCurrentCount> <Type>JUMPCURRENTCOUNT</Type> <Flags>ALL_CLIENTS</Flags> </jumpCurrentCount>
+        <movementMode> <Type>MOVEMENTMODE</Type> <Flags>ALL_CLIENTS</Flags> </movementMode>
+        <startLoc> <Type>STARTLOC3D</Type> <Flags>ALL_CLIENTS</Flags> </startLoc>
+        <startRelaLoc> <Type>STARTRELALOC3D</Type> <Flags>ALL_CLIENTS</Flags> </startRelaLoc>
+        <startVel> <Type>STARTVELO3D</Type> <Flags>ALL_CLIENTS</Flags> </startVel>
+        <startRot> <Type>STARTROTATOR3D</Type> <Flags>ALL_CLIENTS</Flags> </startRot>
+        <startControlRot> <Type>STARTCONTROLROTATOR3D</Type> <Flags>ALL_CLIENTS</Flags> </startControlRot>
+        <startBaseRot4d> <Type>STARTBASEROT4D</Type> <Flags>ALL_CLIENTS</Flags> </startBaseRot4d>
+        <startCapRadius> <Type>STARTCAPRADIUS</Type> <Flags>ALL_CLIENTS</Flags> </startCapRadius>
+        <startCapHalfHeight> <Type>STARTCAPHALFHEIGHT</Type> <Flags>ALL_CLIENTS</Flags> </startCapHalfHeight>
+        <startBoneName> <Type>STARTBONBNAME</Type> <Flags>ALL_CLIENTS</Flags> </startBoneName>
+        <savedLoc> <Type>SAVEDLOC3D</Type> <Flags>ALL_CLIENTS</Flags> </savedLoc>
+        <savedRot> <Type>SAVEDROT3D</Type> <Flags>ALL_CLIENTS</Flags> </savedRot>
+        <savedVel> <Type>SAVEDVELO3D</Type> <Flags>ALL_CLIENTS</Flags> </savedVel>
+        <savedRelaLoc> <Type>SAVEDRELALOC3D</Type> <Flags>ALL_CLIENTS</Flags> </savedRelaLoc>
+        <savedControlRot> <Type>SAVEDCONTROLROT3D</Type> <Flags>ALL_CLIENTS</Flags> </savedControlRot>
+        <endBoneName> <Type>ENDBONENAME</Type> <Flags>ALL_CLIENTS</Flags> </endBoneName>
+        <acceleration> <Type>ACCELERATION3D</Type> <Flags>ALL_CLIENTS</Flags> </acceleration>
+        <accelNormal> <Type>ACCELNORMAL3D</Type> <Flags>ALL_CLIENTS</Flags> </accelNormal>
+        <accelMag> <Type>ACCELMAG</Type> <Flags>ALL_CLIENTS</Flags> </accelMag>
+        <accelDotThreshold> <Type>ACCELDOTTHRESHOLD</Type> <Flags>ALL_CLIENTS</Flags> </accelDotThreshold>
+        <accelMagThreshold> <Type>ACCELMAGTHRESHOLD</Type> <Flags>ALL_CLIENTS</Flags> </accelMagThreshold>
+        <accelDotThresholdCombine> <Type>ACCELDOTTHRESHOLDCOMBINE</Type> <Flags>ALL_CLIENTS</Flags> </accelDotThresholdCombine>
+
+
+
+        <vec1> <Type>VECTOR3D</Type> <Flags>ALL_CLIENTS</Flags> </vec1>
+        <vec2> <Type>VECTOR3D</Type> <Flags>ALL_CLIENTS</Flags> </vec2>
+        <vec3> <Type>VECTOR3D</Type> <Flags>ALL_CLIENTS</Flags> </vec3>
+        <vec4> <Type>VECTOR3D</Type> <Flags>ALL_CLIENTS</Flags> </vec4>
+        <vec5> <Type>VECTOR3D</Type> <Flags>ALL_CLIENTS</Flags> </vec5>
+        <float1> <Type>PFLOAT</Type> <Flags>ALL_CLIENTS</Flags> </float1>
+        <float2> <Type>PFLOAT</Type> <Flags>ALL_CLIENTS</Flags> </float2>
+        <float3> <Type>PFLOAT</Type> <Flags>ALL_CLIENTS</Flags> </float3>
+        <float4> <Type>PFLOAT</Type> <Flags>ALL_CLIENTS</Flags> </float4>
+        <float5> <Type>PFLOAT</Type> <Flags>ALL_CLIENTS</Flags> </float5>
+        <int1> <Type>PINT</Type> <Flags>ALL_CLIENTS</Flags> </int1>
+        <int2> <Type>PINT</Type> <Flags>ALL_CLIENTS</Flags> </int2>
+        <int3> <Type>PINT</Type> <Flags>ALL_CLIENTS</Flags> </int3>
+        <int4> <Type>PINT</Type> <Flags>ALL_CLIENTS</Flags> </int4>
+        <int5> <Type>PINT</Type> <Flags>ALL_CLIENTS</Flags> </int5>
+    </Properties>
+    <ClientMethods>
+    </ClientMethods>
+    <BaseMethods>
+        <createCell>
+            <Arg>  ENTITYCALL </Arg>
+            <Arg>  UINT64     </Arg>
+        </createCell>
+
+    </BaseMethods>
+    <CellMethods>
+
+        
+
+        <sendVelocity>
+            <Exposed/>
+            <Arg>   VELOCITY3D    </Arg>
+        </sendVelocity>
+        <sendPakeageData>
+            <Exposed/>
+            <Arg>   VECTOR3D    </Arg>
+            <Arg>   VECTOR3D    </Arg>
+            <Arg>   VECTOR3D    </Arg>
+            <Arg>   VECTOR3D    </Arg>
+            <Arg>   VECTOR3D    </Arg>
+            <Arg>   PFLOAT    </Arg>
+            <Arg>   PFLOAT    </Arg>
+            <Arg>   PFLOAT    </Arg>
+            <Arg>   PFLOAT    </Arg>
+            <Arg>   PFLOAT    </Arg>
+            <Arg>   PINT    </Arg>
+            <Arg>   PINT    </Arg>
+            <Arg>   PINT    </Arg>
+            <Arg>   PINT    </Arg>
+            <Arg>   PINT    </Arg>
+        </sendPakeageData>
+        <sendRepMovementData>
+            <Exposed/>
+            <Arg>     BPRESSEDJUMP     </Arg>
+            <Arg>      BWANNACROUCH    </Arg>
+            <Arg>     BFORCEMAXACCEL     </Arg>
+            <Arg>     BFORCENOCOMBINE     </Arg>
+            <Arg>     BOLDTIMESTAMPBEFORERESET     </Arg>
+            <Arg>     TIMESTAMP     </Arg>
+            <Arg>     DELTATIME     </Arg>
+            <Arg>     CUSTIMEDILATION     </Arg>
+            <Arg>     JUMPKEYHOLDTIME     </Arg>
+            <Arg>      JUMPMAXCOUNT    </Arg>
+            <Arg>      JUMPCURRENTCOUNT    </Arg>
+            <Arg>      MOVEMENTMODE   </Arg>
+            <Arg>      STARTLOC3D   </Arg>
+            <Arg>      STARTRELALOC3D   </Arg>
+            <Arg>      STARTVELO3D   </Arg>
+            <Arg>      STARTROTATOR3D   </Arg>
+            <Arg>      STARTCONTROLROTATOR3D   </Arg>
+            <Arg>      STARTBASEROT4D   </Arg>
+            <Arg>      STARTCAPRADIUS   </Arg>
+            <Arg>      STARTCAPHALFHEIGHT   </Arg>
+            <Arg>       STARTBONBNAME  </Arg>
+            <Arg>      SAVEDLOC3D   </Arg>
+            <Arg>      SAVEDROT3D   </Arg>
+            <Arg>      SAVEDVELO3D   </Arg>
+            <Arg>      SAVEDRELALOC3D   </Arg>
+            <Arg>      SAVEDCONTROLROT3D   </Arg>
+            <Arg>      ENDBONENAME   </Arg>
+            <Arg>      ACCELERATION3D   </Arg>
+            <Arg>      ACCELNORMAL3D   </Arg>
+            <Arg>      ACCELMAG   </Arg>
+            <Arg>      ACCELDOTTHRESHOLD   </Arg>
+            <Arg>      ACCELMAGTHRESHOLD   </Arg>
+            <Arg>      ACCELDOTTHRESHOLDCOMBINE   </Arg>
+        </sendRepMovementData>
+    </CellMethods>
+</root>

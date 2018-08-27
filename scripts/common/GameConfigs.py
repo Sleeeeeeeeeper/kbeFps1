@@ -1,0 +1,2 @@
+
+GAME_ROUND_TIME = 900 #60 * 15

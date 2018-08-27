@@ -1,0 +1,93 @@
+  INFO root [0x0000da88] [2018-08-08 18:38:14,706] - 
+  INFO root [0x0000da88] [2018-08-08 18:38:14,707] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000da88] [2018-08-08 18:38:14,719] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [0x0000da88] [2018-08-08 18:38:14,720] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/assets/;D:/KBE/kbengine-2.2.0/assets/scripts/;D:/KBE/kbengine-2.2.0/assets/res/
+  INFO root [0x0000da88] [2018-08-08 18:38:14,720] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x0000da88] [2018-08-08 18:38:14,778] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:62416 )
+  INFO root [0x0000da88] [2018-08-08 18:38:14,779] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.108:62416, SOMAXCONN=5.
+  INFO root [0x0000da88] [2018-08-08 18:38:14,779] - server-configs:
+  INFO root [0x0000da88] [2018-08-08 18:38:14,779] - 	gameUpdateHertz : 10
+  INFO root [0x0000da88] [2018-08-08 18:38:14,780] - 	defaultViewRadius : 80
+  INFO root [0x0000da88] [2018-08-08 18:38:14,780] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000da88] [2018-08-08 18:38:14,780] - 	entryScriptFile : kbemain
+  INFO root [0x0000da88] [2018-08-08 18:38:14,780] - 	internalTcpAddr : 192.168.0.108:62416
+  INFO root [0x0000da88] [2018-08-08 18:38:14,781] - 	componentID : 8001
+  WARN root [0x0000da88] [2018-08-08 18:38:15,092] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20296, errorno=10048
+  INFO root [0x0000da88] [2018-08-08 18:38:15,104] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:36:22 Aug  8 2018. AppID: 8001. UID: 9028. PID: 48688 ----
+  INFO root [0x0000da88] [2018-08-08 18:38:15,105] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [0x0000da88] [2018-08-08 18:38:15,105] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000da88] [2018-08-08 18:38:15,106] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,328] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,330] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,332] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,349] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,350] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,351] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,354] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000da88] [2018-08-08 18:38:15,478] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000da88] [2018-08-08 18:38:15,606] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:53) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x0000da88] [2018-08-08 18:38:15,606] - Script::install(): KBExtra is successfully!
+  INFO root [0x0000da88] [2018-08-08 18:38:15,641] - TelnetServer server is running on port 50000
+  INFO root [0x0000da88] [2018-08-08 18:38:16,763] - ---- cellapp is running ----
+ DEBUG root [0x0000da88] [2018-08-08 18:38:16,765] - Components::process(): Request for the process of identity...
+  WARN root [0x0000da88] [2018-08-08 18:38:23,179] - EntityApp::checkTickPeriod: tick took 6415% (6.41 seconds)!
+  INFO root [0x0000da88] [2018-08-08 18:38:24,225] - Components::findComponents: find logger(1)...
+  INFO root [0x0000da88] [2018-08-08 18:38:24,250] - Components::findComponents: found logger, addr:192.168.0.108:62411
+  INFO root [0x0000da88] [2018-08-08 18:38:24,250] - Components::addComponent: reset orderLog, uid=9028!
+  INFO root [0x0000da88] [2018-08-08 18:38:24,250] - Components::addComponent[logger], uid=9028, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000da88] [2018-08-08 18:38:24,251] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000da88] [2018-08-08 18:38:24,353] - Components::findComponents: found dbmgr, addr:192.168.0.108:62414
+  INFO root [0x0000da88] [2018-08-08 18:38:24,353] - Components::addComponent: reset orderLog, uid=9028!
+  INFO root [0x0000da88] [2018-08-08 18:38:24,353] - Components::addComponent[dbmgr], uid=9028, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000da88] [2018-08-08 18:38:24,353] - Components::findComponents: found dbmgr, addr:192.168.0.108:62414
+  WARN root [0x0000da88] [2018-08-08 18:38:25,353] - Forwarding logs to logger[192.168.0.108:62411/0/0/0]...
+ ERROR root [0x0000da88] [2018-08-08 18:38:50,718] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit! errorno=10054
+ ERROR root [0x0000da88] [2018-08-08 18:38:51,910] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,906] - 
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,907] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,908] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,908] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/assets/;D:/KBE/kbengine-2.2.0/assets/scripts/;D:/KBE/kbengine-2.2.0/assets/res/
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,908] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:63655 )
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.108:63655, SOMAXCONN=5.
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - server-configs:
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - 	gameUpdateHertz : 10
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - 	defaultViewRadius : 80
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,933] - 	entryScriptFile : kbemain
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,934] - 	internalTcpAddr : 192.168.0.108:63655
+  INFO root [0x0000fe50] [2018-08-08 19:46:54,934] - 	componentID : 8001
+  WARN root [0x0000fe50] [2018-08-08 19:46:55,244] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20119, errorno=10048
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,250] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:36:22 Aug  8 2018. AppID: 8001. UID: 22485. PID: 65580 ----
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,250] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,250] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,251] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,414] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,415] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,416] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,421] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,422] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,422] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,423] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:55,498] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,594] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:53) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,594] - Script::install(): KBExtra is successfully!
+  INFO root [0x0000fe50] [2018-08-08 19:46:55,611] - TelnetServer server is running on port 50000
+  INFO root [0x0000fe50] [2018-08-08 19:46:56,373] - ---- cellapp is running ----
+ DEBUG root [0x0000fe50] [2018-08-08 19:46:56,374] - Components::process(): Request for the process of identity...
+  WARN root [0x0000fe50] [2018-08-08 19:47:02,553] - EntityApp::checkTickPeriod: tick took 6179% (6.18 seconds)!
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,610] - Components::findComponents: find logger(1)...
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,630] - Components::findComponents: found logger, addr:192.168.0.108:63653
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,630] - Components::addComponent: reset orderLog, uid=22485!
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,630] - Components::addComponent[logger], uid=22485, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,631] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,733] - Components::findComponents: found dbmgr, addr:192.168.0.108:63658
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,733] - Components::addComponent: reset orderLog, uid=22485!
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,733] - Components::addComponent[dbmgr], uid=22485, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000fe50] [2018-08-08 19:47:03,733] - Components::findComponents: found dbmgr, addr:192.168.0.108:63658
+  WARN root [0x0000fe50] [2018-08-08 19:47:04,733] - Forwarding logs to logger[192.168.0.108:63653/0/0/0]...
+ ERROR root [0x0000fe50] [2018-08-08 19:49:38,175] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054

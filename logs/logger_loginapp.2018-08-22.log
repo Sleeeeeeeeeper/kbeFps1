@@ -1,0 +1,1091 @@
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 960] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 961] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 961] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 962] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 970] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 970] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 975] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:57432 )
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 975] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:57432, SOMAXCONN=128.
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 976] - server-configs:
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 976] - 	internalTcpAddr : 192.168.0.155:57432
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 976] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:43 976] - 	componentID : 9000
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 700] - Components::findLogger: found logger, addr:192.168.0.155:57411
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 701] - Components::addComponent: reset orderLog, uid=24339!
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 701] - Components::addComponent[logger], uid=24339, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 711] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 24339. PID: 290436 ----
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 711] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 712] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 712] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 856] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 856] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 857] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 861] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 862] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 862] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 863] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:46 927] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 988] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 988] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 992] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:46 993] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:47 415] - ---- loginapp is running ----
+   DEBUG   loginapp-1 24339 9000  [2018-08-22 10:03:47 415] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:55 063] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:55 136] - Components::findComponents: found dbmgr, addr:192.168.0.155:57413
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:55 136] - Components::addComponent: reset orderLog, uid=24339!
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:55 136] - Components::addComponent[dbmgr], uid=24339, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:55 136] - Components::findComponents: found dbmgr, addr:192.168.0.155:57413
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:57 153] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:57 196] - Components::findComponents: found baseappmgr, addr:192.168.0.155:57417
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:57 197] - Components::addComponent[baseappmgr], uid=24339, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:57 197] - Components::findComponents: found baseappmgr, addr:192.168.0.155:57417
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:59 233] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:59 252] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:03:59 255] - Components::process(): Found all the components!
+    INFO   loginapp-1 24339 9000  [2018-08-22 10:04:03 340] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=554100EB75E264A47192E9101703F0ED.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:04:04 605] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:04:04 605] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.26 seconds
+    INFO   loginapp01 24339 9000  [2018-08-22 10:04:05 041] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:05:10 100] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57455/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:05:10 100] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57455/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:05:10 113] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:05:10 113] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:05:10 113] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:05:10 142] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:05:10 143] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:05:10 143] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:10:13 478] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57494/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:10:13 478] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57494/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:10:13 491] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:10:13 491] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:10:13 491] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:10:13 509] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:10:13 510] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:10:13 510] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:13:40 601] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57509/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:13:40 601] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57509/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:13:40 614] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:13:40 614] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:13:40 614] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:13:40 633] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:13:40 635] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:13:40 635] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:14:35 886] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57516/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:14:35 887] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57516/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:14:35 900] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:14:35 900] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:14:35 900] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:14:35 915] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:14:35 916] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:14:35 916] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:15:04 606] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57521/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:15:04 606] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57521/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:15:04 619] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:04 619] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:15:04 619] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:15:04 635] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:04 636] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:04 636] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:15:14 481] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57523/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:15:14 482] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57523/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:15:14 502] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:14 502] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:15:14 502] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:15:14 515] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:14 516] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:15:14 517] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:18:55 958] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57544/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:18:55 958] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57544/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:18:55 970] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:18:55 970] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:18:55 970] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:18:55 980] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:18:55 981] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:18:55 981] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:25:40 501] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58167/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:25:40 501] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58167/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:25:40 513] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:25:40 513] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:25:40 513] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:25:40 529] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:25:40 530] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:25:40 530] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:30:02 229] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58215/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:30:02 230] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58215/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:30:02 241] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:02 241] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:30:02 241] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:30:02 275] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:02 276] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:02 276] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:30:31 056] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58220/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:30:31 057] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58220/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:30:31 070] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:31 070] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:30:31 070] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:30:31 096] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:31 097] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:30:31 097] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:32:47 096] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58266/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:32:47 097] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58266/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:32:47 111] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:32:47 111] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:32:47 111] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:32:47 139] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:32:47 140] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:32:47 140] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:38:41 058] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58302/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:38:41 059] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58302/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:38:41 073] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:41 073] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:38:41 074] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:38:41 088] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:41 091] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:41 091] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:38:56 116] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58307/0/0/0
+ WARNING   loginapp01 24339 9000  [2018-08-22 10:38:56 117] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58307/0/0/0
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:38:56 128] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:56 128] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 24339 9000  [2018-08-22 10:38:56 128] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 24339 9000  [2018-08-22 10:38:56 147] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:56 148] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 24339 9000  [2018-08-22 10:38:56 148] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 464] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 465] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 466] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 466] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 480] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 480] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 492] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:58383 )
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 492] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:58383, SOMAXCONN=128.
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 492] - server-configs:
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 493] - 	internalTcpAddr : 192.168.0.155:58383
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 493] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:40 493] - 	componentID : 9000
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 052] - Components::findLogger: found logger, addr:192.168.0.155:58352
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 052] - Components::addComponent: reset orderLog, uid=32147!
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 052] - Components::addComponent[logger], uid=32147, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 062] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 32147. PID: 296840 ----
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 062] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 062] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 063] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 209] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 210] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 211] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 216] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 216] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 216] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 218] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 278] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 338] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 338] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 344] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 344] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:44 739] - ---- loginapp is running ----
+   DEBUG   loginapp-1 32147 9000  [2018-08-22 10:43:44 740] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:52 445] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:52 553] - Components::findComponents: found dbmgr, addr:192.168.0.155:58355
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:52 553] - Components::addComponent: reset orderLog, uid=32147!
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:52 553] - Components::addComponent[dbmgr], uid=32147, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:52 554] - Components::findComponents: found dbmgr, addr:192.168.0.155:58355
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:54 565] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:54 588] - Components::findComponents: found baseappmgr, addr:192.168.0.155:58368
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:54 588] - Components::addComponent[baseappmgr], uid=32147, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:54 588] - Components::findComponents: found baseappmgr, addr:192.168.0.155:58368
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:56 625] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:56 644] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:43:56 645] - Components::process(): Found all the components!
+    INFO   loginapp-1 32147 9000  [2018-08-22 10:44:00 972] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=554100EB75E264A47192E9101703F0ED.
+    INFO   loginapp01 32147 9000  [2018-08-22 10:44:02 196] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 32147 9000  [2018-08-22 10:44:02 196] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.22 seconds
+    INFO   loginapp01 32147 9000  [2018-08-22 10:44:02 739] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 32147 9000  [2018-08-22 10:47:37 517] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58531/0/0/0
+ WARNING   loginapp01 32147 9000  [2018-08-22 10:47:37 517] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58531/0/0/0
+  S_INFO   loginapp01 32147 9000  [2018-08-22 10:47:37 536] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:37 536] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 32147 9000  [2018-08-22 10:47:37 536] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 32147 9000  [2018-08-22 10:47:37 557] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:37 558] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:37 558] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 32147 9000  [2018-08-22 10:47:54 032] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58533/0/0/0
+ WARNING   loginapp01 32147 9000  [2018-08-22 10:47:54 033] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58533/0/0/0
+  S_INFO   loginapp01 32147 9000  [2018-08-22 10:47:54 044] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:54 044] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 32147 9000  [2018-08-22 10:47:54 044] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 32147 9000  [2018-08-22 10:47:54 057] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:54 059] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 32147 9000  [2018-08-22 10:47:54 059] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 572] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 574] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 575] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 575] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 611] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 611] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 711] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:58555 )
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 711] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:58555, SOMAXCONN=128.
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 712] - server-configs:
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 712] - 	internalTcpAddr : 192.168.0.155:58555
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 712] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:29 712] - 	componentID : 9000
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 111] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 777. PID: 290140 ----
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 111] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 111] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 112] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 281] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 282] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 283] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 289] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 290] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 290] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 291] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:35 361] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 429] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 430] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 434] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:35 434] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:36 200] - ---- loginapp is running ----
+   DEBUG   loginapp-1 777 9000  [2018-08-22 10:50:36 201] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:46 695] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:46 867] - Components::findComponents: found logger, addr:192.168.0.155:58549
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:46 868] - Components::addComponent: reset orderLog, uid=777!
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:46 868] - Components::addComponent[logger], uid=777, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:46 870] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:47 023] - Components::findComponents: found dbmgr, addr:192.168.0.155:58550
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:47 023] - Components::addComponent: reset orderLog, uid=777!
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:47 024] - Components::addComponent[dbmgr], uid=777, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:47 145] - Components::findComponents: found dbmgr, addr:192.168.0.155:58550
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:49 155] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:49 230] - Components::findComponents: found baseappmgr, addr:192.168.0.155:58552
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:49 230] - Components::addComponent[baseappmgr], uid=777, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:49 230] - Components::findComponents: found baseappmgr, addr:192.168.0.155:58552
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:51 275] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:51 277] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:51 278] - Components::process(): Found all the components!
+    INFO   loginapp-1 777 9000  [2018-08-22 10:50:57 249] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 777 9000  [2018-08-22 10:50:58 481] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 777 9000  [2018-08-22 10:50:58 481] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.23 seconds
+    INFO   loginapp01 777 9000  [2018-08-22 10:50:59 666] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 777 9000  [2018-08-22 10:51:34 153] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58588/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 10:51:34 154] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58588/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:51:34 169] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:51:34 169] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 10:51:34 169] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:51:34 193] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:51:34 194] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:51:34 194] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 10:53:26 961] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58599/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 10:53:26 961] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58599/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:53:26 975] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:53:26 976] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 10:53:26 976] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:53:26 994] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:53:26 995] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:53:26 995] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 10:56:11 392] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58617/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 10:56:11 393] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58617/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:56:11 410] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:56:11 410] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 10:56:11 411] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:56:11 438] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:56:11 439] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:56:11 439] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 10:57:52 204] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58635/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 10:57:52 205] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58635/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:57:52 219] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:57:52 219] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 10:57:52 219] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 10:57:52 240] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:57:52 241] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 10:57:52 241] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:09:32 813] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58851/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:09:32 814] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58851/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:09:32 831] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:09:32 831] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:09:32 831] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:09:32 856] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:09:32 857] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:09:32 857] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:18:37 916] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58935/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:18:37 917] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58935/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:18:37 932] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:18:37 932] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:18:37 932] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:18:37 948] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:18:37 949] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:18:37 950] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:19:10 881] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58937/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:19:10 882] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58937/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:19:10 897] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:19:10 897] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:19:10 897] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:19:10 909] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:19:10 911] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:19:10 911] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:22:43 928] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58976/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:22:43 928] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58976/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:22:43 937] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:22:43 937] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:22:43 937] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:22:43 955] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:22:43 957] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:22:43 957] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:23:02 808] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58979/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:23:02 809] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58979/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:23:02 826] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:23:02 826] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:23:02 826] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:23:02 854] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:23:02 855] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:23:02 855] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:25:43 620] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59004/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:25:43 620] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59004/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:25:43 636] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:25:43 636] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:25:43 636] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:25:43 658] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:25:43 659] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:25:43 659] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:26:41 783] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59014/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:26:41 783] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59014/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:26:41 791] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:26:41 792] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:26:41 792] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:26:41 819] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:26:41 820] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:26:41 820] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 777 9000  [2018-08-22 11:31:57 982] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59078/0/0/0
+ WARNING   loginapp01 777 9000  [2018-08-22 11:31:57 982] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59078/0/0/0
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:31:58 003] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:31:58 004] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 777 9000  [2018-08-22 11:31:58 004] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 777 9000  [2018-08-22 11:31:58 026] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:31:58 030] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 777 9000  [2018-08-22 11:31:58 030] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 615] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 616] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 617] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 617] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 627] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 628] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 636] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59261 )
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 636] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59261, SOMAXCONN=128.
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 636] - server-configs:
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 636] - 	internalTcpAddr : 192.168.0.155:59261
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 637] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:15 637] - 	componentID : 9000
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 029] - Components::findLogger: found logger, addr:192.168.0.155:59226
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 029] - Components::addComponent: reset orderLog, uid=10456!
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 029] - Components::addComponent[logger], uid=10456, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 045] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 10456. PID: 262348 ----
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 046] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 046] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 047] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 215] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 216] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 217] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 224] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 225] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 226] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 228] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:19 324] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 421] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 421] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 428] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:19 428] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:20 476] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10456 9000  [2018-08-22 11:40:20 477] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:28 888] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:28 905] - Components::findComponents: found dbmgr, addr:192.168.0.155:59229
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:28 905] - Components::addComponent: reset orderLog, uid=10456!
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:28 905] - Components::addComponent[dbmgr], uid=10456, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:28 906] - Components::findComponents: found dbmgr, addr:192.168.0.155:59229
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:30 908] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:30 930] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59235
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:30 930] - Components::addComponent[baseappmgr], uid=10456, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:30 931] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59235
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:32 968] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:32 988] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:32 989] - Components::process(): Found all the components!
+    INFO   loginapp-1 10456 9000  [2018-08-22 11:40:37 662] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:40:38 915] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:40:38 915] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.25 seconds
+    INFO   loginapp01 10456 9000  [2018-08-22 11:40:39 527] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:40:57 020] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59286/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:40:57 020] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59286/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:40:57 035] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:40:57 035] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:40:57 035] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:40:57 043] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:40:57 044] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:40:57 044] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:08 807] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59289/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:41:08 807] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59289/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:08 820] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:08 821] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:08 821] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:08 843] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:08 844] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:08 844] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:12 235] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59291/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:41:12 235] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59291/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:12 249] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:12 249] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:12 249] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:12 264] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:12 265] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:12 265] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:15 755] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59293/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:41:15 755] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59293/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:15 768] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:15 768] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:15 769] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:15 783] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:15 784] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:15 784] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:21 905] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59297/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:41:21 905] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59297/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:21 920] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:21 920] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:21 920] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:21 943] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:21 945] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:21 945] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:44 583] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59301/0/0/0
+ WARNING   loginapp01 10456 9000  [2018-08-22 11:41:44 583] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59301/0/0/0
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:44 596] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:44 596] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 10456 9000  [2018-08-22 11:41:44 596] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 10456 9000  [2018-08-22 11:41:44 624] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:44 626] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 10456 9000  [2018-08-22 11:41:44 626] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 146] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 148] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 148] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 148] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 364] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 365] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 393] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59446 )
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 394] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59446, SOMAXCONN=128.
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 394] - server-configs:
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 395] - 	internalTcpAddr : 192.168.0.155:59446
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 395] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:17 395] - 	componentID : 9000
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:24 810] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 12099. PID: 293088 ----
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:24 810] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:24 810] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:24 811] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 009] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 009] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 010] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 016] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 017] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 017] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 018] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:25 105] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:25 175] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:25 176] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 12099 9000  [2018-08-22 11:48:25 181] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:25 181] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:26 124] - ---- loginapp is running ----
+   DEBUG   loginapp-1 12099 9000  [2018-08-22 11:48:26 124] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 181] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 308] - Components::findComponents: found logger, addr:192.168.0.155:59440
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 308] - Components::addComponent: reset orderLog, uid=12099!
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 308] - Components::addComponent[logger], uid=12099, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 310] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 463] - Components::findComponents: found dbmgr, addr:192.168.0.155:59441
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 463] - Components::addComponent: reset orderLog, uid=12099!
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 463] - Components::addComponent[dbmgr], uid=12099, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:36 465] - Components::findComponents: found dbmgr, addr:192.168.0.155:59441
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:38 481] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:38 525] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59442
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:38 525] - Components::addComponent[baseappmgr], uid=12099, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:38 525] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59442
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:40 561] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:40 581] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:40 582] - Components::process(): Found all the components!
+    INFO   loginapp-1 12099 9000  [2018-08-22 11:48:44 983] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:48:46 195] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:48:46 195] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.21 seconds
+    INFO   loginapp01 12099 9000  [2018-08-22 11:48:46 670] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:51:19 579] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59556/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:51:19 579] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59556/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:51:19 594] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:19 594] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:51:19 594] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:51:19 606] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:19 607] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:19 607] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:51:31 456] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59559/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:51:31 456] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59559/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:51:31 470] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:31 470] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:51:31 470] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:51:31 486] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:31 487] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:51:31 487] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:52:26 859] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59566/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:52:26 859] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59566/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:52:26 873] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:26 874] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:52:26 874] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:52:26 888] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:26 889] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:26 889] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:52:30 407] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59568/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:52:30 407] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59568/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:52:30 420] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:30 420] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:52:30 420] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:52:30 428] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:30 429] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:52:30 429] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:53:50 451] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59584/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:53:50 451] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59584/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:53:50 466] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:53:50 466] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:53:50 466] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:53:50 489] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:53:50 490] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:53:50 490] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:54:15 039] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59587/0/0/0
+ WARNING   loginapp01 12099 9000  [2018-08-22 11:54:15 039] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59587/0/0/0
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:54:15 053] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:54:15 054] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 12099 9000  [2018-08-22 11:54:15 054] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 12099 9000  [2018-08-22 11:54:15 070] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:54:15 071] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 12099 9000  [2018-08-22 11:54:15 071] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 648] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 650] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 650] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 651] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 665] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 665] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 674] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59605 )
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 674] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59605, SOMAXCONN=128.
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 675] - server-configs:
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 675] - 	internalTcpAddr : 192.168.0.155:59605
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 675] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:14 675] - 	componentID : 9000
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:19 752] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 13457. PID: 288360 ----
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:19 753] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:19 753] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:19 754] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 941] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 941] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 942] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 983] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 983] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 983] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:19 985] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:20 131] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:20 212] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:20 212] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 13457 9000  [2018-08-22 11:55:20 218] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:20 219] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:21 105] - ---- loginapp is running ----
+   DEBUG   loginapp-1 13457 9000  [2018-08-22 11:55:21 106] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 219] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 331] - Components::findComponents: found logger, addr:192.168.0.155:59599
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 332] - Components::addComponent: reset orderLog, uid=13457!
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 332] - Components::addComponent[logger], uid=13457, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 335] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 508] - Components::findComponents: found dbmgr, addr:192.168.0.155:59600
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 508] - Components::addComponent: reset orderLog, uid=13457!
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 508] - Components::addComponent[dbmgr], uid=13457, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:32 510] - Components::findComponents: found dbmgr, addr:192.168.0.155:59600
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:34 519] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:34 613] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59601
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:34 613] - Components::addComponent[baseappmgr], uid=13457, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:34 614] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59601
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:36 653] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:36 658] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:36 659] - Components::process(): Found all the components!
+    INFO   loginapp-1 13457 9000  [2018-08-22 11:55:39 667] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 13457 9000  [2018-08-22 11:55:40 885] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 13457 9000  [2018-08-22 11:55:40 885] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.22 seconds
+    INFO   loginapp01 13457 9000  [2018-08-22 11:55:44 727] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 673] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 674] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 675] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 675] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 692] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 692] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 702] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59655 )
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 703] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59655, SOMAXCONN=128.
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 703] - server-configs:
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 703] - 	internalTcpAddr : 192.168.0.155:59655
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 703] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:32 704] - 	componentID : 9000
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:37 942] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 13712. PID: 292204 ----
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:37 942] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:37 943] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:37 943] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 131] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 131] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 132] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 138] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 138] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 138] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 140] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:38 268] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:38 344] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:38 344] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 13712 9000  [2018-08-22 11:56:38 349] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:38 349] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:39 343] - ---- loginapp is running ----
+   DEBUG   loginapp-1 13712 9000  [2018-08-22 11:56:39 343] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:48 890] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 014] - Components::findComponents: found logger, addr:192.168.0.155:59650
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 015] - Components::addComponent: reset orderLog, uid=13712!
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 015] - Components::addComponent[logger], uid=13712, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 016] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 169] - Components::findComponents: found dbmgr, addr:192.168.0.155:59651
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 169] - Components::addComponent: reset orderLog, uid=13712!
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 169] - Components::addComponent[dbmgr], uid=13712, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:49 170] - Components::findComponents: found dbmgr, addr:192.168.0.155:59651
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:51 177] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:51 270] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59652
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:51 270] - Components::addComponent[baseappmgr], uid=13712, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:51 271] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59652
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:53 310] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:53 329] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:53 330] - Components::process(): Found all the components!
+    INFO   loginapp-1 13712 9000  [2018-08-22 11:56:58 891] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:00 105] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 13712 9000  [2018-08-22 11:57:00 105] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.21 seconds
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:00 581] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:51 427] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59689/0/0/0
+ WARNING   loginapp01 13712 9000  [2018-08-22 11:57:51 427] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59689/0/0/0
+  S_INFO   loginapp01 13712 9000  [2018-08-22 11:57:51 438] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:51 439] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:51 439] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 13712 9000  [2018-08-22 11:57:51 454] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:51 455] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:51 455] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:53 007] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59691/0/0/0
+ WARNING   loginapp01 13712 9000  [2018-08-22 11:57:53 007] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59691/0/0/0
+  S_INFO   loginapp01 13712 9000  [2018-08-22 11:57:53 018] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:53 018] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 13712 9000  [2018-08-22 11:57:53 018] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 13712 9000  [2018-08-22 11:57:53 033] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:53 034] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 13712 9000  [2018-08-22 11:57:53 034] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 906] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 907] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 908] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/ori_assets/;D:/KBE/kbengine-2.2.0/ori_assets/scripts/;D:/KBE/kbengine-2.2.0/ori_assets/res/
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 908] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 920] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:20013 )
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 920] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.155:20013, SOMAXCONN=128.
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 963] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.155 ( 192.168.0.155:59713 )
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 963] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.155:59713, SOMAXCONN=128.
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 963] - server-configs:
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 964] - 	internalTcpAddr : 192.168.0.155:59713
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 964] - 	externalTcpAddr : 192.168.0.155:20013
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:47 964] - 	componentID : 9000
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:55 491] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:34:50 Aug  8 2018. AppID: 9000. UID: 14163. PID: 298248 ----
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:55 491] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:55 491] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:55 492] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 703] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 704] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 704] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 709] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 710] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 710] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 711] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:55 901] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:56 176] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:56 176] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 14163 9000  [2018-08-22 11:58:56 181] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:56 182] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:58:57 287] - ---- loginapp is running ----
+   DEBUG   loginapp-1 14163 9000  [2018-08-22 11:58:57 287] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:06 942] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 040] - Components::findComponents: found logger, addr:192.168.0.155:59707
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 040] - Components::addComponent: reset orderLog, uid=14163!
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 041] - Components::addComponent[logger], uid=14163, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 042] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 208] - Components::findComponents: found dbmgr, addr:192.168.0.155:59708
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 209] - Components::addComponent: reset orderLog, uid=14163!
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 209] - Components::addComponent[dbmgr], uid=14163, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:07 209] - Components::findComponents: found dbmgr, addr:192.168.0.155:59708
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:09 210] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:09 259] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59712
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:09 259] - Components::addComponent[baseappmgr], uid=14163, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:09 260] - Components::findComponents: found baseappmgr, addr:192.168.0.155:59712
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:11 282] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:11 302] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:11 303] - Components::process(): Found all the components!
+    INFO   loginapp-1 14163 9000  [2018-08-22 11:59:16 930] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+ WARNING   loginapp01 14163 9000  [2018-08-22 11:59:17 893] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20160, errorno=10048
+    INFO   loginapp01 14163 9000  [2018-08-22 11:59:18 504] - HTTPCBHandler::bind: 192.168.0.155:21103
+ WARNING   loginapp01 14163 9000  [2018-08-22 11:59:18 504] - d:\kbe\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.57 seconds
+    INFO   loginapp01 14163 9000  [2018-08-22 11:59:18 696] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 11:59:38 088] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59755/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 11:59:38 088] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59755/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 11:59:38 104] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 11:59:38 104] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 11:59:38 104] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 11:59:38 130] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=0
+   DEBUG   loginapp01 14163 9000  [2018-08-22 11:59:38 132] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 11:59:38 132] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:01:09 336] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59774/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:01:09 336] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59774/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:01:09 347] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:01:09 347] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:01:09 347] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:01:09 372] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:01:09 373] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:01:09 373] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:06:04 603] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59826/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:06:04 603] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59826/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:06:04 617] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:04 617] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:06:04 617] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:06:04 639] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:04 640] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:04 640] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:06:54 608] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59833/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:06:54 608] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59833/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:06:54 622] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:54 622] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:06:54 622] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:06:54 640] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:54 641] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:06:54 641] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:09:29 588] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59857/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:09:29 588] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59857/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:09:29 601] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:09:29 601] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:09:29 601] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:09:29 623] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:09:29 624] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:09:29 625] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:10:32 954] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59869/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:10:32 955] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59869/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:10:32 966] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:10:32 966] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:10:32 966] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:10:32 985] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:10:32 986] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:10:32 986] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:11:23 165] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:59885/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 12:11:23 165] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:59885/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:11:23 175] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:11:23 175] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 12:11:23 175] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 12:11:23 206] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:11:23 210] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 12:11:23 210] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:11:20 664] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60499/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:11:20 666] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60499/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:11:20 681] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:11:20 681] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:11:20 681] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:11:20 708] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:11:20 709] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:11:20 709] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:12:15 504] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60504/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:12:15 504] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60504/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:12:15 519] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:12:15 519] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:12:15 519] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:12:15 548] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:12:15 550] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:12:15 550] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:25:44 085] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60599/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:25:44 086] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60599/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:25:44 097] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:25:44 097] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:25:44 097] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:25:44 107] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:25:44 108] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:25:44 108] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:26:33 100] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60606/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:26:33 100] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60606/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:26:33 114] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:26:33 114] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:26:33 114] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:26:33 148] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:26:33 150] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:26:33 151] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:30:29 436] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60625/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:30:29 437] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60625/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:30:29 454] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:30:29 454] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:30:29 454] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:30:29 493] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:30:29 494] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:30:29 494] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:31:13 744] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60632/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:31:13 744] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60632/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:31:13 759] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:31:13 759] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:31:13 759] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:31:13 775] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:31:13 776] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:31:13 776] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:36:58 875] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60667/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:36:58 875] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60667/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:36:58 888] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:36:58 888] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:36:58 888] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:36:58 902] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:36:58 904] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:36:58 904] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:37:53 803] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60673/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:37:53 803] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60673/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:37:53 819] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:37:53 819] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:37:53 819] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:37:53 843] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:37:53 845] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:37:53 845] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:42:06 160] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60717/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:42:06 160] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60717/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:42:06 176] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:06 176] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:42:06 176] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:42:06 189] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:06 192] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:06 192] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:42:57 178] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60724/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:42:57 178] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60724/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:42:57 192] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:57 192] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:42:57 192] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:42:57 210] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:57 212] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:42:57 212] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:44:36 148] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60736/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:44:36 149] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60736/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:44:36 162] - onRequestLogin() loginName=luozhonghai, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:44:36 162] - PendingLoginMgr::add: luozhonghai, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:44:36 162] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=luozhonghai, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:44:36 172] - onLoginCallbackFromDB() loginName=luozhonghai, accountName=luozhonghai, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:44:36 174] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=luozhonghai, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:44:36 174] - PendingLoginMgr::remove: luozhonghai, size=0.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:45:23 713] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:60740/0/0/0
+ WARNING   loginapp01 14163 9000  [2018-08-22 13:45:23 713] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:60740/0/0/0
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:45:23 727] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:45:23 727] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 14163 9000  [2018-08-22 13:45:23 728] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 14163 9000  [2018-08-22 13:45:23 753] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:45:23 754] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.155:20015.
+   DEBUG   loginapp01 14163 9000  [2018-08-22 13:45:23 754] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 801] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 802] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 803] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 803] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 810] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:20013 )
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 810] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.149:20013, SOMAXCONN=128.
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 812] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:56960 )
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 813] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:56960, SOMAXCONN=128.
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 813] - server-configs:
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 814] - 	internalTcpAddr : 192.168.0.149:56960
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 814] - 	externalTcpAddr : 192.168.0.149:20013
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:57 814] - 	componentID : 9000
+ WARNING   loginapp-1 15444 9000  [2018-08-22 17:39:58 610] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20050, errorno=10048
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 618] - ---- loginapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: CE9C0D15469CA4C743FAB2554D129037. Config: Debug X86. Built: 18:11:40 Aug 17 2018. AppID: 9000. UID: 15444. PID: 5644 ----
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 619] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 619] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 620] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 764] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 764] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 765] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 770] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 771] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 771] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 772] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:58 835] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 926] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:36) [MSC v.1914 32 bit (Intel)])!
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 926] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 944] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:58 944] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:39:59 754] - ---- loginapp is running ----
+   DEBUG   loginapp-1 15444 9000  [2018-08-22 17:39:59 754] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 703] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 786] - Components::findComponents: found logger, addr:192.168.0.149:56866
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 786] - Components::addComponent: reset orderLog, uid=15444!
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 786] - Components::addComponent[logger], uid=15444, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 789] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 892] - Components::findComponents: found dbmgr, addr:192.168.0.149:56917
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 892] - Components::addComponent: reset orderLog, uid=15444!
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 892] - Components::addComponent[dbmgr], uid=15444, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:08 894] - Components::findComponents: found dbmgr, addr:192.168.0.149:56917
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:10 904] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:10 925] - Components::findComponents: found baseappmgr, addr:192.168.0.149:56919
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:10 925] - Components::addComponent[baseappmgr], uid=15444, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:10 927] - Components::findComponents: found baseappmgr, addr:192.168.0.149:56919
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:12 984] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:13 003] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:13 009] - Components::process(): Found all the components!
+    INFO   loginapp-1 15444 9000  [2018-08-22 17:40:18 265] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=2, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:40:19 470] - HTTPCBHandler::bind: 192.168.0.149:21103
+ WARNING   loginapp01 15444 9000  [2018-08-22 17:40:19 470] - g:\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.21 seconds
+    INFO   loginapp01 15444 9000  [2018-08-22 17:40:20 422] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:42:12 277] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:57541/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 17:42:12 278] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:57541/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:42:12 290] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:12 290] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:42:12 290] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:42:12 343] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=0
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:12 345] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:12 345] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:42:44 808] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:57681/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 17:42:44 808] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:57681/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:42:44 822] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:44 822] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:42:44 822] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:42:44 861] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=0
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:44 864] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:42:44 865] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:59:51 377] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:62160/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 17:59:51 377] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:62160/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:59:54 194] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:59:54 194] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 17:59:54 194] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 17:59:54 214] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:59:54 220] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 17:59:54 220] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:02:43 681] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:62890/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:02:43 681] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:62890/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:02:43 696] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:02:43 696] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:02:43 696] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:02:43 728] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:02:43 733] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:02:43 733] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:23:32 471] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:51993/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:23:32 472] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:51993/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:23:32 485] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:23:32 485] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:23:32 485] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:23:32 514] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:23:32 516] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:23:32 516] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:29:50 046] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:53640/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:29:50 047] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:53640/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:29:50 057] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:29:50 057] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:29:50 057] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:29:50 064] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:29:50 066] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:29:50 066] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:34:41 512] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:54886/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:34:41 512] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:54886/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:34:41 524] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:41 524] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:34:41 524] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:34:41 556] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:41 558] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:41 558] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:34:46 035] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:54907/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:34:46 035] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:54907/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:34:46 050] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:46 050] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:34:46 050] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:34:46 075] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:46 078] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:34:46 078] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:36:43 849] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:55433/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:36:43 849] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:55433/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:36:43 861] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:36:43 861] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:36:43 861] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:36:43 892] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:36:43 895] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:36:43 895] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:39:41 879] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:56254/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:39:41 879] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:56254/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:39:41 890] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:39:41 890] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:39:41 890] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:39:41 907] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:39:41 918] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:39:41 918] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:59:50 164] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:61666/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 18:59:50 164] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:61666/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:59:50 180] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:59:50 180] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 18:59:50 180] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 18:59:50 214] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:59:50 216] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 18:59:50 216] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:01:18 035] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:62033/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:01:18 035] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:62033/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:01:18 051] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:01:18 051] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:01:18 051] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:01:18 071] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=6
+    INFO   loginapp01 15444 9000  [2018-08-22 19:01:18 071] - Loginapp::loginFailed: loginName=hashvr login is failed. failedcode=SERVER_ERR_PASSWORD, datas=kbengine_ue4_demo.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:01:18 071] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:02:13 256] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:62259/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:02:13 257] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:62259/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:02:13 272] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:02:13 273] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:02:13 273] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:02:13 290] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=6
+    INFO   loginapp01 15444 9000  [2018-08-22 19:02:13 290] - Loginapp::loginFailed: loginName=hashvr login is failed. failedcode=SERVER_ERR_PASSWORD, datas=kbengine_ue4_demo.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:02:13 290] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:03:07 697] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:62502/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:03:07 697] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:62502/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:03:07 711] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:03:07 711] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:03:07 711] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:03:07 748] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:03:07 752] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:03:07 752] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:36:05 550] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:54911/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:36:05 551] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:54911/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:36:05 564] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:36:05 564] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:36:05 564] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:36:05 573] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:36:05 578] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:36:05 578] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:37:38 501] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:55340/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:37:38 502] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:55340/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:37:38 542] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:37:38 542] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:37:38 542] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:37:38 551] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:37:38 553] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:37:38 553] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:45:30 190] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:57444/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:45:30 192] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:57444/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:45:30 227] - onRequestLogin() loginName=123, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:45:30 228] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:45:30 228] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=123, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:45:30 238] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:45:30 241] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:45:30 241] - PendingLoginMgr::remove: 123, size=0.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:46:57 593] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:57850/0/0/0
+ WARNING   loginapp01 15444 9000  [2018-08-22 19:46:57 593] - Loginapp::onHello: client is not encrypted, addr=192.168.0.149:57850/0/0/0
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:46:57 611] - onRequestLogin() loginName=hashvr, clientType=2
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:46:57 611] - PendingLoginMgr::add: hashvr, size=1.
+    INFO   loginapp01 15444 9000  [2018-08-22 19:46:57 611] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=hashvr, datas=kbengine_ue4_demo.
+  S_INFO   loginapp01 15444 9000  [2018-08-22 19:46:57 635] - onLoginCallbackFromDB() loginName=hashvr, accountName=hashvr, errorno=10
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:46:57 640] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=hashvr, addr=192.168.0.149:20015.
+   DEBUG   loginapp01 15444 9000  [2018-08-22 19:46:57 640] - PendingLoginMgr::remove: hashvr, size=0.

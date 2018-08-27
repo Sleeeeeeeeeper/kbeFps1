@@ -1,0 +1,1116 @@
+ ERROR root [0x00006dc8] [2018-08-24 09:58:20,204] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00006dc8] [2018-08-24 09:58:20,994] - The following logs sent to logger failed:
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,038] - ==> [2018-08-24 09:58:20 020] TCPPacketReceiver::processPendingEvents(192.168.0.149:52067): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006dc8] [2018-08-24 09:58:21,039] - ==> [2018-08-24 09:58:20 905] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,135] - EntityApp::checkTickPeriod: tick took 1868% (1.87 seconds)!
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,144] - TCPPacketReceiver::processPendingEvents(192.168.0.149:52103): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006dc8] [2018-08-24 09:58:21,145] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00006dc8] [2018-08-24 09:58:21,154] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00006dc8] [2018-08-24 09:58:21,168] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00006dc8] [2018-08-24 09:58:21,171] - Room::onDestroy: 3
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,427] - g:\kbengine-2.2.0\kbe\src\lib\pyscript\pickler.cpp:120: Profile pickleEx took 0.24 seconds
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,431] - g:\kbengine-2.2.0\kbe\src\server\cellapp\entity.cpp:205: Profile scriptCall took 0.26 seconds
+  INFO root [0x00006dc8] [2018-08-24 09:58:21,483] - Spaces::destroySpace: 1.
+  INFO root [0x00006dc8] [2018-08-24 09:58:21,483] - Shutdowner::onShutdownEnd: shutting down
+  WARN root [0x00006dc8] [2018-08-24 09:58:21,484] - TCPPacketReceiver::processPendingEvents(192.168.0.149:52093): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00006dc8] [2018-08-24 09:58:21,484] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:21,619] - Room::~Room(): 3
+ ERROR root [0x00006dc8] [2018-08-24 09:58:21,750] - 192.168.0.149:52108: TCPPacketSender::processSend(): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:21,829] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:21,829] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,136] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,140] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,141] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,145] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,145] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,146] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,147] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,147] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006dc8] [2018-08-24 09:58:22,245] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006dc8] [2018-08-24 09:58:22,264] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006dc8] [2018-08-24 09:58:22,576] - ThreadPool::destroy(): waiting for thread(2)[0x643c40,0x643bd8,], try=1
+  INFO root [0x00005e80] [2018-08-24 09:58:36,214] - 
+  INFO root [0x00005e80] [2018-08-24 09:58:36,215] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005e80] [2018-08-24 09:58:36,381] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00005e80] [2018-08-24 09:58:36,381] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00005e80] [2018-08-24 09:58:36,382] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00005e80] [2018-08-24 09:58:36,469] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53182 )
+  INFO root [0x00005e80] [2018-08-24 09:58:36,493] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53182, SOMAXCONN=5.
+  INFO root [0x00005e80] [2018-08-24 09:58:36,493] - server-configs:
+  INFO root [0x00005e80] [2018-08-24 09:58:36,493] - 	gameUpdateHertz : 10
+  INFO root [0x00005e80] [2018-08-24 09:58:36,494] - 	defaultViewRadius : 80
+  INFO root [0x00005e80] [2018-08-24 09:58:36,494] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005e80] [2018-08-24 09:58:36,494] - 	entryScriptFile : kbemain
+  INFO root [0x00005e80] [2018-08-24 09:58:36,494] - 	internalTcpAddr : 192.168.0.149:53182
+  INFO root [0x00005e80] [2018-08-24 09:58:36,495] - 	componentID : 8001
+  INFO root [0x00005e80] [2018-08-24 09:58:36,525] - Components::findLogger: found logger, addr:192.168.0.149:53096
+  INFO root [0x00005e80] [2018-08-24 09:58:36,526] - Components::addComponent: reset orderLog, uid=30586!
+  INFO root [0x00005e80] [2018-08-24 09:58:36,526] - Components::addComponent[logger], uid=30586, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005e80] [2018-08-24 09:58:36,594] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 30586. PID: 28628 ----
+  INFO root [0x00005e80] [2018-08-24 09:58:36,595] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00005e80] [2018-08-24 09:58:36,595] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005e80] [2018-08-24 09:58:36,596] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,011] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,107] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,116] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,201] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,209] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,211] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,212] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,358] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005e80] [2018-08-24 09:58:37,454] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00005e80] [2018-08-24 09:58:37,455] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,614] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00005e80] [2018-08-24 09:58:37,640] - loaded entity-script:Room(3).
+  INFO root [0x00005e80] [2018-08-24 09:58:37,641] - TelnetServer server is running on port 50000
+  INFO root [0x00005e80] [2018-08-24 09:58:38,575] - ---- cellapp is running ----
+ DEBUG root [0x00005e80] [2018-08-24 09:58:38,576] - Components::process(): Request for the process of identity...
+  WARN root [0x00005e80] [2018-08-24 09:58:44,944] - Forwarding logs to logger[192.168.0.149:53096/0/0/0]...
+ ERROR root [0x00005e80] [2018-08-24 12:57:50,839] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00005e80] [2018-08-24 12:57:51,759] - The following logs sent to logger failed:
+  WARN root [0x00005e80] [2018-08-24 12:57:51,785] - ==> [2018-08-24 12:57:50 206] TCPPacketReceiver::processPendingEvents(192.168.0.149:53096): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005e80] [2018-08-24 12:57:51,785] - ==> [2018-08-24 12:57:51 358] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00005e80] [2018-08-24 12:57:51,963] - EntityApp::checkTickPeriod: tick took 2038% (2.04 seconds)!
+  WARN root [0x00005e80] [2018-08-24 12:57:51,974] - TCPPacketReceiver::processPendingEvents(192.168.0.149:53111): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005e80] [2018-08-24 12:57:51,974] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00005e80] [2018-08-24 12:57:52,013] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005e80] [2018-08-24 12:57:52,072] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00005e80] [2018-08-24 12:57:52,097] - Room::onDestroy: 3
+  WARN root [0x00005e80] [2018-08-24 12:57:52,264] - g:\kbengine-2.2.0\kbe\src\lib\pyscript\pickler.cpp:120: Profile pickleEx took 0.15 seconds
+  WARN root [0x00005e80] [2018-08-24 12:57:52,282] - g:\kbengine-2.2.0\kbe\src\server\cellapp\entity.cpp:205: Profile scriptCall took 0.21 seconds
+  INFO root [0x00005e80] [2018-08-24 12:57:52,303] - Spaces::destroySpace: 1.
+  INFO root [0x00005e80] [2018-08-24 12:57:52,313] - Shutdowner::onShutdownEnd: shutting down
+  WARN root [0x00005e80] [2018-08-24 12:57:52,313] - TCPPacketReceiver::processPendingEvents(192.168.0.149:53115): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00005e80] [2018-08-24 12:57:52,336] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,424] - Room::~Room(): 3
+ ERROR root [0x00005e80] [2018-08-24 12:57:52,554] - 192.168.0.149:53128: TCPPacketSender::processSend(): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,607] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,613] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,787] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,794] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,795] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,797] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,797] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,798] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,798] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,799] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005e80] [2018-08-24 12:57:52,884] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005e80] [2018-08-24 12:57:52,911] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005e80] [2018-08-24 12:57:53,229] - ThreadPool::destroy(): waiting for thread(2)[0x1f23c40,0x1f23bd8,], try=1
+  INFO root [0x00005c88] [2018-08-24 12:58:41,954] - 
+  INFO root [0x00005c88] [2018-08-24 12:58:41,955] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005c88] [2018-08-24 12:58:41,957] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00005c88] [2018-08-24 12:58:41,957] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00005c88] [2018-08-24 12:58:41,957] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00005c88] [2018-08-24 12:58:41,965] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:52627 )
+  INFO root [0x00005c88] [2018-08-24 12:58:41,965] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:52627, SOMAXCONN=5.
+  INFO root [0x00005c88] [2018-08-24 12:58:41,966] - server-configs:
+  INFO root [0x00005c88] [2018-08-24 12:58:41,966] - 	gameUpdateHertz : 100
+  INFO root [0x00005c88] [2018-08-24 12:58:41,966] - 	defaultViewRadius : 80
+  INFO root [0x00005c88] [2018-08-24 12:58:41,966] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005c88] [2018-08-24 12:58:41,967] - 	entryScriptFile : kbemain
+  INFO root [0x00005c88] [2018-08-24 12:58:41,967] - 	internalTcpAddr : 192.168.0.149:52627
+  INFO root [0x00005c88] [2018-08-24 12:58:41,967] - 	componentID : 8001
+  INFO root [0x00005c88] [2018-08-24 12:58:42,036] - Components::findLogger: found logger, addr:192.168.0.149:52593
+  INFO root [0x00005c88] [2018-08-24 12:58:42,037] - Components::addComponent: reset orderLog, uid=361!
+  INFO root [0x00005c88] [2018-08-24 12:58:42,037] - Components::addComponent[logger], uid=361, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005c88] [2018-08-24 12:58:42,045] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 361. PID: 21376 ----
+  INFO root [0x00005c88] [2018-08-24 12:58:42,046] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00005c88] [2018-08-24 12:58:42,046] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005c88] [2018-08-24 12:58:42,047] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,216] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,217] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,217] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,224] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,225] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,226] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,227] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,308] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005c88] [2018-08-24 12:58:42,390] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00005c88] [2018-08-24 12:58:42,390] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,480] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00005c88] [2018-08-24 12:58:42,498] - loaded entity-script:Room(3).
+  INFO root [0x00005c88] [2018-08-24 12:58:42,499] - TelnetServer server is running on port 50000
+  INFO root [0x00005c88] [2018-08-24 12:58:43,384] - ---- cellapp is running ----
+ DEBUG root [0x00005c88] [2018-08-24 12:58:43,385] - Components::process(): Request for the process of identity...
+  WARN root [0x00005c88] [2018-08-24 12:58:50,133] - Forwarding logs to logger[192.168.0.149:52593/0/0/0]...
+ ERROR root [0x00005c88] [2018-08-24 13:35:12,013] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00005c88] [2018-08-24 13:35:12,039] - The following logs sent to logger failed:
+  WARN root [0x00005c88] [2018-08-24 13:35:12,039] - ==> [2018-08-24 13:35:12 012] TCPPacketReceiver::processPendingEvents(192.168.0.149:52593): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005c88] [2018-08-24 13:35:12,040] - ==> [2018-08-24 13:35:12 014] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00005c88] [2018-08-24 13:35:12,040] - EntityApp::checkTickPeriod: tick took 330% (0.33 seconds)!
+  WARN root [0x00005c88] [2018-08-24 13:35:12,446] - TCPPacketReceiver::processPendingEvents(192.168.0.149:52602): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005c88] [2018-08-24 13:35:12,451] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00005c88] [2018-08-24 13:35:12,466] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005c88] [2018-08-24 13:35:12,490] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00005c88] [2018-08-24 13:35:12,491] - Room::onDestroy: 2003
+  INFO root [0x00005c88] [2018-08-24 13:35:12,493] - Spaces::destroySpace: 1.
+  INFO root [0x00005c88] [2018-08-24 13:35:12,494] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,494] - Room::~Room(): 2003
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,496] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,496] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,517] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,518] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,519] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005c88] [2018-08-24 13:35:12,538] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005c88] [2018-08-24 13:35:12,538] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005c88] [2018-08-24 13:35:12,839] - ThreadPool::destroy(): waiting for thread(2)[0x903c20,0x903bb8,], try=1
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,240] - TPThread::~TPThread(): 0x903c20
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,241] - TPThread::~TPThread(): 0x903bb8
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,241] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,241] - Bundle::destroyObjPool(): size 7.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,241] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,242] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,243] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,243] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,243] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,244] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00005c88] [2018-08-24 13:35:13,244] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00005c88] [2018-08-24 13:35:13,244] - cellapp(8001) has shut down.
+  INFO root [0x0000128c] [2018-08-24 14:49:45,944] - 
+  INFO root [0x0000128c] [2018-08-24 14:49:46,033] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000128c] [2018-08-24 14:49:46,064] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x0000128c] [2018-08-24 14:49:46,065] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x0000128c] [2018-08-24 14:49:46,065] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x0000128c] [2018-08-24 14:49:46,164] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:49173 )
+  INFO root [0x0000128c] [2018-08-24 14:49:46,182] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:49173, SOMAXCONN=5.
+  INFO root [0x0000128c] [2018-08-24 14:49:46,182] - server-configs:
+  INFO root [0x0000128c] [2018-08-24 14:49:46,183] - 	gameUpdateHertz : 100
+  INFO root [0x0000128c] [2018-08-24 14:49:46,194] - 	defaultViewRadius : 80
+  INFO root [0x0000128c] [2018-08-24 14:49:46,195] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000128c] [2018-08-24 14:49:46,195] - 	entryScriptFile : kbemain
+  INFO root [0x0000128c] [2018-08-24 14:49:46,195] - 	internalTcpAddr : 192.168.0.149:49173
+  INFO root [0x0000128c] [2018-08-24 14:49:46,196] - 	componentID : 8001
+  INFO root [0x0000128c] [2018-08-24 14:49:46,272] - Components::findLogger: found logger, addr:192.168.0.149:65463
+  INFO root [0x0000128c] [2018-08-24 14:49:46,274] - Components::addComponent: reset orderLog, uid=22110!
+  INFO root [0x0000128c] [2018-08-24 14:49:46,275] - Components::addComponent[logger], uid=22110, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000128c] [2018-08-24 14:49:46,349] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 22110. PID: 25044 ----
+  INFO root [0x0000128c] [2018-08-24 14:49:46,349] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x0000128c] [2018-08-24 14:49:46,355] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000128c] [2018-08-24 14:49:46,357] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,656] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,657] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,669] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,695] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,696] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,698] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,701] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000128c] [2018-08-24 14:49:46,796] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000128c] [2018-08-24 14:49:46,879] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x0000128c] [2018-08-24 14:49:46,880] - Script::install(): KBExtra is successfully!
+ ERROR root [0x0000128c] [2018-08-24 14:49:47,013] - EntityDef::initialize: Could not load EntityModule[Avatar]
+ S_ERR root [0x0000128c] [2018-08-24 14:49:47,016] -   File "G:/kbengine-2.2.0/Server/scripts/cell\Avatar.py", line 38
+    def sendHugeData(self.exposed,vec1,vec2,vec3,vec4,vec5,float1,float2,float3,float4,float5,int1,int2,int3,int4,int5):
+                         ^
+SyntaxError: invalid syntax
+ ERROR root [0x0000128c] [2018-08-24 14:49:47,036] - app::initialize(): initialization failed!
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,041] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,041] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,044] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,044] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,044] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,045] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,045] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,045] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,045] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,046] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000128c] [2018-08-24 14:49:47,068] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,069] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000128c] [2018-08-24 14:49:47,369] - ThreadPool::destroy(): waiting for thread(2)[0x6d3c40,0x6d3bd8,], try=1
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,769] - TPThread::~TPThread(): 0x6d3c40
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,769] - TPThread::~TPThread(): 0x6d3bd8
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,769] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,770] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,770] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,771] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,771] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,771] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,771] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,771] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000128c] [2018-08-24 14:49:47,772] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x0000128c] [2018-08-24 14:49:47,772] - Forwarding logs to logger[192.168.0.149:65463/0/0/0]...
+  INFO root [0x0000128c] [2018-08-24 14:49:54,314] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00006c70] [2018-08-24 14:53:27,885] - 
+  INFO root [0x00006c70] [2018-08-24 14:53:27,888] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00006c70] [2018-08-24 14:53:27,890] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00006c70] [2018-08-24 14:53:27,890] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00006c70] [2018-08-24 14:53:27,890] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00006c70] [2018-08-24 14:53:27,909] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:50146 )
+  INFO root [0x00006c70] [2018-08-24 14:53:27,910] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:50146, SOMAXCONN=5.
+  INFO root [0x00006c70] [2018-08-24 14:53:27,910] - server-configs:
+  INFO root [0x00006c70] [2018-08-24 14:53:27,910] - 	gameUpdateHertz : 100
+  INFO root [0x00006c70] [2018-08-24 14:53:27,911] - 	defaultViewRadius : 80
+  INFO root [0x00006c70] [2018-08-24 14:53:27,911] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00006c70] [2018-08-24 14:53:27,911] - 	entryScriptFile : kbemain
+  INFO root [0x00006c70] [2018-08-24 14:53:27,911] - 	internalTcpAddr : 192.168.0.149:50146
+  INFO root [0x00006c70] [2018-08-24 14:53:27,912] - 	componentID : 8001
+  INFO root [0x00006c70] [2018-08-24 14:53:29,425] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 22861. PID: 9544 ----
+  INFO root [0x00006c70] [2018-08-24 14:53:29,426] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00006c70] [2018-08-24 14:53:29,427] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00006c70] [2018-08-24 14:53:29,427] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,604] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,607] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,608] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,615] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,615] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,616] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,617] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,704] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006c70] [2018-08-24 14:53:29,785] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00006c70] [2018-08-24 14:53:29,785] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00006c70] [2018-08-24 14:53:29,871] - EntityDef::initialize: Could not load EntityModule[Avatar]
+ S_ERR root [0x00006c70] [2018-08-24 14:53:29,880] -   File "G:/kbengine-2.2.0/Server/scripts/cell\Avatar.py", line 38
+    def sendHugeData(self.exposed,vec1,vec2,vec3,vec4,vec5,float1,float2,float3,float4,float5,int1,int2,int3,int4,int5):
+                         ^
+SyntaxError: invalid syntax
+ ERROR root [0x00006c70] [2018-08-24 14:53:29,901] - app::initialize(): initialization failed!
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,905] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,906] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,908] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,908] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,908] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,909] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,909] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,909] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,909] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,910] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006c70] [2018-08-24 14:53:29,928] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006c70] [2018-08-24 14:53:29,929] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006c70] [2018-08-24 14:53:30,229] - ThreadPool::destroy(): waiting for thread(2)[0x1c83c40,0x1c83bd8,], try=1
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,630] - TPThread::~TPThread(): 0x1c83c40
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,630] - TPThread::~TPThread(): 0x1c83bd8
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,630] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,631] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,631] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,632] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,632] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,632] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,633] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,633] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00006c70] [2018-08-24 14:53:30,633] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00006c70] [2018-08-24 14:53:37,138] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x0000722c] [2018-08-24 14:57:40,993] - 
+  INFO root [0x0000722c] [2018-08-24 14:57:40,997] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000722c] [2018-08-24 14:57:40,998] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x0000722c] [2018-08-24 14:57:40,999] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x0000722c] [2018-08-24 14:57:40,999] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x0000722c] [2018-08-24 14:57:41,011] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:51299 )
+  INFO root [0x0000722c] [2018-08-24 14:57:41,012] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:51299, SOMAXCONN=5.
+  INFO root [0x0000722c] [2018-08-24 14:57:41,012] - server-configs:
+  INFO root [0x0000722c] [2018-08-24 14:57:41,013] - 	gameUpdateHertz : 100
+  INFO root [0x0000722c] [2018-08-24 14:57:41,013] - 	defaultViewRadius : 80
+  INFO root [0x0000722c] [2018-08-24 14:57:41,013] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000722c] [2018-08-24 14:57:41,013] - 	entryScriptFile : kbemain
+  INFO root [0x0000722c] [2018-08-24 14:57:41,014] - 	internalTcpAddr : 192.168.0.149:51299
+  INFO root [0x0000722c] [2018-08-24 14:57:41,014] - 	componentID : 8001
+  INFO root [0x0000722c] [2018-08-24 14:57:42,537] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 23697. PID: 4884 ----
+  INFO root [0x0000722c] [2018-08-24 14:57:42,539] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x0000722c] [2018-08-24 14:57:42,539] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000722c] [2018-08-24 14:57:42,540] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,729] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,730] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,731] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,739] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,740] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,740] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,743] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000722c] [2018-08-24 14:57:42,826] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000722c] [2018-08-24 14:57:42,903] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x0000722c] [2018-08-24 14:57:42,903] - Script::install(): KBExtra is successfully!
+ ERROR root [0x0000722c] [2018-08-24 14:57:43,021] - EntityDef::initialize: Could not load EntityModule[Avatar]
+ S_ERR root [0x0000722c] [2018-08-24 14:57:43,029] -   File "G:/kbengine-2.2.0/Server/scripts/cell\Avatar.py", line 38
+    def sendHugeData(self.exposed,vec1,vec2,vec3,vec4,vec5,float1,float2,float3,float4,float5,int1,int2,int3,int4,int5):
+                         ^
+SyntaxError: invalid syntax
+ ERROR root [0x0000722c] [2018-08-24 14:57:43,086] - app::initialize(): initialization failed!
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,103] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,104] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,106] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,106] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,107] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,107] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,107] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,107] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,108] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,108] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000722c] [2018-08-24 14:57:43,127] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,128] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000722c] [2018-08-24 14:57:43,428] - ThreadPool::destroy(): waiting for thread(2)[0x5a3c40,0x5a3bd8,], try=1
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,830] - TPThread::~TPThread(): 0x5a3c40
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,830] - TPThread::~TPThread(): 0x5a3bd8
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,830] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,831] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,831] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,831] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,832] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,832] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,832] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,832] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000722c] [2018-08-24 14:57:43,832] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x0000722c] [2018-08-24 14:57:50,333] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00002abc] [2018-08-24 14:58:06,921] - 
+  INFO root [0x00002abc] [2018-08-24 14:58:06,923] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002abc] [2018-08-24 14:58:06,924] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00002abc] [2018-08-24 14:58:06,924] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00002abc] [2018-08-24 14:58:06,925] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00002abc] [2018-08-24 14:58:06,934] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:51426 )
+  INFO root [0x00002abc] [2018-08-24 14:58:06,935] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:51426, SOMAXCONN=5.
+  INFO root [0x00002abc] [2018-08-24 14:58:06,935] - server-configs:
+  INFO root [0x00002abc] [2018-08-24 14:58:06,936] - 	gameUpdateHertz : 100
+  INFO root [0x00002abc] [2018-08-24 14:58:06,936] - 	defaultViewRadius : 80
+  INFO root [0x00002abc] [2018-08-24 14:58:06,936] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002abc] [2018-08-24 14:58:06,936] - 	entryScriptFile : kbemain
+  INFO root [0x00002abc] [2018-08-24 14:58:06,937] - 	internalTcpAddr : 192.168.0.149:51426
+  INFO root [0x00002abc] [2018-08-24 14:58:06,937] - 	componentID : 8001
+  WARN root [0x00002abc] [2018-08-24 14:58:07,399] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20620, errorno=10048
+  INFO root [0x00002abc] [2018-08-24 14:58:07,410] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 23778. PID: 23688 ----
+  INFO root [0x00002abc] [2018-08-24 14:58:07,414] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00002abc] [2018-08-24 14:58:07,426] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002abc] [2018-08-24 14:58:07,434] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,600] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,600] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,601] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,607] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,607] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,607] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,608] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,682] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002abc] [2018-08-24 14:58:07,752] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00002abc] [2018-08-24 14:58:07,752] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00002abc] [2018-08-24 14:58:07,825] - EntityDef::initialize: Could not load EntityModule[Avatar]
+ S_ERR root [0x00002abc] [2018-08-24 14:58:07,826] -   File "G:/kbengine-2.2.0/Server/scripts/cell\Avatar.py", line 38
+    def sendHugeData(self.exposed,vec1,vec2,vec3,vec4,vec5,float1,float2,float3,float4,float5,int1,int2,int3,int4,int5):
+                         ^
+SyntaxError: invalid syntax
+ ERROR root [0x00002abc] [2018-08-24 14:58:07,828] - app::initialize(): initialization failed!
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,829] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,829] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,832] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,834] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,835] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,835] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,835] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,835] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,836] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,836] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002abc] [2018-08-24 14:58:07,855] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002abc] [2018-08-24 14:58:07,856] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002abc] [2018-08-24 14:58:08,156] - ThreadPool::destroy(): waiting for thread(2)[0x853ca8,0x853c40,], try=1
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,561] - TPThread::~TPThread(): 0x853ca8
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,561] - TPThread::~TPThread(): 0x853c40
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,561] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,562] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,562] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,563] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,563] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,563] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,564] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,564] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00002abc] [2018-08-24 14:58:08,564] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00002abc] [2018-08-24 14:58:15,064] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00006c18] [2018-08-24 14:59:25,296] - 
+  INFO root [0x00006c18] [2018-08-24 14:59:25,306] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00006c18] [2018-08-24 14:59:25,307] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00006c18] [2018-08-24 14:59:25,308] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00006c18] [2018-08-24 14:59:25,308] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00006c18] [2018-08-24 14:59:25,334] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:51789 )
+  INFO root [0x00006c18] [2018-08-24 14:59:25,335] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:51789, SOMAXCONN=5.
+  INFO root [0x00006c18] [2018-08-24 14:59:25,335] - server-configs:
+  INFO root [0x00006c18] [2018-08-24 14:59:25,335] - 	gameUpdateHertz : 100
+  INFO root [0x00006c18] [2018-08-24 14:59:25,335] - 	defaultViewRadius : 80
+  INFO root [0x00006c18] [2018-08-24 14:59:25,336] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00006c18] [2018-08-24 14:59:25,336] - 	entryScriptFile : kbemain
+  INFO root [0x00006c18] [2018-08-24 14:59:25,336] - 	internalTcpAddr : 192.168.0.149:51789
+  INFO root [0x00006c18] [2018-08-24 14:59:25,336] - 	componentID : 8001
+  INFO root [0x00006c18] [2018-08-24 14:59:26,859] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 24036. PID: 10144 ----
+  INFO root [0x00006c18] [2018-08-24 14:59:26,862] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00006c18] [2018-08-24 14:59:26,862] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00006c18] [2018-08-24 14:59:26,863] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,047] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,048] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,049] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,056] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,057] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,057] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,058] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,131] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006c18] [2018-08-24 14:59:27,202] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00006c18] [2018-08-24 14:59:27,202] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00006c18] [2018-08-24 14:59:27,289] - EntityDef::checkDefMethod: class Avatar does not have method[sendPakeageData], defined in Avatar.def!
+ ERROR root [0x00006c18] [2018-08-24 14:59:27,298] - EntityDef::initialize: EntityClass[Avatar] checkDefMethod is failed!
+ ERROR root [0x00006c18] [2018-08-24 14:59:27,304] - app::initialize(): initialization failed!
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,313] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,313] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,315] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,316] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,316] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,316] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,316] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,316] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,317] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,317] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006c18] [2018-08-24 14:59:27,337] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006c18] [2018-08-24 14:59:27,337] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006c18] [2018-08-24 14:59:27,637] - ThreadPool::destroy(): waiting for thread(2)[0x693c40,0x693bd8,], try=1
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,043] - TPThread::~TPThread(): 0x693c40
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,044] - TPThread::~TPThread(): 0x693bd8
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,044] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,044] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,045] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,045] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,045] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,046] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,046] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,046] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00006c18] [2018-08-24 14:59:28,046] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00006c18] [2018-08-24 14:59:34,547] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00002c88] [2018-08-24 15:00:44,602] - 
+  INFO root [0x00002c88] [2018-08-24 15:00:44,605] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002c88] [2018-08-24 15:00:44,606] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00002c88] [2018-08-24 15:00:44,607] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00002c88] [2018-08-24 15:00:44,607] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00002c88] [2018-08-24 15:00:44,641] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:52178 )
+  INFO root [0x00002c88] [2018-08-24 15:00:44,642] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:52178, SOMAXCONN=5.
+  INFO root [0x00002c88] [2018-08-24 15:00:44,643] - server-configs:
+  INFO root [0x00002c88] [2018-08-24 15:00:44,643] - 	gameUpdateHertz : 100
+  INFO root [0x00002c88] [2018-08-24 15:00:44,643] - 	defaultViewRadius : 80
+  INFO root [0x00002c88] [2018-08-24 15:00:44,644] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002c88] [2018-08-24 15:00:44,644] - 	entryScriptFile : kbemain
+  INFO root [0x00002c88] [2018-08-24 15:00:44,644] - 	internalTcpAddr : 192.168.0.149:52178
+  INFO root [0x00002c88] [2018-08-24 15:00:44,644] - 	componentID : 8001
+  INFO root [0x00002c88] [2018-08-24 15:00:46,185] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 24291. PID: 15932 ----
+  INFO root [0x00002c88] [2018-08-24 15:00:46,187] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00002c88] [2018-08-24 15:00:46,188] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002c88] [2018-08-24 15:00:46,189] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,401] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,402] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,403] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,411] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,412] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,412] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,414] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,496] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002c88] [2018-08-24 15:00:46,586] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00002c88] [2018-08-24 15:00:46,586] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,693] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00002c88] [2018-08-24 15:00:46,723] - loaded entity-script:Room(3).
+  INFO root [0x00002c88] [2018-08-24 15:00:46,724] - TelnetServer server is running on port 50000
+  INFO root [0x00002c88] [2018-08-24 15:00:47,773] - ---- cellapp is running ----
+ DEBUG root [0x00002c88] [2018-08-24 15:00:47,775] - Components::process(): Request for the process of identity...
+  WARN root [0x00002c88] [2018-08-24 15:00:54,846] - EntityApp::checkTickPeriod: tick took 70710% (70.71 seconds)!
+  WARN root [0x00002c88] [2018-08-24 15:00:54,863] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.02 seconds
+  INFO root [0x00002c88] [2018-08-24 15:00:55,864] - Components::findComponents: find logger(1)...
+  INFO root [0x00002c88] [2018-08-24 15:00:55,898] - Components::findComponents: found logger, addr:192.168.0.149:52170
+  INFO root [0x00002c88] [2018-08-24 15:00:55,898] - Components::addComponent: reset orderLog, uid=24291!
+  INFO root [0x00002c88] [2018-08-24 15:00:55,899] - Components::addComponent[logger], uid=24291, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002c88] [2018-08-24 15:00:55,901] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00002c88] [2018-08-24 15:00:56,007] - Components::findComponents: found dbmgr, addr:192.168.0.149:52172
+  INFO root [0x00002c88] [2018-08-24 15:00:56,008] - Components::addComponent: reset orderLog, uid=24291!
+  INFO root [0x00002c88] [2018-08-24 15:00:56,008] - Components::addComponent[dbmgr], uid=24291, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002c88] [2018-08-24 15:00:56,010] - Components::findComponents: found dbmgr, addr:192.168.0.149:52172
+  WARN root [0x00002c88] [2018-08-24 15:00:57,010] - EntityApp::checkTickPeriod: tick took 11560% (11.56 seconds)!
+  WARN root [0x00002c88] [2018-08-24 15:00:57,012] - Forwarding logs to logger[192.168.0.149:52170/0/0/0]...
+ ERROR root [0x00002c88] [2018-08-24 16:05:38,559] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00002c88] [2018-08-24 16:05:38,574] - The following logs sent to logger failed:
+  WARN root [0x00002c88] [2018-08-24 16:05:38,590] - ==> [2018-08-24 16:05:38 558] TCPPacketReceiver::processPendingEvents(192.168.0.149:52170): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002c88] [2018-08-24 16:05:38,591] - ==> [2018-08-24 16:05:38 560] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00002c88] [2018-08-24 16:05:38,591] - EntityApp::checkTickPeriod: tick took 550% (0.55 seconds)!
+  WARN root [0x00002c88] [2018-08-24 16:05:38,914] - TCPPacketReceiver::processPendingEvents(192.168.0.149:52172): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002c88] [2018-08-24 16:05:38,919] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00002c88] [2018-08-24 16:05:38,950] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002c88] [2018-08-24 16:05:38,951] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00002c88] [2018-08-24 16:05:38,974] - Room::onDestroy: 2003
+  WARN root [0x00002c88] [2018-08-24 16:05:38,975] - g:\kbengine-2.2.0\kbe\src\server\cellapp\entity.cpp:205: Profile scriptCall took 0.02 seconds
+  INFO root [0x00002c88] [2018-08-24 16:05:38,976] - Spaces::destroySpace: 1.
+  INFO root [0x00002c88] [2018-08-24 16:05:38,976] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,121] - Room::~Room(): 2003
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,158] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,158] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,288] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,288] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,289] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,289] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,289] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,290] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,291] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,293] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002c88] [2018-08-24 16:05:39,357] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002c88] [2018-08-24 16:05:39,357] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002c88] [2018-08-24 16:05:39,669] - ThreadPool::destroy(): waiting for thread(2)[0x823c40,0x823bd8,], try=1
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,070] - TPThread::~TPThread(): 0x823c40
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,070] - TPThread::~TPThread(): 0x823bd8
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,071] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,071] - Bundle::destroyObjPool(): size 6.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,072] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,072] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,072] - UDPPacket::destroyObjPool(): size 13.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,073] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,073] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,073] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00002c88] [2018-08-24 16:05:40,074] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00002c88] [2018-08-24 16:05:40,074] - cellapp(8001) has shut down.
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,555] - 
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,556] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,595] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,595] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,595] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,601] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:54365 )
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,602] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:54365, SOMAXCONN=5.
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,602] - server-configs:
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,602] - 	gameUpdateHertz : 100
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,602] - 	defaultViewRadius : 80
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,602] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,603] - 	entryScriptFile : kbemain
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,603] - 	internalTcpAddr : 192.168.0.149:54365
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,603] - 	componentID : 8001
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,692] - Components::findLogger: found logger, addr:192.168.0.149:54312
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,692] - Components::addComponent: reset orderLog, uid=6581!
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,693] - Components::addComponent[logger], uid=6581, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,702] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 6581. PID: 23176 ----
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,703] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,704] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005ae8] [2018-08-24 16:17:48,704] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,078] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,113] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,128] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,138] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,139] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,139] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,141] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,201] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005ae8] [2018-08-24 16:17:49,273] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00005ae8] [2018-08-24 16:17:49,273] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,360] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:49,390] - loaded entity-script:Room(3).
+  INFO root [0x00005ae8] [2018-08-24 16:17:49,391] - TelnetServer server is running on port 50000
+  INFO root [0x00005ae8] [2018-08-24 16:17:50,094] - ---- cellapp is running ----
+ DEBUG root [0x00005ae8] [2018-08-24 16:17:50,096] - Components::process(): Request for the process of identity...
+  WARN root [0x00005ae8] [2018-08-24 16:17:56,839] - Forwarding logs to logger[192.168.0.149:54312/0/0/0]...
+ ERROR root [0x00005ae8] [2018-08-24 17:36:44,844] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00005ae8] [2018-08-24 17:36:44,845] - The following logs sent to logger failed:
+  WARN root [0x00005ae8] [2018-08-24 17:36:46,292] - ==> [2018-08-24 17:36:44 844] TCPPacketReceiver::processPendingEvents(192.168.0.149:54312): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005ae8] [2018-08-24 17:36:46,293] - ==> [2018-08-24 17:36:44 845] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00005ae8] [2018-08-24 17:36:46,294] - EntityApp::checkTickPeriod: tick took 29680% (29.68 seconds)!
+  WARN root [0x00005ae8] [2018-08-24 17:36:46,388] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.09 seconds
+  WARN root [0x00005ae8] [2018-08-24 17:36:46,389] - TCPPacketReceiver::processPendingEvents(192.168.0.149:54325): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005ae8] [2018-08-24 17:36:46,389] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00005ae8] [2018-08-24 17:36:47,246] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005ae8] [2018-08-24 17:36:47,246] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00005ae8] [2018-08-24 17:36:47,311] - Room::onDestroy: 3
+  WARN root [0x00005ae8] [2018-08-24 17:36:47,314] - g:\kbengine-2.2.0\kbe\src\server\cellapp\entity.cpp:205: Profile scriptCall took 0.07 seconds
+ S_DBG root [0x00005ae8] [2018-08-24 17:36:47,314] - Avatar::onDestroy: 2.
+  INFO root [0x00005ae8] [2018-08-24 17:36:47,318] - Spaces::destroySpace: 1.
+  INFO root [0x00005ae8] [2018-08-24 17:36:47,318] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:49,701] - Room::~Room(): 3
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:49,702] - Avatar::~Avatar(): 2
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:51,221] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:51,222] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,820] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,821] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,822] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,822] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,822] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,822] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,822] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:52,823] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005ae8] [2018-08-24 17:36:54,163] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:54,164] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005ae8] [2018-08-24 17:36:55,867] - ThreadPool::destroy(): waiting for thread(2)[0x723c28,0x723bc0,], try=1
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,268] - TPThread::~TPThread(): 0x723c28
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,268] - TPThread::~TPThread(): 0x723bc0
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,269] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,269] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,270] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,270] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,270] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,271] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,271] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,271] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00005ae8] [2018-08-24 17:36:56,271] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00005ae8] [2018-08-24 17:36:56,272] - cellapp(8001) has shut down.
+  INFO root [0x00005ae8] [2018-08-24 17:36:57,308] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000072cc] [2018-08-24 17:38:00,644] - 
+  INFO root [0x000072cc] [2018-08-24 17:38:00,645] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000072cc] [2018-08-24 17:38:00,674] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x000072cc] [2018-08-24 17:38:00,674] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x000072cc] [2018-08-24 17:38:00,675] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x000072cc] [2018-08-24 17:38:00,682] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:58208 )
+  INFO root [0x000072cc] [2018-08-24 17:38:00,682] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:58208, SOMAXCONN=5.
+  INFO root [0x000072cc] [2018-08-24 17:38:00,682] - server-configs:
+  INFO root [0x000072cc] [2018-08-24 17:38:00,683] - 	gameUpdateHertz : 100
+  INFO root [0x000072cc] [2018-08-24 17:38:00,683] - 	defaultViewRadius : 80
+  INFO root [0x000072cc] [2018-08-24 17:38:00,683] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000072cc] [2018-08-24 17:38:00,683] - 	entryScriptFile : kbemain
+  INFO root [0x000072cc] [2018-08-24 17:38:00,684] - 	internalTcpAddr : 192.168.0.149:58208
+  INFO root [0x000072cc] [2018-08-24 17:38:00,684] - 	componentID : 8001
+  INFO root [0x000072cc] [2018-08-24 17:38:01,696] - Components::findLogger: found logger, addr:192.168.0.149:58119
+  INFO root [0x000072cc] [2018-08-24 17:38:01,696] - Components::addComponent: reset orderLog, uid=22193!
+  INFO root [0x000072cc] [2018-08-24 17:38:01,697] - Components::addComponent[logger], uid=22193, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000072cc] [2018-08-24 17:38:01,706] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 22193. PID: 21260 ----
+  INFO root [0x000072cc] [2018-08-24 17:38:01,707] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x000072cc] [2018-08-24 17:38:01,707] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000072cc] [2018-08-24 17:38:01,707] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,396] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,404] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,444] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,469] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,470] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,470] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000072cc] [2018-08-24 17:38:11,472] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000072cc] [2018-08-24 17:38:13,101] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000072cc] [2018-08-24 17:38:14,165] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x000072cc] [2018-08-24 17:38:14,165] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000072cc] [2018-08-24 17:38:14,317] - loaded entity-script:Avatar(1).
+ DEBUG root [0x000072cc] [2018-08-24 17:38:14,378] - loaded entity-script:Room(3).
+  INFO root [0x000072cc] [2018-08-24 17:38:14,378] - TelnetServer server is running on port 50000
+  INFO root [0x000072cc] [2018-08-24 17:38:15,293] - ---- cellapp is running ----
+ DEBUG root [0x000072cc] [2018-08-24 17:38:15,294] - Components::process(): Request for the process of identity...
+  WARN root [0x000072cc] [2018-08-24 17:38:21,885] - Forwarding logs to logger[192.168.0.149:58119/0/0/0]...
+ ERROR root [0x000072cc] [2018-08-24 17:39:05,480] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x000072cc] [2018-08-24 17:39:05,489] - The following logs sent to logger failed:
+  WARN root [0x000072cc] [2018-08-24 17:39:05,490] - ==> [2018-08-24 17:39:05 480] TCPPacketReceiver::processPendingEvents(192.168.0.149:58119): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000072cc] [2018-08-24 17:39:05,490] - ==> [2018-08-24 17:39:05 481] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x000072cc] [2018-08-24 17:39:06,483] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+  INFO root [0x00003fec] [2018-08-24 17:39:18,584] - 
+  INFO root [0x00003fec] [2018-08-24 17:39:18,588] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003fec] [2018-08-24 17:39:18,590] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00003fec] [2018-08-24 17:39:18,590] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00003fec] [2018-08-24 17:39:18,590] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00003fec] [2018-08-24 17:39:18,605] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:58603 )
+  INFO root [0x00003fec] [2018-08-24 17:39:18,605] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:58603, SOMAXCONN=5.
+  INFO root [0x00003fec] [2018-08-24 17:39:18,606] - server-configs:
+  INFO root [0x00003fec] [2018-08-24 17:39:18,606] - 	gameUpdateHertz : 100
+  INFO root [0x00003fec] [2018-08-24 17:39:18,606] - 	defaultViewRadius : 80
+  INFO root [0x00003fec] [2018-08-24 17:39:18,606] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003fec] [2018-08-24 17:39:18,607] - 	entryScriptFile : kbemain
+  INFO root [0x00003fec] [2018-08-24 17:39:18,607] - 	internalTcpAddr : 192.168.0.149:58603
+  INFO root [0x00003fec] [2018-08-24 17:39:18,607] - 	componentID : 8001
+  WARN root [0x00003fec] [2018-08-24 17:39:18,927] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20880, errorno=10048
+  INFO root [0x00003fec] [2018-08-24 17:39:18,969] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 22595. PID: 18476 ----
+  INFO root [0x00003fec] [2018-08-24 17:39:18,970] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00003fec] [2018-08-24 17:39:18,970] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003fec] [2018-08-24 17:39:18,971] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,170] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,171] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,172] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,181] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,182] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,183] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,184] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,265] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003fec] [2018-08-24 17:39:19,333] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00003fec] [2018-08-24 17:39:19,333] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,393] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00003fec] [2018-08-24 17:39:19,413] - loaded entity-script:Room(3).
+  INFO root [0x00003fec] [2018-08-24 17:39:19,414] - TelnetServer server is running on port 50000
+  INFO root [0x00003fec] [2018-08-24 17:39:20,312] - ---- cellapp is running ----
+ DEBUG root [0x00003fec] [2018-08-24 17:39:20,313] - Components::process(): Request for the process of identity...
+  WARN root [0x00003fec] [2018-08-24 17:39:24,972] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20878, errorno=10048
+  WARN root [0x00003fec] [2018-08-24 17:39:28,049] - EntityApp::checkTickPeriod: tick took 77360% (77.36 seconds)!
+  WARN root [0x00003fec] [2018-08-24 17:39:28,069] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.02 seconds
+  INFO root [0x00003fec] [2018-08-24 17:39:29,074] - Components::findComponents: find logger(1)...
+  INFO root [0x00003fec] [2018-08-24 17:39:29,114] - Components::findComponents: found logger, addr:192.168.0.149:58599
+  INFO root [0x00003fec] [2018-08-24 17:39:29,115] - Components::addComponent: reset orderLog, uid=22595!
+  INFO root [0x00003fec] [2018-08-24 17:39:29,115] - Components::addComponent[logger], uid=22595, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003fec] [2018-08-24 17:39:29,118] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003fec] [2018-08-24 17:39:29,120] - Components::findComponents: found logger, addr:192.168.0.149:58599
+  INFO root [0x00003fec] [2018-08-24 17:39:29,225] - Components::findComponents: found dbmgr, addr:192.168.0.149:58600
+  INFO root [0x00003fec] [2018-08-24 17:39:29,226] - Components::addComponent: reset orderLog, uid=22595!
+  INFO root [0x00003fec] [2018-08-24 17:39:29,226] - Components::addComponent[dbmgr], uid=22595, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003fec] [2018-08-24 17:39:29,229] - Components::findComponents: found dbmgr, addr:192.168.0.149:58600
+  WARN root [0x00003fec] [2018-08-24 17:39:30,229] - EntityApp::checkTickPeriod: tick took 11650% (11.65 seconds)!
+  WARN root [0x00003fec] [2018-08-24 17:39:30,230] - Forwarding logs to logger[192.168.0.149:58599/0/0/0]...
+ ERROR root [0x00003fec] [2018-08-24 18:14:52,268] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00003fec] [2018-08-24 18:14:52,271] - The following logs sent to logger failed:
+  WARN root [0x00003fec] [2018-08-24 18:14:52,357] - ==> [2018-08-24 18:14:52 266] TCPPacketReceiver::processPendingEvents(192.168.0.149:58599): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003fec] [2018-08-24 18:14:52,358] - ==> [2018-08-24 18:14:52 269] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00003fec] [2018-08-24 18:14:52,358] - EntityApp::checkTickPeriod: tick took 920% (0.92 seconds)!
+  WARN root [0x00003fec] [2018-08-24 18:14:52,561] - TCPPacketReceiver::processPendingEvents(192.168.0.149:58600): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003fec] [2018-08-24 18:14:52,567] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00003fec] [2018-08-24 18:14:52,617] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003fec] [2018-08-24 18:14:52,617] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00003fec] [2018-08-24 18:14:52,617] - Room::onDestroy: 2003
+  INFO root [0x00003fec] [2018-08-24 18:14:52,620] - Spaces::destroySpace: 1.
+  INFO root [0x00003fec] [2018-08-24 18:14:52,620] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,654] - Room::~Room(): 2003
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,674] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,675] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,722] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,723] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,723] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,723] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,723] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,724] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,724] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,724] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003fec] [2018-08-24 18:14:52,798] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003fec] [2018-08-24 18:14:52,798] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003fec] [2018-08-24 18:14:53,111] - ThreadPool::destroy(): waiting for thread(2)[0x733ca8,0x733c40,], try=1
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,511] - TPThread::~TPThread(): 0x733ca8
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,511] - TPThread::~TPThread(): 0x733c40
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,511] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,512] - Bundle::destroyObjPool(): size 7.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,512] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,512] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,513] - UDPPacket::destroyObjPool(): size 13.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,513] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,513] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,513] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003fec] [2018-08-24 18:14:53,513] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00003fec] [2018-08-24 18:14:53,514] - cellapp(8001) has shut down.
+  INFO root [0x00003294] [2018-08-24 18:21:37,524] - 
+  INFO root [0x00003294] [2018-08-24 18:21:37,524] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003294] [2018-08-24 18:21:37,525] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00003294] [2018-08-24 18:21:37,525] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00003294] [2018-08-24 18:21:37,526] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00003294] [2018-08-24 18:21:37,531] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:53285 )
+  INFO root [0x00003294] [2018-08-24 18:21:37,532] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:53285, SOMAXCONN=5.
+  INFO root [0x00003294] [2018-08-24 18:21:37,532] - server-configs:
+  INFO root [0x00003294] [2018-08-24 18:21:37,532] - 	gameUpdateHertz : 100
+  INFO root [0x00003294] [2018-08-24 18:21:37,532] - 	defaultViewRadius : 80
+  INFO root [0x00003294] [2018-08-24 18:21:37,533] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003294] [2018-08-24 18:21:37,533] - 	entryScriptFile : kbemain
+  INFO root [0x00003294] [2018-08-24 18:21:37,533] - 	internalTcpAddr : 192.168.0.149:53285
+  INFO root [0x00003294] [2018-08-24 18:21:37,533] - 	componentID : 8001
+  INFO root [0x00003294] [2018-08-24 18:21:37,565] - Components::findLogger: found logger, addr:192.168.0.149:53268
+  INFO root [0x00003294] [2018-08-24 18:21:37,566] - Components::addComponent: reset orderLog, uid=30876!
+  INFO root [0x00003294] [2018-08-24 18:21:37,566] - Components::addComponent[logger], uid=30876, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003294] [2018-08-24 18:21:37,575] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 30876. PID: 20940 ----
+  INFO root [0x00003294] [2018-08-24 18:21:37,576] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00003294] [2018-08-24 18:21:37,576] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003294] [2018-08-24 18:21:37,577] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,733] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,734] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,734] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,738] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,739] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,739] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,740] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,788] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003294] [2018-08-24 18:21:37,841] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00003294] [2018-08-24 18:21:37,841] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,915] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00003294] [2018-08-24 18:21:37,929] - loaded entity-script:Room(3).
+  INFO root [0x00003294] [2018-08-24 18:21:37,929] - TelnetServer server is running on port 50000
+  INFO root [0x00003294] [2018-08-24 18:21:38,494] - ---- cellapp is running ----
+ DEBUG root [0x00003294] [2018-08-24 18:21:38,495] - Components::process(): Request for the process of identity...
+  WARN root [0x00003294] [2018-08-24 18:21:44,630] - Forwarding logs to logger[192.168.0.149:53268/0/0/0]...
+ ERROR root [0x00003294] [2018-08-24 18:31:05,782] - 192.168.0.149:53281: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00003294] [2018-08-24 18:33:43,474] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00003294] [2018-08-24 18:33:43,476] - The following logs sent to logger failed:
+  WARN root [0x00003294] [2018-08-24 18:33:45,042] - ==> [2018-08-24 18:33:43 474] TCPPacketReceiver::processPendingEvents(192.168.0.149:53268): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003294] [2018-08-24 18:33:45,043] - ==> [2018-08-24 18:33:43 474] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00003294] [2018-08-24 18:33:45,223] - EntityApp::checkTickPeriod: tick took 17960% (17.96 seconds)!
+  WARN root [0x00003294] [2018-08-24 18:33:45,251] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.03 seconds
+  WARN root [0x00003294] [2018-08-24 18:33:49,558] - TCPPacketReceiver::processPendingEvents(192.168.0.149:53269): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003294] [2018-08-24 18:33:49,561] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00003294] [2018-08-24 18:33:50,626] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003294] [2018-08-24 18:33:50,627] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00003294] [2018-08-24 18:33:50,933] - Room::onDestroy: 2003
+  WARN root [0x00003294] [2018-08-24 18:33:50,935] - g:\kbengine-2.2.0\kbe\src\server\cellapp\entity.cpp:205: Profile scriptCall took 0.31 seconds
+  INFO root [0x00003294] [2018-08-24 18:33:50,935] - Spaces::destroySpace: 1.
+  INFO root [0x00003294] [2018-08-24 18:33:50,935] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003294] [2018-08-24 18:33:57,483] - Room::~Room(): 2003
+ DEBUG root [0x00003294] [2018-08-24 18:33:58,062] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003294] [2018-08-24 18:33:58,062] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,528] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,529] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,529] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,529] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,530] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,530] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,530] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003294] [2018-08-24 18:34:03,530] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003294] [2018-08-24 18:34:04,304] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003294] [2018-08-24 18:34:04,304] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00004ee4] [2018-08-24 18:35:09,823] - 
+  INFO root [0x00004ee4] [2018-08-24 18:35:11,333] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,209] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,210] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,210] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,215] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:55544 )
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:55544, SOMAXCONN=5.
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - server-configs:
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - 	gameUpdateHertz : 100
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - 	defaultViewRadius : 80
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - 	entryScriptFile : kbemain
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,216] - 	internalTcpAddr : 192.168.0.149:55544
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,217] - 	componentID : 8001
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,538] - Components::findLogger: found logger, addr:192.168.0.149:55392
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,538] - Components::addComponent: reset orderLog, uid=600!
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,538] - Components::addComponent[logger], uid=600, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,548] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 600. PID: 8420 ----
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,548] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,549] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004ee4] [2018-08-24 18:35:13,549] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:19,543] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:21,063] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:22,578] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:24,097] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:24,098] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:24,098] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:24,099] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:25,728] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00004ee4] [2018-08-24 18:35:27,679] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00004ee4] [2018-08-24 18:35:27,680] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:29,368] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:33,736] - loaded entity-script:Room(3).
+  INFO root [0x00004ee4] [2018-08-24 18:35:33,737] - TelnetServer server is running on port 50000
+  INFO root [0x00004ee4] [2018-08-24 18:35:34,209] - ---- cellapp is running ----
+ DEBUG root [0x00004ee4] [2018-08-24 18:35:34,209] - Components::process(): Request for the process of identity...
+  WARN root [0x00004ee4] [2018-08-24 18:35:40,390] - Forwarding logs to logger[192.168.0.149:55392/0/0/0]...
+ ERROR root [0x00004ee4] [2018-08-24 18:38:58,455] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,468] - The following logs sent to logger failed:
+  WARN root [0x00004ee4] [2018-08-24 18:38:58,469] - ==> [2018-08-24 18:38:58 453] TCPPacketReceiver::processPendingEvents(192.168.0.149:55392): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00004ee4] [2018-08-24 18:38:58,469] - ==> [2018-08-24 18:38:58 456] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00004ee4] [2018-08-24 18:38:58,469] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+  WARN root [0x00004ee4] [2018-08-24 18:38:58,678] - TCPPacketReceiver::processPendingEvents(192.168.0.149:55462): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00004ee4] [2018-08-24 18:38:58,679] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,681] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,682] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00004ee4] [2018-08-24 18:38:58,682] - Room::onDestroy: 2003
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,683] - Spaces::destroySpace: 1.
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,683] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,684] - Room::~Room(): 2003
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,684] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,684] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,707] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,707] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,707] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,708] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,708] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,708] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,708] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,709] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00004ee4] [2018-08-24 18:38:58,725] - Script::uninstall(): is successfully!
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:58,725] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00004ee4] [2018-08-24 18:38:59,025] - ThreadPool::destroy(): waiting for thread(2)[0x555318,0x5552b0,], try=1
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,425] - TPThread::~TPThread(): 0x555318
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,425] - TPThread::~TPThread(): 0x5552b0
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,425] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,425] - Bundle::destroyObjPool(): size 23.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,426] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,426] - TCPPacket::destroyObjPool(): size 22.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,426] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,427] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,427] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,427] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00004ee4] [2018-08-24 18:38:59,427] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00004ee4] [2018-08-24 18:38:59,427] - cellapp(8001) has shut down.
+  INFO root [0x00006070] [2018-08-24 18:43:06,494] - 
+  INFO root [0x00006070] [2018-08-24 18:43:06,495] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00006070] [2018-08-24 18:43:06,496] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00006070] [2018-08-24 18:43:06,497] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00006070] [2018-08-24 18:43:06,497] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00006070] [2018-08-24 18:43:06,504] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:57285 )
+  INFO root [0x00006070] [2018-08-24 18:43:06,505] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:57285, SOMAXCONN=5.
+  INFO root [0x00006070] [2018-08-24 18:43:06,505] - server-configs:
+  INFO root [0x00006070] [2018-08-24 18:43:06,505] - 	gameUpdateHertz : 100
+  INFO root [0x00006070] [2018-08-24 18:43:06,505] - 	defaultViewRadius : 80
+  INFO root [0x00006070] [2018-08-24 18:43:06,506] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00006070] [2018-08-24 18:43:06,506] - 	entryScriptFile : kbemain
+  INFO root [0x00006070] [2018-08-24 18:43:06,506] - 	internalTcpAddr : 192.168.0.149:57285
+  INFO root [0x00006070] [2018-08-24 18:43:06,506] - 	componentID : 8001
+  INFO root [0x00006070] [2018-08-24 18:43:08,017] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 2334. PID: 2928 ----
+  INFO root [0x00006070] [2018-08-24 18:43:08,018] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00006070] [2018-08-24 18:43:08,019] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00006070] [2018-08-24 18:43:08,020] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,199] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,200] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,201] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,209] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,210] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,210] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,212] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,284] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006070] [2018-08-24 18:43:08,350] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00006070] [2018-08-24 18:43:08,350] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,450] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00006070] [2018-08-24 18:43:08,465] - loaded entity-script:Room(3).
+  INFO root [0x00006070] [2018-08-24 18:43:08,465] - TelnetServer server is running on port 50000
+  INFO root [0x00006070] [2018-08-24 18:43:09,053] - ---- cellapp is running ----
+ DEBUG root [0x00006070] [2018-08-24 18:43:09,054] - Components::process(): Request for the process of identity...
+  WARN root [0x00006070] [2018-08-24 18:43:15,202] - EntityApp::checkTickPeriod: tick took 61490% (61.49 seconds)!
+  WARN root [0x00006070] [2018-08-24 18:43:15,214] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.01 seconds
+  INFO root [0x00006070] [2018-08-24 18:43:16,223] - Components::findComponents: find logger(1)...
+  INFO root [0x00006070] [2018-08-24 18:43:16,238] - Components::findComponents: found logger, addr:192.168.0.149:57280
+  INFO root [0x00006070] [2018-08-24 18:43:16,239] - Components::addComponent: reset orderLog, uid=2334!
+  INFO root [0x00006070] [2018-08-24 18:43:16,239] - Components::addComponent[logger], uid=2334, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00006070] [2018-08-24 18:43:16,240] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00006070] [2018-08-24 18:43:16,341] - Components::findComponents: found dbmgr, addr:192.168.0.149:57281
+  INFO root [0x00006070] [2018-08-24 18:43:16,342] - Components::addComponent: reset orderLog, uid=2334!
+  INFO root [0x00006070] [2018-08-24 18:43:16,342] - Components::addComponent[dbmgr], uid=2334, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00006070] [2018-08-24 18:43:16,343] - Components::findComponents: found dbmgr, addr:192.168.0.149:57281
+  WARN root [0x00006070] [2018-08-24 18:43:17,344] - EntityApp::checkTickPeriod: tick took 11300% (11.30 seconds)!
+  WARN root [0x00006070] [2018-08-24 18:43:17,345] - Forwarding logs to logger[192.168.0.149:57280/0/0/0]...
+ ERROR root [0x00006070] [2018-08-24 18:51:29,481] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00006070] [2018-08-24 18:51:29,483] - The following logs sent to logger failed:
+  WARN root [0x00006070] [2018-08-24 18:51:29,483] - ==> [2018-08-24 18:51:29 475] TCPPacketReceiver::processPendingEvents(192.168.0.149:57280): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006070] [2018-08-24 18:51:29,484] - ==> [2018-08-24 18:51:29 482] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00006070] [2018-08-24 18:51:29,642] - TCPPacketReceiver::processPendingEvents(192.168.0.149:57281): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006070] [2018-08-24 18:51:29,644] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00006070] [2018-08-24 18:51:29,647] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00006070] [2018-08-24 18:51:29,647] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00006070] [2018-08-24 18:51:29,647] - Room::onDestroy: 3
+ S_DBG root [0x00006070] [2018-08-24 18:51:29,648] - Avatar::onDestroy: 2.
+  INFO root [0x00006070] [2018-08-24 18:51:29,649] - Spaces::destroySpace: 1.
+  INFO root [0x00006070] [2018-08-24 18:51:29,649] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,650] - Room::~Room(): 3
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,650] - Avatar::~Avatar(): 2
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,650] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,651] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,665] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,666] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,666] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,666] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,667] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,667] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,667] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,667] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006070] [2018-08-24 18:51:29,681] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006070] [2018-08-24 18:51:29,681] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006070] [2018-08-24 18:51:29,981] - ThreadPool::destroy(): waiting for thread(2)[0x1e56238,0x1e561d0,], try=1
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,613] - 
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,614] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,616] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,616] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,617] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,626] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:60263 )
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,627] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:60263, SOMAXCONN=5.
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,628] - server-configs:
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,628] - 	gameUpdateHertz : 100
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,629] - 	defaultViewRadius : 80
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,629] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,630] - 	entryScriptFile : kbemain
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,630] - 	internalTcpAddr : 192.168.0.149:60263
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,630] - 	componentID : 8001
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,717] - Components::findLogger: found logger, addr:192.168.0.149:60251
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,718] - Components::addComponent: reset orderLog, uid=5404!
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,718] - Components::addComponent[logger], uid=5404, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,730] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 5404. PID: 18296 ----
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,731] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,731] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005d6c] [2018-08-24 18:58:47,732] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,940] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,941] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,942] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,950] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,951] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,951] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:47,952] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:48,084] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005d6c] [2018-08-24 18:58:48,205] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00005d6c] [2018-08-24 18:58:48,205] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:48,315] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:48,335] - loaded entity-script:Room(3).
+  INFO root [0x00005d6c] [2018-08-24 18:58:48,336] - TelnetServer server is running on port 50000
+  INFO root [0x00005d6c] [2018-08-24 18:58:49,444] - ---- cellapp is running ----
+ DEBUG root [0x00005d6c] [2018-08-24 18:58:49,445] - Components::process(): Request for the process of identity...
+  WARN root [0x00005d6c] [2018-08-24 18:58:55,651] - Forwarding logs to logger[192.168.0.149:60251/0/0/0]...
+ ERROR root [0x00005d6c] [2018-08-24 19:01:30,575] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00005d6c] [2018-08-24 19:01:30,578] - The following logs sent to logger failed:
+  WARN root [0x00005d6c] [2018-08-24 19:01:30,578] - ==> [2018-08-24 19:01:30 571] TCPPacketReceiver::processPendingEvents(192.168.0.149:60251): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005d6c] [2018-08-24 19:01:30,579] - ==> [2018-08-24 19:01:30 576] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00005d6c] [2018-08-24 19:01:30,756] - TCPPacketReceiver::processPendingEvents(192.168.0.149:60252): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005d6c] [2018-08-24 19:01:30,758] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00005d6c] [2018-08-24 19:01:30,762] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005d6c] [2018-08-24 19:01:30,766] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00005d6c] [2018-08-24 19:01:30,767] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,767] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,767] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,789] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,789] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,789] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,789] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,789] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,790] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,790] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,790] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00005d6c] [2018-08-24 19:01:30,808] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005d6c] [2018-08-24 19:01:30,808] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005d6c] [2018-08-24 19:01:31,108] - ThreadPool::destroy(): waiting for thread(2)[0x8150e8,0x815080,], try=1
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,116] - 
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,130] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,147] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,148] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,148] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,173] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:62110 )
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,174] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:62110, SOMAXCONN=5.
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,174] - server-configs:
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,174] - 	gameUpdateHertz : 100
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,175] - 	defaultViewRadius : 80
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,175] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,175] - 	entryScriptFile : kbemain
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,176] - 	internalTcpAddr : 192.168.0.149:62110
+  INFO root [0x00004a4c] [2018-08-24 19:08:21,176] - 	componentID : 8001
+  INFO root [0x00004a4c] [2018-08-24 19:08:22,689] - ---- cellapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 810D2732DDBE3D44569EBB3F7F92FF77. Config: Debug X86. Built: 18:13:23 Aug 17 2018. AppID: 8001. UID: 7278. PID: 24252 ----
+  INFO root [0x00004a4c] [2018-08-24 19:08:22,690] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [0x00004a4c] [2018-08-24 19:08:22,692] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004a4c] [2018-08-24 19:08:22,692] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,912] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,914] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,930] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,939] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,939] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,940] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:22,972] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:23,076] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00004a4c] [2018-08-24 19:08:23,208] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+  INFO root [0x00004a4c] [2018-08-24 19:08:23,208] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:23,360] - loaded entity-script:Avatar(1).
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:23,410] - loaded entity-script:Room(3).
+  INFO root [0x00004a4c] [2018-08-24 19:08:23,411] - TelnetServer server is running on port 50000
+  INFO root [0x00004a4c] [2018-08-24 19:08:24,441] - ---- cellapp is running ----
+ DEBUG root [0x00004a4c] [2018-08-24 19:08:24,442] - Components::process(): Request for the process of identity...
+  WARN root [0x00004a4c] [2018-08-24 19:08:30,676] - EntityApp::checkTickPeriod: tick took 62350% (62.35 seconds)!
+  WARN root [0x00004a4c] [2018-08-24 19:08:30,691] - g:\kbengine-2.2.0\kbe\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.02 seconds
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,701] - Components::findComponents: find logger(1)...
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,730] - Components::findComponents: found logger, addr:192.168.0.149:62103
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,730] - Components::addComponent: reset orderLog, uid=7278!
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,731] - Components::addComponent[logger], uid=7278, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,735] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,836] - Components::findComponents: found dbmgr, addr:192.168.0.149:62104
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,836] - Components::addComponent: reset orderLog, uid=7278!
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,837] - Components::addComponent[dbmgr], uid=7278, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004a4c] [2018-08-24 19:08:31,838] - Components::findComponents: found dbmgr, addr:192.168.0.149:62104
+  WARN root [0x00004a4c] [2018-08-24 19:08:32,838] - EntityApp::checkTickPeriod: tick took 11470% (11.47 seconds)!
+  WARN root [0x00004a4c] [2018-08-24 19:08:32,839] - Forwarding logs to logger[192.168.0.149:62103/0/0/0]...

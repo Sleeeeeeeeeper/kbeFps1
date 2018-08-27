@@ -1,0 +1,88 @@
+  INFO root [2018-08-27 09:40:30,391] - 
+  INFO root [2018-08-27 09:40:30,392] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-27 09:40:30,393] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-27 09:40:30,393] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-27 09:40:30,393] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-27 09:40:30,397] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:63301 )
+  INFO root [2018-08-27 09:40:30,397] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:63301, SOMAXCONN=5.
+  INFO root [2018-08-27 09:40:30,397] - server-configs:
+  INFO root [2018-08-27 09:40:30,397] - 	internalTcpAddr : 192.168.0.149:63301
+  INFO root [2018-08-27 09:40:30,397] - 	componentID : 6000
+  INFO root [2018-08-27 09:40:30,484] - Components::findLogger: found logger, addr:192.168.0.149:63283
+  INFO root [2018-08-27 09:40:30,484] - Components::addComponent: reset orderLog, uid=21474!
+  INFO root [2018-08-27 09:40:30,484] - Components::addComponent[logger], uid=21474, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-27 09:40:30,489] - ---- cellappmgr Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 7743AAA1EB37FBAE72D2427E7CF2EF51. Config: Debug X86. Built: 18:10:46 Aug 17 2018. AppID: 6000. UID: 21474. PID: 4728 ----
+  INFO root [2018-08-27 09:40:30,489] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-27 09:40:30,489] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-27 09:40:30,490] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-27 09:40:30,797] - ---- cellappmgr is running ----
+ DEBUG root [2018-08-27 09:40:30,798] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-27 09:40:36,892] - Forwarding logs to logger[192.168.0.149:63283/0/0/0]...
+ ERROR root [2018-08-27 10:06:14,806] - BundleBroadcast::receive: failed! It can be caused by the firewall, the broadcastaddr, etc.Maybe broadcastaddr is not a LAN ADDR, or the Machine process is not running.
+ ERROR root [2018-08-27 10:06:14,807] - Components::findComponents: receive error!
+ ERROR root [2018-08-27 10:07:42,865] - BundleBroadcast::receive: failed! It can be caused by the firewall, the broadcastaddr, etc.Maybe broadcastaddr is not a LAN ADDR, or the Machine process is not running.
+ ERROR root [2018-08-27 10:07:42,866] - Components::findComponents: receive error!
+ ERROR root [2018-08-27 10:08:02,773] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-27 10:08:02,774] - The following logs sent to logger failed:
+  WARN root [2018-08-27 10:08:02,775] - ==> [2018-08-27 10:08:02 762] TCPPacketReceiver::processPendingEvents(192.168.0.149:63283): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-27 10:08:02,775] - ==> [2018-08-27 10:08:02 774] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-27 10:08:03,063] - Components::findComponents: find dbmgr(796)...
+delay time is too long, please check the dbmgr logs!
+  INFO root [2018-08-27 10:48:51,205] - 
+  INFO root [2018-08-27 10:48:51,206] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-27 10:48:51,207] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-27 10:48:51,208] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-27 10:48:51,208] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-27 10:48:51,214] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:60637 )
+  INFO root [2018-08-27 10:48:51,215] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:60637, SOMAXCONN=5.
+  INFO root [2018-08-27 10:48:51,215] - server-configs:
+  INFO root [2018-08-27 10:48:51,215] - 	internalTcpAddr : 192.168.0.149:60637
+  INFO root [2018-08-27 10:48:51,215] - 	componentID : 6000
+  INFO root [2018-08-27 10:48:51,391] - Components::findLogger: found logger, addr:192.168.0.149:60630
+  INFO root [2018-08-27 10:48:51,391] - Components::addComponent: reset orderLog, uid=2183!
+  INFO root [2018-08-27 10:48:51,391] - Components::addComponent[logger], uid=2183, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-27 10:48:51,400] - ---- cellappmgr Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 7743AAA1EB37FBAE72D2427E7CF2EF51. Config: Debug X86. Built: 18:10:46 Aug 17 2018. AppID: 6000. UID: 2183. PID: 16144 ----
+  INFO root [2018-08-27 10:48:51,401] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-27 10:48:51,401] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-27 10:48:51,402] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-27 10:48:52,223] - ---- cellappmgr is running ----
+ DEBUG root [2018-08-27 10:48:52,226] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-27 10:48:58,540] - Forwarding logs to logger[192.168.0.149:60630/0/0/0]...
+ ERROR root [2018-08-27 10:49:37,716] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-27 10:49:37,723] - The following logs sent to logger failed:
+  WARN root [2018-08-27 10:49:37,724] - ==> [2018-08-27 10:49:37 715] TCPPacketReceiver::processPendingEvents(192.168.0.149:60630): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-27 10:49:37,724] - ==> [2018-08-27 10:49:37 717] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-27 10:49:48,985] - 
+  INFO root [2018-08-27 10:49:48,986] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-27 10:49:48,987] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-27 10:49:48,987] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-27 10:49:48,988] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-27 10:49:48,997] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:60833 )
+  INFO root [2018-08-27 10:49:48,998] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:60833, SOMAXCONN=5.
+  INFO root [2018-08-27 10:49:48,998] - server-configs:
+  INFO root [2018-08-27 10:49:48,998] - 	internalTcpAddr : 192.168.0.149:60833
+  INFO root [2018-08-27 10:49:48,998] - 	componentID : 6000
+  INFO root [2018-08-27 10:49:50,510] - ---- cellappmgr Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 7743AAA1EB37FBAE72D2427E7CF2EF51. Config: Debug X86. Built: 18:10:46 Aug 17 2018. AppID: 6000. UID: 2372. PID: 9348 ----
+  INFO root [2018-08-27 10:49:50,511] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-27 10:49:50,512] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-27 10:49:50,512] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-08-27 10:49:51,560] - ---- cellappmgr is running ----
+ DEBUG root [2018-08-27 10:49:51,563] - Components::process(): Request for the process of identity...
+  INFO root [2018-08-27 10:49:58,838] - Components::findComponents: find logger(1)...
+  WARN root [2018-08-27 10:49:59,148] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20565, errorno=10048
+  INFO root [2018-08-27 10:50:00,158] - Components::findComponents: find logger(2)...
+  INFO root [2018-08-27 10:50:00,163] - Components::findComponents: found logger, addr:192.168.0.149:60830
+  INFO root [2018-08-27 10:50:00,164] - Components::addComponent: reset orderLog, uid=2372!
+  INFO root [2018-08-27 10:50:00,164] - Components::addComponent[logger], uid=2372, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-27 10:50:00,165] - Components::findComponents: find dbmgr(3)...
+  INFO root [2018-08-27 10:50:00,266] - Components::findComponents: found dbmgr, addr:192.168.0.149:60832
+  INFO root [2018-08-27 10:50:00,266] - Components::addComponent: reset orderLog, uid=2372!
+  INFO root [2018-08-27 10:50:00,266] - Components::addComponent[dbmgr], uid=2372, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-27 10:50:00,266] - Components::findComponents: found dbmgr, addr:192.168.0.149:60832
+  WARN root [2018-08-27 10:50:01,267] - Forwarding logs to logger[192.168.0.149:60830/0/0/0]...

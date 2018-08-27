@@ -1,0 +1,70 @@
+  INFO root [2018-08-23 11:45:14,250] - 
+  INFO root [2018-08-23 11:45:14,251] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-23 11:45:14,378] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-23 11:45:14,378] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-23 11:45:14,379] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-23 11:45:14,396] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:30099 )
+  INFO root [2018-08-23 11:45:14,396] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:30099, SOMAXCONN=5.
+  INFO root [2018-08-23 11:45:14,445] - ---- interfaces Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 02AFC29E4F5C607C91FFC8D093B53B8B. Config: Debug X86. Built: 18:10:44 Aug 17 2018. AppID: 3000. UID: 31510. PID: 29188 ----
+  INFO root [2018-08-23 11:45:14,446] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-23 11:45:14,447] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-23 11:45:14,448] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-23 11:45:14,684] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 11:45:14,685] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 11:45:14,686] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 11:45:14,696] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 11:45:14,696] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 11:45:14,697] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 11:45:14,698] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 11:45:14,776] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-23 11:45:15,070] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-23 11:45:15,070] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-23 11:45:15,113] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-23 11:45:15,139] - TelnetServer server is running on port 33000
+  INFO root [2018-08-23 11:45:15,960] - ---- interfaces is running ----
+ DEBUG root [2018-08-23 11:45:15,961] - Components::process(): Request for the process of identity...
+  INFO root [2018-08-23 11:45:24,081] - Components::process(): Found all the components!
+S_INFO root [2018-08-23 11:46:10,731] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 11:50:32,697] - onRequestAccountLogin: registerName=12
+S_INFO root [2018-08-23 12:04:43,740] - onRequestAccountLogin: registerName=123
+  WARN root [2018-08-23 14:45:22,609] - TCPPacketReceiver::processPendingEvents(127.0.0.1:64177): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2018-08-23 18:17:50,021] - 
+  INFO root [2018-08-23 18:17:50,032] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-23 18:17:50,213] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+  INFO root [2018-08-23 18:17:50,213] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+  INFO root [2018-08-23 18:17:50,213] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+  INFO root [2018-08-23 18:17:50,243] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:30099 )
+  INFO root [2018-08-23 18:17:50,264] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:30099, SOMAXCONN=5.
+  INFO root [2018-08-23 18:17:50,279] - ---- interfaces Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: 02AFC29E4F5C607C91FFC8D093B53B8B. Config: Debug X86. Built: 18:10:44 Aug 17 2018. AppID: 3000. UID: 10123. PID: 29288 ----
+  INFO root [2018-08-23 18:17:50,280] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+  INFO root [2018-08-23 18:17:50,281] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-23 18:17:50,282] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-23 18:17:50,638] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-23 18:17:50,705] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-23 18:17:50,713] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-23 18:17:50,743] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-23 18:17:50,743] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-23 18:17:50,744] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-23 18:17:50,744] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-23 18:17:51,466] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-23 18:17:52,003] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:10:35) [MSC v.1914 32 bit (Intel)])!
+  INFO root [2018-08-23 18:17:52,004] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-23 18:17:52,123] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-23 18:17:52,139] - TelnetServer server is running on port 33000
+  INFO root [2018-08-23 18:17:52,602] - ---- interfaces is running ----
+ DEBUG root [2018-08-23 18:17:52,603] - Components::process(): Request for the process of identity...
+  INFO root [2018-08-23 18:18:01,537] - Components::process(): Found all the components!
+S_INFO root [2018-08-23 18:20:11,835] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 18:22:37,744] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 18:28:38,914] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:08:33,630] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:11:05,676] - onRequestAccountLogin: registerName=hashvr
+S_INFO root [2018-08-23 20:16:38,425] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:16:54,574] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:16:56,383] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:16:56,635] - onRequestAccountLogin: registerName=123
+S_INFO root [2018-08-23 20:16:56,848] - onRequestAccountLogin: registerName=123

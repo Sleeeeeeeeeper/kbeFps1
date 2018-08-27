@@ -1,0 +1,88 @@
+  INFO root [0x0000be60] [2018-08-08 18:38:14,800] - 
+  INFO root [0x0000be60] [2018-08-08 18:38:14,801] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000be60] [2018-08-08 18:38:14,803] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [0x0000be60] [2018-08-08 18:38:14,803] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/assets/;D:/KBE/kbengine-2.2.0/assets/scripts/;D:/KBE/kbengine-2.2.0/assets/res/
+  INFO root [0x0000be60] [2018-08-08 18:38:14,804] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x0000be60] [2018-08-08 18:38:14,834] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:20015 )
+  INFO root [0x0000be60] [2018-08-08 18:38:14,835] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.108:20015, SOMAXCONN=128.
+  INFO root [0x0000be60] [2018-08-08 18:38:14,842] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:20005 )
+  INFO root [0x0000be60] [2018-08-08 18:38:14,842] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.108:20005, SOMAXCONN=128.
+  INFO root [0x0000be60] [2018-08-08 18:38:14,849] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:62418 )
+  INFO root [0x0000be60] [2018-08-08 18:38:14,850] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.108:62418, SOMAXCONN=128.
+  INFO root [0x0000be60] [2018-08-08 18:38:14,850] - server-configs:
+  INFO root [0x0000be60] [2018-08-08 18:38:14,850] - 	gameUpdateHertz : 10
+  INFO root [0x0000be60] [2018-08-08 18:38:14,851] - 	entryScriptFile : kbemain
+  INFO root [0x0000be60] [2018-08-08 18:38:14,851] - 	internalTcpAddr : 192.168.0.108:62418
+  INFO root [0x0000be60] [2018-08-08 18:38:14,851] - 	externalTcpAddr : 192.168.0.108:20015
+  INFO root [0x0000be60] [2018-08-08 18:38:14,851] - 	externalUdpAddr : 192.168.0.108:20005
+  INFO root [0x0000be60] [2018-08-08 18:38:14,851] - 	componentID : 7001
+  INFO root [0x0000be60] [2018-08-08 18:38:16,302] - Components::findLogger: found logger, addr:192.168.0.108:62411
+  INFO root [0x0000be60] [2018-08-08 18:38:16,303] - Components::addComponent: reset orderLog, uid=9028!
+  INFO root [0x0000be60] [2018-08-08 18:38:16,303] - Components::addComponent[logger], uid=9028, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000be60] [2018-08-08 18:38:16,317] - ---- baseapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: F6C8C4533272CAB65CD82BAD1F1DF776. Config: Debug X86. Built: 18:35:22 Aug  8 2018. AppID: 7001. UID: 9028. PID: 59128 ----
+  INFO root [0x0000be60] [2018-08-08 18:38:16,319] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [0x0000be60] [2018-08-08 18:38:16,320] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000be60] [2018-08-08 18:38:16,321] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,550] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,551] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,552] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,560] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,560] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,561] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,562] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,671] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000be60] [2018-08-08 18:38:16,788] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x0000be60] [2018-08-08 18:38:16,788] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000be60] [2018-08-08 18:38:16,841] - loaded entity-script:Account(1).
+  INFO root [0x0000be60] [2018-08-08 18:38:16,841] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x0000be60] [2018-08-08 18:38:16,842] - TelnetServer server is running on port 40000
+  INFO root [0x0000be60] [2018-08-08 18:38:17,715] - ---- baseapp is running ----
+ DEBUG root [0x0000be60] [2018-08-08 18:38:17,716] - Components::process(): Request for the process of identity...
+  WARN root [0x0000be60] [2018-08-08 18:38:23,974] - Forwarding logs to logger[192.168.0.108:62411/0/0/0]...
+ ERROR root [0x0000be60] [2018-08-08 18:38:50,718] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit! errorno=10054
+  INFO root [0x0000be60] [2018-08-08 18:38:54,452] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [0x000101bc] [2018-08-08 19:46:54,947] - 
+  INFO root [0x000101bc] [2018-08-08 19:46:54,949] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000101bc] [2018-08-08 19:46:54,951] - Resmgr::initialize: KBE_ROOT=D:/KBE/kbengine-2.2.0/
+  INFO root [0x000101bc] [2018-08-08 19:46:54,951] - Resmgr::initialize: KBE_RES_PATH=D:/KBE/kbengine-2.2.0/kbe/res/;D:/KBE/kbengine-2.2.0/assets/;D:/KBE/kbengine-2.2.0/assets/scripts/;D:/KBE/kbengine-2.2.0/assets/res/
+  INFO root [0x000101bc] [2018-08-08 19:46:54,951] - Resmgr::initialize: KBE_BIN_PATH=D:/KBE/kbengine-2.2.0/kbe/bin/server/
+  INFO root [0x000101bc] [2018-08-08 19:46:54,973] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:20015 )
+  INFO root [0x000101bc] [2018-08-08 19:46:54,974] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.108:20015, SOMAXCONN=128.
+  INFO root [0x000101bc] [2018-08-08 19:46:54,978] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:20005 )
+  INFO root [0x000101bc] [2018-08-08 19:46:54,978] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.108:20005, SOMAXCONN=128.
+  INFO root [0x000101bc] [2018-08-08 19:46:54,984] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.108 ( 192.168.0.108:63659 )
+  INFO root [0x000101bc] [2018-08-08 19:46:54,984] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.108:63659, SOMAXCONN=128.
+  INFO root [0x000101bc] [2018-08-08 19:46:54,984] - server-configs:
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	gameUpdateHertz : 10
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	entryScriptFile : kbemain
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	internalTcpAddr : 192.168.0.108:63659
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	externalTcpAddr : 192.168.0.108:20015
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	externalUdpAddr : 192.168.0.108:20005
+  INFO root [0x000101bc] [2018-08-08 19:46:54,985] - 	componentID : 7001
+  INFO root [0x000101bc] [2018-08-08 19:46:55,819] - Components::findLogger: found logger, addr:192.168.0.108:63653
+  INFO root [0x000101bc] [2018-08-08 19:46:55,819] - Components::addComponent: reset orderLog, uid=22485!
+  INFO root [0x000101bc] [2018-08-08 19:46:55,820] - Components::addComponent[logger], uid=22485, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000101bc] [2018-08-08 19:46:55,833] - ---- baseapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: F6C8C4533272CAB65CD82BAD1F1DF776. Config: Debug X86. Built: 18:35:22 Aug  8 2018. AppID: 7001. UID: 22485. PID: 64784 ----
+  INFO root [0x000101bc] [2018-08-08 19:46:55,834] - Server : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz with 4194303kB RAM
+  INFO root [0x000101bc] [2018-08-08 19:46:55,834] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000101bc] [2018-08-08 19:46:55,835] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,004] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,006] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,006] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,014] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,014] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,014] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,016] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,102] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000101bc] [2018-08-08 19:46:56,176] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  8 2018, 18:34:46) [MSC v.1913 32 bit (Intel)])!
+  INFO root [0x000101bc] [2018-08-08 19:46:56,177] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,192] - loaded entity-script:Account(1).
+  INFO root [0x000101bc] [2018-08-08 19:46:56,192] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000101bc] [2018-08-08 19:46:56,192] - TelnetServer server is running on port 40000
+  INFO root [0x000101bc] [2018-08-08 19:46:56,688] - ---- baseapp is running ----
+ DEBUG root [0x000101bc] [2018-08-08 19:46:56,688] - Components::process(): Request for the process of identity...
+  WARN root [0x000101bc] [2018-08-08 19:47:02,959] - Forwarding logs to logger[192.168.0.108:63653/0/0/0]...

@@ -1,0 +1,352 @@
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 125] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 126] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 126] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 127] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 144] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:20015 )
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 147] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.149:20015, SOMAXCONN=128.
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 153] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:20005 )
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 153] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.149:20005, SOMAXCONN=128.
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 159] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:64185 )
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 160] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:64185, SOMAXCONN=128.
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 160] - server-configs:
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 161] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 161] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 161] - 	internalTcpAddr : 192.168.0.149:64185
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 162] - 	externalTcpAddr : 192.168.0.149:20015
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 162] - 	externalUdpAddr : 192.168.0.149:20005
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 162] - 	componentID : 7001
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 870] - Components::findLogger: found logger, addr:192.168.0.149:64156
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 871] - Components::addComponent: reset orderLog, uid=31510!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 871] - Components::addComponent[logger], uid=31510, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 883] - ---- baseapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: F6C8C4533272CAB65CD82BAD1F1DF776. Config: Debug X86. Built: 18:12:16 Aug 17 2018. AppID: 7001. UID: 31510. PID: 25684 ----
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 888] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 889] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:20 890] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 077] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 078] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 079] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 090] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 091] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 091] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 093] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 194] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:21 296] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:21 296] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 421] - loaded entity-script:Avatar(1).
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 562] - loaded entity-script:Halls(2).
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:21 598] - loaded entity-script:Room(3).
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:21 598] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:21 599] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:22 564] - ---- baseapp is running ----
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:22 570] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 31510 7001  [2018-08-23 11:45:29 369] - EntityApp::checkTickPeriod: tick took 6806% (6.81 seconds)!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:30 435] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:30 541] - Components::findComponents: found dbmgr, addr:192.168.0.149:64166
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:30 542] - Components::addComponent: reset orderLog, uid=31510!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:30 542] - Components::addComponent[dbmgr], uid=31510, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:30 555] - Components::findComponents: found dbmgr, addr:192.168.0.149:64166
+ WARNING    baseapp-1 31510 7001  [2018-08-23 11:45:31 555] - EntityApp::checkTickPeriod: tick took 1191% (1.19 seconds)!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:32 563] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:32 667] - Components::findComponents: found baseappmgr, addr:192.168.0.149:64169
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:32 667] - Components::addComponent[baseappmgr], uid=31510, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:32 669] - Components::findComponents: found baseappmgr, addr:192.168.0.149:64169
+ WARNING    baseapp-1 31510 7001  [2018-08-23 11:45:33 669] - EntityApp::checkTickPeriod: tick took 1206% (1.21 seconds)!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:34 735] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:34 785] - Components::findComponents: found cellappmgr, addr:192.168.0.149:64175
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:34 786] - Components::addComponent[cellappmgr], uid=31510, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:34 788] - Components::findComponents: found cellappmgr, addr:192.168.0.149:64175
+ WARNING    baseapp-1 31510 7001  [2018-08-23 11:45:35 789] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:36 864] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 31510 7001  [2018-08-23 11:45:36 868] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:36 935] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:36 965] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:37 035] - Components::process(): Found all the components!
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:39 259] - ServerApp::onRegisterNewApp: uid:31510, username:, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.0.149, intport:64201, extaddr:nonsupport, extport:0,  from 192.168.0.149:64166/0/0/0.
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:39 259] - Components::addComponent[cellapp], uid=31510, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 31510 7001  [2018-08-23 11:45:42 276] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=194B255DEC77303F428FD992787FDA30.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:45:42 276] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:45:42 589] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20234, errorno=10048
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:45:43 519] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20291, errorno=10048
+  S_INFO    baseapp01 31510 7001  [2018-08-23 11:45:44 131] - onInit::isReload:0
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:45:44 131] - g:\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.86 seconds
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:45:44 132] - EntityApp::checkTickPeriod: tick took 1869% (1.87 seconds)!
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:45:44 263] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 31510 7001  [2018-08-23 11:45:44 335] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+    INFO    baseapp01 31510 7001  [2018-08-23 11:45:44 338] - EntityApp::createEntity: new Halls 1
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:45:44 366] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:46:10 777] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:46:10 809] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:64449/0/0/0
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:46:10 811] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:64449/0/0/0
+    INFO    baseapp01 31510 7001  [2018-08-23 11:46:10 825] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:64449/0/0/0].
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:46:10 836] - PendingLoginMgr::remove: 123, size=0.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:46:10 836] - EntityApp::createEntity: new Avatar 2
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:46:10 838] - Halls::enterRoom: space 6592757490642255873 creating..., enter entityID=2
+    INFO    baseapp01 31510 7001  [2018-08-23 11:46:10 838] - Baseapp::onQueryAccountCBFromDbmgr: user=123, uuid=6592757490642255872, entityID=2, flags=0, deadline=0.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:46:10 840] - EntityApp::createEntity: new Room 3
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:46:10 846] - Room::onGetCell: 3
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:46:10 847] - onGlobalData: Room_1
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:46:10 855] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:64201.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:48:10 783] - ServerApp::onChannelTimeOut: Channel 192.168.0.149:64449/0/0/0 timed out.
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:48:10 784] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:48:10 784] - Avatar[2].onClientDeath:
+    INFO    baseapp01 31510 7001  [2018-08-23 11:48:10 789] - Baseapp::onBackupEntityCellData: Avatar(2), 61 bytes.
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:50:32 747] - PendingLoginMgr::add: 12, size=1.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:50:32 779] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:49256/0/0/0
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:50:32 780] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:49256/0/0/0
+    INFO    baseapp01 31510 7001  [2018-08-23 11:50:32 794] - Baseapp::loginBaseapp: new user[12], channel[192.168.0.149:49256/0/0/0].
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:50:32 824] - PendingLoginMgr::remove: 12, size=0.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:50:32 826] - EntityApp::createEntity: new Avatar 4
+    INFO    baseapp01 31510 7001  [2018-08-23 11:50:32 831] - Baseapp::onQueryAccountCBFromDbmgr: user=12, uuid=6592758615923687424, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:50:32 832] - Avatar::onGetCell: Cell id:4, utype:1, component=cellapp[8001], addr: 192.168.0.149:64201.
+ WARNING    baseapp01 31510 7001  [2018-08-23 11:51:21 831] - TCPPacketReceiver::processPendingEvents(192.168.0.149:49256): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 31510 7001  [2018-08-23 11:51:21 833] - Avatar::onClientDeath: 4.
+   S_DBG    baseapp01 31510 7001  [2018-08-23 11:51:21 834] - Avatar[4].onClientDeath:
+    INFO    baseapp01 31510 7001  [2018-08-23 11:51:21 836] - Baseapp::onBackupEntityCellData: Avatar(4), 61 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:53:24 653] - Baseapp::onBackupEntityCellData: Room(3), 45 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 11:59:39 647] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+   DEBUG    baseapp01 31510 7001  [2018-08-23 12:04:43 810] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 842] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:53098/0/0/0
+ WARNING    baseapp01 31510 7001  [2018-08-23 12:04:43 844] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:53098/0/0/0
+    INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 869] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:53098/0/0/0].
+    INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 869] - Baseapp::loginBaseapp: user[123] has entity(2).
+  S_INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 930] - 192.168.0.149
+  S_INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 930] - 53098
+  S_INFO    baseapp01 31510 7001  [2018-08-23 12:04:43 930] - 123
+   S_DBG    baseapp01 31510 7001  [2018-08-23 12:04:43 941] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:64201.
+   DEBUG    baseapp01 31510 7001  [2018-08-23 12:04:44 616] - PendingLoginMgr::process: [123] is timeout, currsize=0.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:05:22 556] - Baseapp::onBackupEntityCellData: Avatar(2), 61 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:05:22 556] - Baseapp::onCellWriteToDBCompleted: Avatar(2).
+ WARNING    baseapp01 31510 7001  [2018-08-23 12:06:06 127] - TCPPacketReceiver::processPendingEvents(192.168.0.149:53098): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 31510 7001  [2018-08-23 12:06:06 129] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 31510 7001  [2018-08-23 12:06:06 129] - Avatar[2].onClientDeath:
+    INFO    baseapp01 31510 7001  [2018-08-23 12:06:06 131] - Baseapp::onBackupEntityCellData: Avatar(2), 61 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:12:09 627] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:18:24 616] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:28:49 602] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:32:59 595] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:39:14 587] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:51:44 651] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 12:57:59 558] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:10:29 541] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:16:44 531] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:27:09 515] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:31:19 508] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:43:49 392] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:47:59 385] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 13:58:24 369] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:04:39 361] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:12:59 352] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:21:19 336] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:29:39 325] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:37:59 310] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 31510 7001  [2018-08-23 14:44:14 302] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 136] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 177] - Resmgr::initialize: KBE_ROOT=G:/kbengine-2.2.0/
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 177] - Resmgr::initialize: KBE_RES_PATH=G:/kbengine-2.2.0/kbe/res/;G:/kbengine-2.2.0/Server/;G:/kbengine-2.2.0/Server/scripts/;G:/kbengine-2.2.0/Server/res/
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 177] - Resmgr::initialize: KBE_BIN_PATH=G:/kbengine-2.2.0/kbe/bin/server/
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 218] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:20015 )
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 223] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.0.149:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 226] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:20005 )
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 226] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.0.149:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 228] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.0.149 ( 192.168.0.149:52119 )
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 229] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.0.149:52119, SOMAXCONN=128.
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 229] - server-configs:
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 230] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 230] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 230] - 	internalTcpAddr : 192.168.0.149:52119
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 230] - 	externalTcpAddr : 192.168.0.149:20015
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 230] - 	externalUdpAddr : 192.168.0.149:20005
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 231] - 	componentID : 7001
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 878] - Components::findLogger: found logger, addr:192.168.0.149:52067
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 878] - Components::addComponent: reset orderLog, uid=10123!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 879] - Components::addComponent[logger], uid=10123, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 916] - ---- baseapp Version: 2.2.0. ScriptVersion: 0.1.0. Protocol: F6C8C4533272CAB65CD82BAD1F1DF776. Config: Debug X86. Built: 18:12:16 Aug 17 2018. AppID: 7001. UID: 10123. PID: 16524 ----
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 916] - Server : Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz with 4194303kB RAM
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 923] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:01 929] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 334] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 366] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 374] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 602] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 603] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 603] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 604] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 689] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:02 817] - Script::install(): is successfully, Python=(3.4.2 (default, Aug 17 2018, 18:11:37) [MSC v.1914 32 bit (Intel)])!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:02 817] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:02 915] - loaded entity-script:Avatar(1).
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:03 013] - loaded entity-script:Halls(2).
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:03 061] - loaded entity-script:Room(3).
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:03 061] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:03 061] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:03 602] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:03 603] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10123 7001  [2018-08-23 18:18:10 057] - EntityApp::checkTickPeriod: tick took 6454% (6.45 seconds)!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:11 103] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:11 137] - Components::findComponents: found dbmgr, addr:192.168.0.149:52103
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:11 137] - Components::addComponent: reset orderLog, uid=10123!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:11 137] - Components::addComponent[dbmgr], uid=10123, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:11 138] - Components::findComponents: found dbmgr, addr:192.168.0.149:52103
+ WARNING    baseapp-1 10123 7001  [2018-08-23 18:18:12 138] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:13 203] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:13 243] - Components::findComponents: found baseappmgr, addr:192.168.0.149:52093
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:13 243] - Components::addComponent[baseappmgr], uid=10123, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:13 245] - Components::findComponents: found baseappmgr, addr:192.168.0.149:52093
+ WARNING    baseapp-1 10123 7001  [2018-08-23 18:18:14 245] - EntityApp::checkTickPeriod: tick took 1142% (1.14 seconds)!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:15 303] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:15 396] - Components::findComponents: found cellappmgr, addr:192.168.0.149:52108
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:15 396] - Components::addComponent[cellappmgr], uid=10123, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:15 398] - Components::findComponents: found cellappmgr, addr:192.168.0.149:52108
+ WARNING    baseapp-1 10123 7001  [2018-08-23 18:18:16 398] - EntityApp::checkTickPeriod: tick took 1195% (1.20 seconds)!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:17 412] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10123 7001  [2018-08-23 18:18:17 413] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:17 502] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:17 512] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:17 603] - Components::process(): Found all the components!
+    INFO    baseapp-1 10123 7001  [2018-08-23 18:18:20 426] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=42DFF01205145EFBB8D53BFF8C285F5F.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:18:20 426] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:18:21 630] - onInit::isReload:0
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:18:21 630] - g:\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 1.20 seconds
+    INFO    baseapp01 10123 7001  [2018-08-23 18:18:21 631] - ServerApp::onRegisterNewApp: uid:10123, username:, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.0.149, intport:52171, extaddr:nonsupport, extport:0,  from 192.168.0.149:52103/0/0/0.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:18:21 631] - Components::addComponent[cellapp], uid=10123, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:18:21 632] - EntityApp::checkTickPeriod: tick took 1229% (1.23 seconds)!
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:18:21 802] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:18:21 811] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+    INFO    baseapp01 10123 7001  [2018-08-23 18:18:21 812] - EntityApp::createEntity: new Halls 1
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:18:21 903] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:20:11 866] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:11 899] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:52747/0/0/0
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:20:11 899] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:52747/0/0/0
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:11 912] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:52747/0/0/0].
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:20:11 924] - PendingLoginMgr::remove: 123, size=0.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:11 925] - EntityApp::createEntity: new Avatar 2
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:20:11 926] - Halls::enterRoom: space 6592859027964100609 creating..., enter entityID=2
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:11 927] - Baseapp::onQueryAccountCBFromDbmgr: user=123, uuid=6592859027964100608, entityID=2, flags=0, deadline=0.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:11 928] - EntityApp::createEntity: new Room 3
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:20:11 932] - onGlobalData: Room_1
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:20:11 932] - Room::onGetCell: 3
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:20:11 935] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:52171.
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:20:40 593] - TCPPacketReceiver::processPendingEvents(192.168.0.149:52747): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:20:40 596] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:20:40 596] - Avatar[2].onClientDeath:
+    INFO    baseapp01 10123 7001  [2018-08-23 18:20:40 599] - Baseapp::onBackupEntityCellData: Avatar(2), 430 bytes.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:22:37 761] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 783] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:53400/0/0/0
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:22:37 784] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:53400/0/0/0
+    INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 795] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:53400/0/0/0].
+    INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 795] - Baseapp::loginBaseapp: user[123] has entity(2).
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 795] - 192.168.0.149
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 795] - 53400
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:22:37 795] - 123
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:22:37 798] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:52171.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:22:38 055] - PendingLoginMgr::process: [123] is timeout, currsize=0.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:23:24 660] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:23:24 660] - Avatar[2].onClientDeath:
+    INFO    baseapp01 10123 7001  [2018-08-23 18:23:24 661] - Baseapp::onBackupEntityCellData: Avatar(2), 430 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:27:55 290] - Baseapp::onBackupEntityCellData: Room(3), 45 bytes.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:28:38 955] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:28:38 989] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:54969/0/0/0
+ WARNING    baseapp01 10123 7001  [2018-08-23 18:28:38 989] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:54969/0/0/0
+    INFO    baseapp01 10123 7001  [2018-08-23 18:28:39 007] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:54969/0/0/0].
+    INFO    baseapp01 10123 7001  [2018-08-23 18:28:39 007] - Baseapp::loginBaseapp: user[123] has entity(2).
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:28:39 007] - 192.168.0.149
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:28:39 007] - 54969
+  S_INFO    baseapp01 10123 7001  [2018-08-23 18:28:39 007] - 123
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:28:39 011] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:52171.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:28:39 046] - PendingLoginMgr::process: [123] is timeout, currsize=0.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:29:38 968] - ServerApp::onChannelTimeOut: Channel 192.168.0.149:54969/0/0/0 timed out.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 18:29:38 968] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 18:29:38 968] - Avatar[2].onClientDeath:
+    INFO    baseapp01 10123 7001  [2018-08-23 18:29:38 970] - Baseapp::onBackupEntityCellData: Avatar(2), 430 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:36:15 274] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:47:21 856] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:52:55 246] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 18:58:28 539] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:09:35 219] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:17:55 205] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:26:15 191] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:34:35 178] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:45:41 860] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 19:48:28 555] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:02:21 832] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:07:55 122] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:08:33 667] - PendingLoginMgr::add: 123, size=1.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 693] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:64035/0/0/0
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:08:33 693] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:64035/0/0/0
+    INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 706] - Baseapp::loginBaseapp: new user[123], channel[192.168.0.149:64035/0/0/0].
+    INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 706] - Baseapp::loginBaseapp: user[123] has entity(2).
+  S_INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 706] - 192.168.0.149
+  S_INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 706] - 64035
+  S_INFO    baseapp01 10123 7001  [2018-08-23 20:08:33 706] - 123
+   S_DBG    baseapp01 10123 7001  [2018-08-23 20:08:33 709] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.0.149:52171.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:08:33 893] - PendingLoginMgr::process: [123] is timeout, currsize=0.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:10:41 837] - Baseapp::onBackupEntityCellData: Avatar(2), 438 bytes.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:11:05 725] - PendingLoginMgr::add: hashvr, size=1.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:11:05 750] - ServerApp::onHello: verInfo=2.2.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.0.149:64694/0/0/0
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:11:05 751] - Baseapp::onHello: client is not encrypted, addr=192.168.0.149:64694/0/0/0
+    INFO    baseapp01 10123 7001  [2018-08-23 20:11:05 766] - Baseapp::loginBaseapp: new user[hashvr], channel[192.168.0.149:64694/0/0/0].
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:11:05 859] - PendingLoginMgr::remove: hashvr, size=0.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:11:05 908] - EntityApp::createEntity: new Avatar 4
+    INFO    baseapp01 10123 7001  [2018-08-23 20:11:05 947] - Baseapp::onQueryAccountCBFromDbmgr: user=hashvr, uuid=6592887606676488192, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 20:11:05 948] - Avatar::onGetCell: Cell id:4, utype:1, component=cellapp[8001], addr: 192.168.0.149:52171.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:12:52 815] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:13:03 430] - Baseapp::onBackupEntityCellData: Avatar(2), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:13:03 431] - Baseapp::onCellWriteToDBCompleted: Avatar(2).
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:28 151] - 192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:13:28 210] - g:\kbengine-2.2.0\kbe\src\server\baseapp\proxy.cpp:815: Profile sendToClient took 0.23 seconds
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:13:28 210] - g:\kbengine-2.2.0\kbe\src\server\baseapp\baseapp.cpp:4143: Profile forwardMessageToClientFromCellapp took 0.25 seconds
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:13:28 213] - g:\kbengine-2.2.0\kbe\src\lib\network\channel.cpp:938: Profile processRecvMessages took 0.25 seconds
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:13:28 227] - EntityApp::checkTickPeriod: tick took 307% (0.31 seconds)!
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:43 510] - 192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:47 038] - 1 reports of '192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 3527ms
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:48 345] - 192.168.0.149:64035: TCPPacketSender::processSend(2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:48 367] - 192.168.0.149:64035: TCPPacketSender::processSend(3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:49 115] - 7 reports of '192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 2078ms
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:51 036] - 4 reports of '192.168.0.149:64035: TCPPacketSender::processSend(2): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 2691ms
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:13:53 036] - 4 reports of '192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 3921ms
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:14:12 469] - 192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:14:49 162] - 192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:14:49 190] - 192.168.0.149:64035: TCPPacketSender::processSend(2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:14:52 674] - 3 reports of '192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 3512ms
+   ERROR    baseapp01 10123 7001  [2018-08-23 20:14:55 033] - 4 reports of '192.168.0.149:64035: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE' in the last 2360ms
+    INFO    baseapp01 10123 7001  [2018-08-23 20:14:57 811] - Baseapp::onBackupEntityCellData: Avatar(2), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:15:33 412] - Baseapp::onBackupEntityCellData: Avatar(2), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:15:33 412] - Baseapp::onCellWriteToDBCompleted: Avatar(2).
+    INFO    baseapp01 10123 7001  [2018-08-23 20:16:03 667] - ServerApp::onChannelTimeOut: Channel 192.168.0.149:64035/0/0/0 timed out.
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:16:03 667] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 20:16:03 690] - Avatar[2].onClientDeath:
+    INFO    baseapp01 10123 7001  [2018-08-23 20:16:03 739] - Baseapp::onBackupEntityCellData: Avatar(2), 438 bytes.
+ WARNING    baseapp01 10123 7001  [2018-08-23 20:17:38 794] - TCPPacketReceiver::processPendingEvents(192.168.0.149:64694): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10123 7001  [2018-08-23 20:17:38 794] - Avatar::onClientDeath: 4.
+   S_DBG    baseapp01 10123 7001  [2018-08-23 20:17:38 794] - Avatar[4].onClientDeath:
+    INFO    baseapp01 10123 7001  [2018-08-23 20:17:38 796] - Baseapp::onBackupEntityCellData: Avatar(4), 438 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:23:17 796] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:31:37 783] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:35:47 775] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:44:07 762] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 20:56:37 741] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:00:47 734] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:09:07 720] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:19:32 703] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:32:02 682] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:34:07 678] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:48:42 556] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 21:52:52 548] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:03:17 530] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:07:27 524] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:19:57 503] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:28:17 489] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:34:32 479] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:40:47 468] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:53:17 447] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 22:57:27 444] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:12:02 416] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:20:22 402] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:26:37 392] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:37:02 375] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:45:22 361] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
+    INFO    baseapp01 10123 7001  [2018-08-23 23:51:37 350] - Baseapp::onBackupEntityCellData: Room(3), 1 bytes.
